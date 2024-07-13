@@ -12,7 +12,8 @@ Hello! I'm a Ph.D. candidate in the [Smart Machine and Assistive Robotics Techno
 at [Purdue University, West Lafayette](https://www.purdue.edu/),
 advised by Professor [Byung-Cheol Min](http://www.smart-laboratory.org/group/bcm.html).
 
-My primary research interest is adaptations in human-robot interaction and teaming. Specifically, I focus on:
+My primary research interest is adaptations in human-robot interaction and teaming. 
+Specifically, I focus on:
 
 - Developing adaptive human-robot systems capable of adapting to:
   - Inherent heterogeneity of humans in terms of their abilities and backgrounds.
