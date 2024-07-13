@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm a PhD candidate in the [Smart Machine and Assistive Robotics Technology (SMART) Lab](http://www.smart-laboratory.org/) 
+Hello! I'm a Ph.D. candidate in the [Smart Machine and Assistive Robotics Technology (SMART) Lab](http://www.smart-laboratory.org/) 
 at [Purdue University, West Lafayette](https://www.purdue.edu/),
 advised by Professor [Byung-Cheol Min](http://www.smart-laboratory.org/group/bcm.html).
 
