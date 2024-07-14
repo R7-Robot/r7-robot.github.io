@@ -12,7 +12,7 @@ title                    : "Home"
 title_separator          : "-"
 name                     : &name "Ruiqi Wang"
 description              : &description "personal description"
-url                      : "https://r7-robot.github.io/"
+url                      : https://r7-robot.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "R7-Robot/r7-robot.github.io"
 
