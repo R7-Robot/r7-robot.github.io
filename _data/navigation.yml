@@ -1,22 +1,20 @@
 # main links links
 main:
   - title: "Publications"
-    url: /publications/
+    url: /Publications/
 
   - title: "Research Projects"
-    url: /ResearchProjects/    
-
-  - title: "Teaching"
-    url: /teaching/    
+    url: /ResearchProjects/  
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Robot Prototypings"
+    url: /Prototypings/
+    
+  - title: "Service"
+    url: /Service/    
+    
+  - title: "Life Beyond Robotics"
+    url: /life/
     
   - title: "CV"
     url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
