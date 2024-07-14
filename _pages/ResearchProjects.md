@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Projects"
-permalink: /projects/
+title: "Research Projects"
+permalink: /ResearchProjects/
 author_profile: true
 ---
 ## Social Crowd Navigation
