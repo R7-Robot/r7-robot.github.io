@@ -14,14 +14,12 @@ advised by Professor [Byung-Cheol Min](http://www.smart-laboratory.org/group/bcm
 
 My primary research interest is adaptations in human-robot interaction and teaming. 
 
-Specifically, I focus on:
-
-- Developing adaptive human-robot systems capable of adapting to:
+Specifically, I focus on developing adaptive human-robot systems capable of adapting to:
   - Inherent heterogeneity of humans in terms of their abilities and backgrounds.
   - Ever-changing human states, such as cognitive load and fatigue.
   - Individual human preferences for personalized robot interactive behaviors.
 
-Broad Areas of Research:
+My Broad Areas of Research include:
 - Human-Robot Interaction
 - Multi-human Multi-robot Teaming
 - Human-in-the-loop Robot Learning
