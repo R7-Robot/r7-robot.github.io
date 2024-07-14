@@ -7,7 +7,7 @@ author_profile: true
 
 **†**: equal contribution; **‡**: corresponding author.  
 
-## Journal Papers [J]
+## Journal Papers 
 
 <ul>
   <li><span style="color: DarkOrange;">[IEEE RA-L]</span> <strong>Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</strong><br><br>
