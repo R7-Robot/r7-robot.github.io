@@ -26,7 +26,7 @@ My Broad Areas of Research include:
 - Multimodal Perception and Reasoning
 
 
-### News
+## News
 ---
 - **01/03/2023:** Our paper ["MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks"](https://ieeexplore.ieee.org/document/10557131) has been accepted for publication in [IEEE Transactions on Affective Computing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369)!
 - **05/02/2024:** I passed my Ph.D. preliminary exam! Special thanks to my advisor, my committee members, and my peers in the SMART lab!
