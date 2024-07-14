@@ -21,7 +21,7 @@ Specifically, I focus on:
   - Ever-changing human states, such as cognitive load and fatigue.
   - Individual human preferences for personalized robot interactive behaviors.
 
-Research Areas:
+Broad Areas of Research:
 - Human-Robot Interaction
 - Multi-human Multi-robot Teaming
 - Human-in-the-loop Robot Learning
