@@ -52,7 +52,7 @@ author_profile: true
 </ul>
 
 <ul>
-  <li><span style="color: DarkCyan;">[C-IROS 2023]</span> <strong>NaviSTAR: Benchmarking Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Active Learning</strong><br><br>  
+  <li><span style="color: DarkCyan;">[C-IROS 2023]</span> <strong>NaviSTAR: NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning</strong><br><br>  
   Weizheng Wang, <strong>Ruiqi Wang</strong>, Le Mao, and Byung-Cheol Min.  
   <em>2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023)</em>, Detroit, USA, October 1-5, 2023.  
   <a href="https://arxiv.org/pdf/2304.05979" target="_blank">[Paper]</a> <a href="https://github.com/SMARTlab-Purdue/SAN-NaviSTAR" target="_blank">[Code]</a>
