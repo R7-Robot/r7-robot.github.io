@@ -12,15 +12,15 @@ author_profile: true
 <ul>
   <li><span style="color: DarkOrange;">[J-IEEE RA-L]</span> <strong>Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</strong><br>  
   <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao†, Arjun Gupte, and Byung-Cheol Min.<br>  
-  <em>IEEE Robotics and Automation Letters</em>, vol. 9, no. 4, pp. 3451-3458, April 2024, doi: 10.1109/LRA.2024.3366414.  
+  <em>IEEE Robotics and Automation Letters</em>, vol. 9, no. 4, pp. 3451-3458, April 2024, doi: 10.1109/LRA.2024.3366414.<br>   
   <a href="https://ieeexplore.ieee.org/abstract/document/10436714" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/ita-aehrl" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=wMXLYCuktRk" target="_blank">[Video]</a>
   </li>
 </ul>
 
 <ul>
   <li><span style="color: DarkOrange;">[J-IEEE TCDS]</span> <strong>Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition</strong><br><br>  
-  <strong>Ruiqi Wang†‡</strong>, Wonse Jo†, Dezhong Zhao, Weizheng Wang, Baijian Yang, Guohua Chen, and Byung-Cheol Min‡.  
-  <em>IEEE Transactions on Cognitive and Developmental Systems</em>, Early Access, 2024.  
+  <strong>Ruiqi Wang†‡</strong>, Wonse Jo†, Dezhong Zhao, Weizheng Wang, Baijian Yang, Guohua Chen, and Byung-Cheol Min‡.<br>   
+  <em>IEEE Transactions on Cognitive and Developmental Systems</em>, Early Access, 2024.<br>   
   <a href="https://ieeexplore.ieee.org/document/10413204" target="_blank">[Paper]</a> <a href="https://github.com/SMARTlab-Purdue/Husformer" target="_blank">[Code]</a>
   </li>
 </ul>
