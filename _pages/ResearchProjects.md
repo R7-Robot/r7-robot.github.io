@@ -37,9 +37,23 @@ This project is supported by the National Science Foundation under Grant No. IIS
 
 
 
+## Human-in-the-loop Robot Learning for Personalized Human-Robot Interactions
+Human preferences for robot interaction behaviors are inherently diverse and individual. Adapting and personalizing robot behaviors to these individual preferences is crucial, as it can significantly enhance user satisfaction, engagement, and overall interaction quality. This project aims to develop efficient human-in-the-loop robot learning algorithms to facilitate this personalization process. Our primary objective is to develop innovative and transformative frameworks and algorithms that enable seamless robot adaptation in human-robot interaction by efficiently understanding and learning from human feedback and preferences.
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="/images/frame1.gif" style="height: 300px; width: auto; margin-right: 10px;" />
+  <img src="/images/User2.gif" style="height: 300px; width: auto;" />
+</div>
 
 
-## Preference Learning for Personalized Human-Robot Interactions
+
+<img src="/images/frame1.gif" width="400" height = "300" /> <img src="/images/User2.gif" width="400" height = "300" />
+
+Relevant papers:  
+- [Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation](https://sites.google.com/view/san-fapl), IROS 2022.
+- [PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models](https://prefclm.github.io/), ArXiv Pre-print.
+
+
 
 
 ## Socially-aware Robot Navigation
