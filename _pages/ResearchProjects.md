@@ -62,7 +62,7 @@ Relevant papers:
 Socially-aware robot navigation (SAN), in which a robot must optimize its trajectory to maintain comfortable and compliant spatial interactions with humans while also reaching its goal without collisions, is a fundamental but challenging task in the context of human-robot interaction. In this project, our work focuses on two main areas: 1) Encoding Complex Social Interactions: We are developing algorithms to better encode and interpret the intricate social dynamics within varied environments. This involves utilizing advanced deep learning techniques to understand human behaviors in different settings, enabling robots to navigate with a deeper awareness of social nuances; and 2) Innovative Teaching Methods for Robots: We are exploring new methods to teach robots that move beyond traditional reinforcement and inverse reinforcement learning. This includes devising intuitive and effective reward systems that more accurately reflect social compliance and exploring alternatives to reduce reliance on human demonstrations.
 
 <div style="text-align: center;">
-  <img src="/images/SAN.PNG" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+  <img src="/images/SAN2.PNG" style="max-width: 85%; height: auto; display: block; margin: 0 auto;" />
 </div>
 
 Relevant papers:  
