@@ -67,7 +67,7 @@ Socially-aware robot navigation (SAN), in which a robot must optimize its trajec
 
 Relevant papers:  
 - [Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2309.15234), ICRA 2024.
-- [NaviSTAR: NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning](https://arxiv.org/pdf/2304.05979), IROS 2023.
+- [NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning](https://arxiv.org/pdf/2304.05979), IROS 2023.
 - [Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation](https://sites.google.com/view/san-fapl), IROS 2022.
 
 
