@@ -20,22 +20,17 @@ To unlock the full potential of MH-MR teams, this project focuses on developing 
 
    <div style="display: flex; justify-content: center; align-items: center;">
   <figure style="margin: 0 10px; text-align: center;">
-    <img src="/images/ITA.PNG" style="max-width: 90%; height: auto;" />
+    <img src="/images/ITA.PNG" style="max-width: 100%; height: auto;" />
   </figure>
   <figure style="margin: 0 10px; text-align: center;">
-    <img src="/images/ITAENV.gif" style="max-width: 90%; height: auto;" />
+    <img src="/images/ITAENV.gif" style="max-width: 100%; height: auto;" />
   </figure>
 </div>
 
 - Build multimodal human state recognition models that reason in real-time about the cognitive load and emotional states of human operators using various physiological and behavioral signals.
 - Develop affective controllers that enable adaptive task re-allocation and adjustments based on the perceived human states.
    
-<div style="text-align: center;">
-  <img src="/images/ahmrs.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
-</div>
-<div style="text-align: center;">
-  <img src="/images/MHMRENV.PNG" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
-</div>
+
 <div style="display: flex; justify-content: center; align-items: center;">
   <div style="margin-right: 10px;">
     <img src="/images/ahmrs.png" style="max-width: 100%; height: auto; display: block;" />
@@ -72,7 +67,9 @@ Relevant papers:
 ## Socially-aware Robot Navigation
 Socially-aware robot navigation (SAN), in which a robot must optimize its trajectory to maintain comfortable and compliant spatial interactions with humans while also reaching its goal without collisions, is a fundamental but challenging task in the context of human-robot interaction. In this project, our work focuses on two main areas: 1) Encoding Complex Social Interactions: We are developing algorithms to better encode and interpret the intricate social dynamics within varied environments. This involves utilizing advanced deep learning techniques to understand human behaviors in different settings, enabling robots to navigate with a deeper awareness of social nuances; and 2) Innovative Teaching Methods for Robots: We are exploring new methods to teach robots that move beyond traditional reinforcement and inverse reinforcement learning. This includes devising intuitive and effective reward systems that more accurately reflect social compliance and exploring alternatives to reduce reliance on human demonstrations.
 
-
+<div style="text-align: center;">
+  <img src="/images/SAN.PNG" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</div>
 
 Relevant papers:  
 - [Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2309.15234), ICRA 2024.
