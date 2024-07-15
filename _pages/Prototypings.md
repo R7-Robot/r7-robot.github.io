@@ -61,3 +61,8 @@ The Service Robot Seeker is a mobile robot designed for human-robot interaction,
 - **Champion**, Softbank Cup2018-China Robot Skills Competition (Innovation Section), Taizhou, China, 2018. 
 - **Second Prize**, Softbank Cup2018-China Robot Skills Competition (Field Robot Section), Taizhou, China, 2018.
 
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="/images/SoftBank.jpg" style="height: 300px; width: auto; margin-right: 10px;" />
+  <img src="/images/SoftBank1.jpg" style="height: 300px; width: auto;" />
+  <img src="/images/SoftBank2.jpg" style="height: 300px; width: auto;" />
+</div>
