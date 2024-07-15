@@ -22,7 +22,7 @@ To unlock the full potential of MH-MR teams, this project focuses on developing 
 
 
 - Build multimodal human state recognition models that reason in real-time about the cognitive load and emotional states of human operators using various physiological and behavioral signals.
-- Develop affective controllers that enable adaptive task re-allocation and adjustments based on the perceived human states.
+- Develop affective controllers that enable adaptive task re-allocation and team adjustments based on the perceived human states.
    
 
 <div style="display: flex; justify-content: center; align-items: center;">
@@ -34,7 +34,7 @@ To unlock the full potential of MH-MR teams, this project focuses on developing 
   </div>
 </div>
 
-This project is supported by the National Science Foundation under Grant No. IIS-1846221. Relevant papers:  
+This project is supported by the National Science Foundation under Grant No. [IIS-1846221](https://polytechnic.purdue.edu/ahmrs). Relevant papers:  
 - [Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach](https://sites.google.com/view/ita-aehrl), RA-L 2024.
 - [MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks](https://arxiv.org/pdf/2210.03065), IEEE TAFFC 2024.
 - [Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition](https://ieeexplore.ieee.org/document/10413204), IEEE TCDS 2024.
