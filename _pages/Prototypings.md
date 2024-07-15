@@ -38,3 +38,7 @@ The Service Robot Seeker is a mobile robot designed for human-robot interaction,
   <img src="/images/IJCAI.jpg" style="height: 300px; width: auto;" />
 </div>
 
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="/images/Game1.jpg" style="height: 270px; width: auto; margin-right: 10px;" />
+  <img src="/images/Game2.jpg" style="height: 270px; width: auto;" />
+</div>
