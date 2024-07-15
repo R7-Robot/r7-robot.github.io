@@ -53,7 +53,7 @@ The Service Robot Seeker is a mobile robot designed for human-robot interaction,
 - **Fighting Robot**: Integrated with weapon transfer capabilities and an electronic speed controller.
 
 <div style="text-align: center; margin-top: 20px;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/mUI77WsNyaw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="90%" height="90%" src="https://www.youtube.com/embed/mUI77WsNyaw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Honors
