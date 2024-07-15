@@ -1,12 +1,13 @@
 ---
 permalink: /
-title: "Hello!"
+title: "Ruiqi Wang"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+## Hello! 
 
 I'm a Ph.D. candidate in the [Smart Machine and Assistive Robotics Technology (SMART) Lab](http://www.smart-laboratory.org/) 
 at [Purdue University](https://www.purdue.edu/),
