@@ -11,13 +11,6 @@ To unlock the full potential of MH-MR teams, this project focuses on developing 
 
 - Develop sophisticated initial task allocation (ITA) strategies that adapt to team heterogeneity. These strategies will optimally initialize task distribution by allocating and scheduling a variety of tasks, each with unique specifications, to a team comprising multiple humans, each influenced by varied factors, and multiple robots, each with different characteristics.
    
-<figure style="text-align: center;">
-  <img src="/images/ITA.PNG" style="max-width: 90%; height: auto; display: block; margin: 0 auto;" />
-</figure>
-<figure style="text-align: center;">
-  <img src="/images/ITAENV.gif" style="max-width: 90%; height: auto; display: block; margin: 0 auto;" />
-</figure>
-
 <div style="display: flex; justify-content: center; align-items: center;">
   <figure style="margin: 0 10px; text-align: center;">
     <img src="/images/ITA.PNG" style="height: 300px; width: auto;" />
