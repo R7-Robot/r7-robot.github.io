@@ -13,7 +13,6 @@ To unlock the full potential of MH-MR teams, this project focuses on developing 
    
 <figure style="text-align: center;">
   <img src="/images/ITA.PNG" style="max-width: 90%; height: auto; display: block; margin: 0 auto;" />
-  <figcaption style="text-align: center;">Figure 1: Initial Task Allocation (ITA) Strategy</figcaption>
 </figure>
 
    
