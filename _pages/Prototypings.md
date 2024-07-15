@@ -39,7 +39,7 @@ The Service Robot Seeker is a mobile robot designed for human-robot interaction,
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="/images/Game1.jpg" style="height: 270px; width: auto; margin-right: 10px;" />
+  <img src="/images/Game0.jpg" style="height: 270px; width: auto; margin-right: 10px;" />
   <img src="/images/Game2.jpg" style="height: 270px; width: auto;" />
 </div>
 
@@ -49,7 +49,7 @@ The Service Robot Seeker is a mobile robot designed for human-robot interaction,
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="/images/Game1.jpg" style="width: 45%; height: auto; margin-right: 10px;" />
+  <img src="/images/Game0.jpg" style="width: 45%; height: auto; margin-right: 10px;" />
   <img src="/images/Game2.jpg" style="width: 45%; height: auto;" />
 </div>
 
@@ -61,31 +61,12 @@ The Service Robot Seeker is a mobile robot designed for human-robot interaction,
 - **Vehicle Rescue Robot**: Receives real-time video signals to facilitate obstacle clearance.
 - **Fighting Robot**: Integrated with weapon transfer capabilities and an electronic speed controller.
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
-
-  <div style="width: 45%; margin: 10px; text-align: center;">
-    <img src="/images/tennis_ball_robot.jpg" alt="Tennis Ball-Automatic-Recovery Robot" style="width: 100%; height: auto;">
-    <p><strong>Tennis Ball-Automatic-Recovery Robot</strong>: Utilized SLAM navigation and vision technology to accurately locate and retrieve tennis balls.</p>
-  </div>
-
-  <div style="width: 45%; margin: 10px; text-align: center;">
-    <img src="/images/field_robot.jpg" alt="Field Robot" style="width: 100%; height: auto;">
-    <p><strong>Field Robot</strong>: Designed to trace black ground lines and jump over obstacles.</p>
-  </div>
-
-  <div style="width: 45%; margin: 10px; text-align: center;">
-    <img src="/images/dancing_robot.jpg" alt="Dancing Robot" style="width: 100%; height: auto;">
-    <p><strong>Dancing Robot</strong>: Equipped with the ability to recognize various music genres and dance in sync with the rhythm.</p>
-  </div>
-
-  <div style="width: 45%; margin: 10px; text-align: center;">
-    <img src="/images/vehicle_rescue_robot.jpg" alt="Vehicle Rescue Robot" style="width: 100%; height: auto;">
-    <p><strong>Vehicle Rescue Robot</strong>: Receives real-time video signals to facilitate obstacle clearance.</p>
-  </div>
-
-  <div style="width: 45%; margin: 10px; text-align: center;">
-    <img src="/images/fighting_robot.jpg" alt="Fighting Robot" style="width: 100%; height: auto;">
-    <p><strong>Fighting Robot</strong>: Integrated with weapon transfer capabilities and an electronic speed controller.</p>
-  </div>
-
+<div style="text-align: center; margin-top: 20px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/mUI77WsNyaw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+### Honors
+
+- **Champion**, Softbank Cup2018-China Robot Skills Competition (Innovation Section), Taizhou, China, 2018. 
+- **Second Prize**, Softbank Cup2018-China Robot Skills Competition (Field Robot Section), Taizhou, China, 2018.
+
