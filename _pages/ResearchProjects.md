@@ -18,14 +18,15 @@ To unlock the full potential of MH-MR teams, this project focuses on developing 
   <img src="/images/ITAENV.gif" style="max-width: 90%; height: auto; display: block; margin: 0 auto;" />
 </figure>
 
-   <div style="display: flex; justify-content: center; align-items: center;">
+<div style="display: flex; justify-content: center; align-items: center;">
   <figure style="margin: 0 10px; text-align: center;">
-    <img src="/images/ITA.PNG" style="max-width: 100%; height: auto;" />
+    <img src="/images/ITA.PNG" style="height: 300px; width: auto;" />
   </figure>
   <figure style="margin: 0 10px; text-align: center;">
-    <img src="/images/ITAENV.gif" style="max-width: 100%; height: auto;" />
+    <img src="/images/ITAENV.gif" style="height: 300px; width: auto;" />
   </figure>
 </div>
+
 
 - Build multimodal human state recognition models that reason in real-time about the cognitive load and emotional states of human operators using various physiological and behavioral signals.
 - Develop affective controllers that enable adaptive task re-allocation and adjustments based on the perceived human states.
