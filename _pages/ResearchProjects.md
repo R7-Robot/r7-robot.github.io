@@ -14,7 +14,9 @@ To unlock the full potential of MH-MR teams, this project focuses on developing 
 <figure style="text-align: center;">
   <img src="/images/ITA.PNG" style="max-width: 90%; height: auto; display: block; margin: 0 auto;" />
 </figure>
-
+<figure style="text-align: center;">
+  <img src="/images/ITAENV.gif" style="max-width: 90%; height: auto; display: block; margin: 0 auto;" />
+</figure>
    
 - Build multimodal human state recognition models that reason in real-time about the cognitive load and emotional states of human operators using various physiological and behavioral signals.
 - Develop affective controllers that enable adaptive task re-allocation and adjustments based on the perceived human states.
@@ -22,7 +24,9 @@ To unlock the full potential of MH-MR teams, this project focuses on developing 
 <div style="text-align: center;">
   <img src="/images/ahmrs.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
 </div>
-
+<div style="text-align: center;">
+  <img src="/images/MHMRENV.PNG" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</div>
 
 This project is supported by the National Science Foundation under Grant No. IIS-1846221. Relevant papers:  
 - [Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach](https://sites.google.com/view/ita-aehrl), RA-L 2024.
