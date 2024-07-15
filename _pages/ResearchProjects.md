@@ -9,7 +9,7 @@ Multi-human multi-robot (MH-MR) teams are emerging as promising assets for tackl
 
 To unlock the full potential of MH-MR teams, this project focuses on developing adaptive systems capable of initializing mission-specific MH-MR teams by considering the inherent heterogeneity, proactively monitoring and analyzing the cognitive and emotional states of operators, and enabling both humans and robots to adapt to each other's states. Specifically, we aim to:
 
-- Develop sophisticated initial task allocation (ITA) strategies that adapt to team heterogeneity. These strategies will optimally initialize task distribution by allocating and scheduling a variety of tasks, each with unique specifications, to a team comprising multiple humans (each influenced by varied factors) and multiple robots (each with different characteristics).
+- Develop sophisticated initial task allocation (ITA) strategies that adapt to team heterogeneity. These strategies will optimally initialize task distribution by allocating and scheduling a variety of tasks, each with unique specifications, to a team comprising multiple humans, each influenced by varied factors, and multiple robots, each with different characteristics.
    
 <figure style="text-align: center;">
   <img src="/images/ITA.PNG" style="max-width: 90%; height: auto; display: block; margin: 0 auto;" />
