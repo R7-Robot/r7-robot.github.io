@@ -9,56 +9,24 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
+* **Ph.D. in Computer and Information Technology**, Purdue University, West Lafayette, IN, USA  
+  *Aug. 2021 – Present* 
+* **B.E. in Robotics Engineering**, Beijing University of Chemical Technology (BUCT), Beijing, China  
+  *Sep. 2016 - July 2020*
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Research Experiences
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Graduate Research Assistant**, SMART Lab, Purdue University, West Lafayette, IN, USA  
+  *Aug. 2021 – Present*  
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **Undergraduate Research Assistant**, ZhiYuan Intelligent Robot and Unmanned Laboratory, BUCT, Beijing, China  
+  *Sept. 2018 – July 2021*  
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Undergraduate Research Assistant**, Key Laboratory of Machine Perception and Intelligence, Peking University, Beijing, China  
+  *May 2019 – July 2021*  
+  
+* **Student President**, Undergraduate Robot Innovation Center, BUCT, Beijing, China  
+  *Aug. 2018 – Aug. 2019*  
+  
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
