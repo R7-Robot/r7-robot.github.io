@@ -34,13 +34,13 @@ The Service Robot Seeker is a mobile robot designed for human-robot interaction,
 - **Third Prize**: RoboCup2019 China Open @Home, Shaoxin, China, 2019.
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="/images/RoboCup.jpg" style="height: 300px; width: auto; margin-right: 10px;" />
-  <img src="/images/IJCAI.jpg" style="height: 300px; width: auto;" />
+  <img src="/images/RoboCup.jpg" style="height: 400px; width: auto; margin-right: 10px;" />
+  <img src="/images/IJCAI.jpg" style="height: 400px; width: auto;" />
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="/images/Game0.jpg" style="height: 270px; width: auto; margin-right: 10px;" />
-  <img src="/images/Game2.jpg" style="height: 270px; width: auto;" />
+  <img src="/images/Game0.jpg" style="height: 400px; width: auto; margin-right: 10px;" />
+  <img src="/images/Game2.jpg" style="height: 400px; width: auto;" />
 </div>
 
 
@@ -53,7 +53,7 @@ The Service Robot Seeker is a mobile robot designed for human-robot interaction,
 - **Fighting Robot**: Integrated with weapon transfer capabilities and an electronic speed controller.
 
 <div style="text-align: center; margin-top: 20px;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/mUI77WsNyaw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="400" height="235" src="https://www.youtube.com/embed/mUI77WsNyaw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Honors
@@ -62,7 +62,7 @@ The Service Robot Seeker is a mobile robot designed for human-robot interaction,
 - **Second Prize**, Softbank Cup2018-China Robot Skills Competition (Field Robot Section), Taizhou, China, 2018.
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="/images/SoftBank.jpg" style="height: 300px; width: auto; margin-right: 10px;" />
-  <img src="/images/SoftBank1.jpg" style="height: 300px; width: auto;" />
-  <img src="/images/SoftBank2.jpg" style="height: 300px; width: auto;" />
+  <img src="/images/SoftBank.jpg" style="height: 400px; width: auto; margin-right: 10px;" />
+  <img src="/images/SoftBank1.jpg" style="height: 400px; width: auto;" />
+  <img src="/images/SoftBank2.jpg" style="height: 400px; width: auto;" />
 </div>
