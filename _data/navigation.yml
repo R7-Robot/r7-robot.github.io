@@ -12,8 +12,8 @@ main:
   - title: "Service"
     url: /Service/    
     
-  - title: "Life Beyond Robotics"
-    url: /Life/
+  #- title: "Life Beyond Robotics"
+  #  url: /Life/
     
   - title: "CV"
     url: /cv/
