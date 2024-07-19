@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Homepage of Ruiqi Wang"
+title: "Ruiqi Wang (R7)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
