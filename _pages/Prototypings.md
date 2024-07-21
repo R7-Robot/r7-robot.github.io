@@ -31,7 +31,7 @@ The Service Robot Seeker is a mobile robot designed for human-robot interaction,
 
 ### Honors
 - **Second Place**: [The IJCAI-2019 Eldercare Robot Challenge](https://www.ijcai19.org/competitions.html), Macau, China, 2019.
-- **Third Prize**: RoboCup2019 China Open @Home, Shaoxin, China, 2019.
+- **Third Prize**: RoboCup2019 China Open @Home, Shaoxing, China, 2019.
 
 <div style="display: flex; justify-content: center; align-items: center;">
   <img src="/images/RoboCup.jpg" style="height: 320px; width: auto; margin-right: 10px;" />
