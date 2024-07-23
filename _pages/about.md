@@ -20,10 +20,10 @@ Specifically, I focus on developing adaptive human-robot systems capable of adap
   - Ever-changing human states, such as cognitive load and fatigue.
   - Individual human preferences for personalized robot interactive behaviors.
 
-My Broad Areas of Research include:
+My broad areas of research include:
 - Human-Robot Interaction
-- Multi-human Multi-robot Teaming
-- Human-in-the-loop Robot Learning
+- Multi-Human Multi-Robot Teaming
+- Human-in-the-Loop Robot Learning
 - Multimodal Perception and Reasoning
 
 
