@@ -6,8 +6,10 @@ author_profile: true
 ---
 
 ## Reviews
-- Journal reviewer: IEEE Robotics and Automation Letters; IEEE Transactions on Audio, Speech and Language Processing
-- Conference reviewer: BioRob 2024; TAHRI 2024
+- Journal reviewer:
+[IEEE Robotics and Automation Letters](https://www.ieee-ras.org/publications/ra-l); [IEEE Transactions on Audio, Speech and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655)
+- Conference reviewer:
+[BioRob 2024](https://www.biorob2024.org/); [TAHRI 2024](https://www.tahri.org/)
 
 ## Mentoring  
 ### Undergraduate Students
