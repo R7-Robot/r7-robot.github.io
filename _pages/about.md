@@ -29,7 +29,7 @@ My broad areas of research include:
 
 ## News
 ---
-- **01/06/2024:** Our paper ["MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks"](https://ieeexplore.ieee.org/document/10557131) has been accepted for publication in [IEEE Transactions on Affective Computing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369)!
+- **07/10/2024:** Our paper ["MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks"](https://ieeexplore.ieee.org/document/10557131) has been accepted for publication in [IEEE Transactions on Affective Computing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369)!
 - **05/02/2024:** I passed my Ph.D. preliminary exam! Special thanks to my advisor, my committee members, and my peers in the SMART lab!
 - **02/05/2024:** Our paper ["Initial Task Assignment in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach"](https://sites.google.com/view/ita-aehrl) has been accepted for publication in [IEEE Robotics and Automation Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369) (RA-L)!
 - **01/28/2024:** Our paper ["SAMARL: Multi Robot Socially-aware Navigation with Multi-agent Reinforcement Learning"](https://sites.google.com/view/samarl) has been accepted in [ICRA 2024](https://2024.ieee-icra.org/)!
