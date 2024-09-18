@@ -12,7 +12,7 @@ author_profile: true
 [BioRob 2024](https://www.biorob2024.org/); [TAHRI 2024](https://www.tahri.org/)
 
 ## Mentoring  
-### Undergraduate Students
+- [Dayoon Suh](http://www.smart-laboratory.org/group/Dayoon_Suh.html): BS in Data Science & Applied Statistics, Purdue University. (Fall 2024-Present)
 - [Arjun Gupte](http://www.smart-laboratory.org/group/Arjun_Gupte.html): BS in Computer Engineering, Purdue University. (Spring 2023-Present)
 - [Revanth Krishna Senthilkumaran](http://www.smart-laboratory.org/group/Revanth_Krishna_Senthilkumaran.html): BS in Computer Engineering, Purdue University. (Spring 2022-Fall 2022)
 
