@@ -5,13 +5,13 @@ permalink: /Publications/
 author_profile: true
 ---
 
-**†**: equal contribution; **‡**: corresponding author.  
+**†**: Equal contribution; **‡**: Corresponding author; **#**: Student I mentored  
 
 ## Journal Papers 
 
 <ul>
   <li><span style="color: DarkOrange;">[IEEE RA-L]</span> <strong>Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</strong><br><br>
-  <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao†, Arjun Gupte, and Byung-Cheol Min.<br>
+  <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao†, Arjun Gupte#, and Byung-Cheol Min.<br>
   <em>IEEE Robotics and Automation Letters</em>, vol. 9, no. 4, pp. 3451-3458, April 2024, doi: 10.1109/LRA.2024.3366414.<br>
   <a href="https://ieeexplore.ieee.org/abstract/document/10436714" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/ita-aehrl" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=wMXLYCuktRk" target="_blank">[Video]</a>
   </li>
@@ -27,7 +27,7 @@ author_profile: true
 
 <ul>
   <li><span style="color: DarkOrange;">[IEEE TAFFC]</span> <strong>MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks</strong><br><br>
-  Wonse Jo†, <strong>Ruiqi Wang†</strong>, Go-Eum Cha, Su Sun, Revanth Senthilkumaran, Daniel Foti, and Byung-Cheol Min‡.<br>
+  Wonse Jo†, <strong>Ruiqi Wang†</strong>, Go-Eum Cha, Su Sun, Revanth Senthilkumaran#, Daniel Foti, and Byung-Cheol Min‡.<br>
   <em>IEEE Transactions on Affective Computing</em>, Early Access, 2024.<br>
   <a href="https://arxiv.org/pdf/2210.03065" target="_blank">[Paper]</a> <a href="https://www.youtube.com/watch?v=BxVVj7R9b70&feature=youtu.be" target="_blank">[Video]</a> <a href="https://zenodo.org/records/10396672" target="_blank">[Dataset]</a>
   </li>
