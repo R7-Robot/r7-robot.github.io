@@ -123,3 +123,11 @@ author_profile: true
     <a href="https://sites.google.com/view/ita-rebel/home" target="_blank">[Website]</a> <a href="https://arxiv.org/abs/2409.16266" target="_blank">[ArXiv]</a> <a href="https://www.youtube.com/watch?v=HeGPVLd1Bps" target="_blank">[Video]</a>
   </li>
 </ul>
+
+<ul>
+  <li> <strong>Investigating the Impact of Trust in Multi-Human Multi-Robot Task Allocation</strong><br><br>
+  Ike Obi, Ruiqi Wang, Wonse Jo, and Byung-Cheol Min.<br>
+  <em>IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</em>, Under Review.<br>
+    <a href="https://arxiv.org/abs/2409.16009" target="_blank">[ArXiv]</a> <a href="https://www.youtube.com/watch?v=75gRdjIpHD4" target="_blank">[Video]</a>
+  </li>
+</ul>
