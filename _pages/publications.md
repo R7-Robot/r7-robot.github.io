@@ -94,7 +94,7 @@ author_profile: true
 
 <ul>
   <li> <strong>PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers</strong><br><br>
-  Dezhong Zhao†, <strong>Ruiqi Wang†</strong>, Dayoon Suh#, Taehyeon Kim, Ziqin Yuan, Byung-Cheol Min, and Guohua Chen.<br>
+  Dezhong Zhao†, <strong>Ruiqi Wang†‡</strong>, Dayoon Suh#, Taehyeon Kim, Ziqin Yuan, Byung-Cheol Min, and Guohua Chen.<br>
   <em>IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</em>, Under Review. <br>
     <a href="https://sites.google.com/view/prefmmt/home" target="_blank">[Website]</a> <a href="https://arxiv.org/abs/2409.13683" target="_blank">[ArXiv]</a> <a href="https://www.youtube.com/watch?v=_g1Nl4POPxo" target="_blank">[Video]</a> <a href="https://github.com/SMARTlab-Purdue/PrefMMT" target="_blank">[Code]</a>
   </li>
@@ -102,7 +102,7 @@ author_profile: true
 
 <ul>
   <li> <strong>Personalization in Human-Robot Interaction through Preference-based Action Representation Learning</strong><br><br>
-  <strong>Ruiqi Wang†</strong>,  Dezhong Zhao†, Dayoon Suh#, Ziqin Yuan, Guohua Chen, and Byung-Cheol Min.<br>
+  <strong>Ruiqi Wang†‡</strong>,  Dezhong Zhao†, Dayoon Suh#, Ziqin Yuan, Guohua Chen, and Byung-Cheol Min.<br>
   <em>IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</em>, Under Review.<br>
     <a href="https://sites.google.com/view/pbarl/home" target="_blank">[Website]</a> <a href="https://arxiv.org/abs/2409.13822" target="_blank">[ArXiv]</a> <a href="https://youtu.be/LWmmS0uGsCw" target="_blank">[Video]</a>
   </li>
@@ -110,7 +110,7 @@ author_profile: true
 
 <ul>
   <li> <strong>Adaptive Task Allocation in Multi-Human Multi-Robot Teams under Team Heterogeneity and Dynamic Information Uncertainty</strong><br><br>
-  Ziqin Yuan†, <strong>Ruiqi Wang†</strong>, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min.<br>
+  Ziqin Yuan†, <strong>Ruiqi Wang†‡</strong>, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min.<br>
   <em>IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</em>, Under Review.<br>
     <a href="https://sites.google.com/view/ata-hrl/home" target="_blank">[Website]</a> <a href="https://arxiv.org/abs/2409.13824" target="_blank">[ArXiv]</a> <a href="https://www.youtube.com/watch?v=T5-DcMCpA5Q" target="_blank">[Video]</a>
   </li>
@@ -126,7 +126,7 @@ author_profile: true
 
 <ul>
   <li> <strong>Investigating the Impact of Trust in Multi-Human Multi-Robot Task Allocation</strong><br><br>
-  Ike Obi, Ruiqi Wang, Wonse Jo, and Byung-Cheol Min.<br>
+  Ike Obi, <strong>Ruiqi Wang</strong>, Wonse Jo, and Byung-Cheol Min.<br>
   <em>IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</em>, Under Review.<br>
     <a href="https://arxiv.org/abs/2409.16009" target="_blank">[ArXiv]</a> <a href="https://www.youtube.com/watch?v=75gRdjIpHD4" target="_blank">[Video]</a>
   </li>
