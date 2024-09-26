@@ -92,9 +92,21 @@ author_profile: true
   </li>
 </ul>
 
+<ul>
+  <li> <strong>PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers</strong><br><br>
+  Dezhong Zhao†, <strong>Ruiqi Wang†</strong>, Dayoon Suh#, Taehyeon Kim, Ziqin Yuan, Byung-Cheol Min, and Guohua Chen.<br>
+  <em>IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</em>, Under Review. <br>
+    <a href="https://sites.google.com/view/prefmmt/home" target="_blank">[Website]</a><a href="https://arxiv.org/abs/2409.13683" target="_blank">[ArXiv]</a> <a href="https://www.youtube.com/watch?v=_g1Nl4POPxo" target="_blank">[Video]</a> <a href="https://github.com/SMARTlab-Purdue/PrefMMT" target="_blank">[Code]</a>
+  </li>
+</ul>
 
-
-
+<ul>
+  <li> <strong>Personalization in Human-Robot Interaction through Preference-based Action Representation Learning</strong><br><br>
+  <strong>Ruiqi Wang†</strong>,  Dezhong Zhao†, Dayoon Suh#, Ziqin Yuan, Guohua Chen, and Byung-Cheol Min.<br>
+  <em>IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</em>, Under Review.<br>
+    <a href="https://sites.google.com/view/prefmmt/home" target="_blank">[Website]</a><a href="https://arxiv.org/abs/2409.13683" target="_blank">[ArXiv]</a> <a href="https://www.youtube.com/watch?v=_g1Nl4POPxo" target="_blank">[Video]</a>
+  </li>
+</ul>
 
 
 
