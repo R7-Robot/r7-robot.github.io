@@ -78,7 +78,7 @@ author_profile: true
 </ul>
 
 <ul>
-  <li><strong>Affective Workload Allocation for Multi-human Multirobot Teams</strong><br><br>
+  <li><strong>Affective Workload Allocation for Multi-Human Multi-Robot Teams</strong><br><br>
   Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min.<br>
   <em>IEEE Transactions on Human-Machine Systems</em>, Under Review.<br>
   <a href="https://arxiv.org/pdf/2303.10465" target="_blank">[ArXiv]</a> <a href="https://www.youtube.com/watch?v=qrmAQqfdLZk" target="_blank">[Video]</a>
