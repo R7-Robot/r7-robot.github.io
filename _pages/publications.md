@@ -10,6 +10,15 @@ author_profile: true
 ## Journal Papers 
 
 <ul>
+  <li><span style="color: DarkOrange;">[IEEE THMS]</span> <strong>Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</strong><br><br>
+  Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min.<br>
+  <em>IEEE Transactions on Human-Machine Systems</em>, Accepted.<br>
+  <a href="https://arxiv.org/pdf/2303.10465" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/affective-workload-allocation/home" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=qrmAQqfdLZk" target="_blank">[Video]</a>
+  </li>
+</ul>
+
+
+<ul>
   <li><span style="color: DarkOrange;">[IEEE RA-L]</span> <strong>Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</strong><br><br>
   <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao†, Arjun Gupte#, and Byung-Cheol Min.<br>
   <em>IEEE Robotics and Automation Letters</em>, vol. 9, no. 4, pp. 3451-3458, April 2024, doi: 10.1109/LRA.2024.3366414.<br>
@@ -74,14 +83,6 @@ author_profile: true
   <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min.<br>
   <em>IEEE Robotics and Automation Letters</em>, Under Review.<br>
   <a href="https://arxiv.org/abs/2407.08213" target="_blank">[ArXiv]</a> <a href="https://prefclm.github.io/" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=0vyekC2fqrY" target="_blank">[Video]</a>
-  </li>
-</ul>
-
-<ul>
-  <li><strong>Affective Workload Allocation for Multi-Human Multi-Robot Teams</strong><br><br>
-  Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min.<br>
-  <em>IEEE Transactions on Human-Machine Systems</em>, Under Review.<br>
-  <a href="https://arxiv.org/pdf/2303.10465" target="_blank">[ArXiv]</a> <a href="https://www.youtube.com/watch?v=qrmAQqfdLZk" target="_blank">[Video]</a>
   </li>
 </ul>
 
