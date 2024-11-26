@@ -29,6 +29,7 @@ My broad areas of research include:
 
 ## News
 ---
+- **11/26/2024:** Our paper ["Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams"](https://sites.google.com/view/affective-workload-allocation/home) has been accepted for publication in [IEEE Transactions on Human-Machine Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221037)!
 - **07/10/2024:** Our paper ["MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks"](https://ieeexplore.ieee.org/document/10557131) has been accepted for publication in [IEEE Transactions on Affective Computing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369)!
 - **05/02/2024:** I passed my Ph.D. preliminary exam! Special thanks to my advisor, my committee members, and my peers in the SMART lab!
 - **02/05/2024:** Our paper ["Initial Task Assignment in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach"](https://sites.google.com/view/ita-aehrl) has been accepted for publication in [IEEE Robotics and Automation Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369) (RA-L)!
