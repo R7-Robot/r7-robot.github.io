@@ -11,7 +11,7 @@ author_profile: true
 
 <ul>
   <li><span style="color: DarkOrange;">[IEEE THMS]</span> <strong>Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</strong><br><br>
-  Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min.<br>
+  Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min‡.<br>
   <em>IEEE Transactions on Human-Machine Systems</em>, Accepted.<br>
   <a href="https://arxiv.org/pdf/2303.10465" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/affective-workload-allocation/home" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=qrmAQqfdLZk" target="_blank">[Video]</a>
   </li>
