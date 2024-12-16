@@ -29,6 +29,8 @@ My broad areas of research include:
 
 ## News
 ---
+- **12/16/2024:** Arjun, an undergraduate I mentored, won First Place at the Purdue University 2024 Fall Undergraduate Research Expo! He presented his outstanding research on [Initial Task Allocation in Multi-Human Multi-Robot Teams](https://sites.google.com/view/ita-rebel).
+- **12/13/2024:** I passed my Ph.D. dissertation proposal defense! I extend my heartfelt gratitude to my advisor, committee members, and peers in the SMART lab for their invaluable support.
 - **11/26/2024:** Our paper ["Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams"](https://sites.google.com/view/affective-workload-allocation/home) has been accepted for publication in [IEEE Transactions on Human-Machine Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221037)!
 - **07/10/2024:** Our paper ["MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks"](https://ieeexplore.ieee.org/document/10557131) has been accepted for publication in [IEEE Transactions on Affective Computing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369)!
 - **05/02/2024:** I passed my Ph.D. preliminary exam! Special thanks to my advisor, my committee members, and my peers in the SMART lab!
