@@ -87,7 +87,7 @@ author_profile: true
 </ul>
 
 <ul>
-  <li> <strong>AuD-Former: A Hierarchical Transformer Network for Multimodal Audio-Based Disease Prediction</strong><br><br>
+  <li> <strong>Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</strong><br><br>
   Jinjin Cai†, <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min‡.<br>
   <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, Under Review.
   </li>
