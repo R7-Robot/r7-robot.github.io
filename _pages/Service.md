@@ -23,6 +23,14 @@ author_profile: true
 ## Teaching
 ### Graduate Teaching Assistant
 
+**CNIT 105 - C Programming, Purdue University (Fall 2024)**
+- Students: 208
+- TA evaluation score: 4.5/5.0
+
+**CNIT 355 - Mobile Programming, Purdue University (Fall 2024)**
+- Students: 30
+- TA evaluation score: 4.7/5.0
+
 **CNIT 315 - Systems Programming, Purdue University (Spring 2024)**
 - Students: 91
 - TA evaluation score: 4.5/5.0
