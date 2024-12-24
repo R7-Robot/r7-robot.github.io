@@ -29,7 +29,7 @@ author_profile: true
 <ul>
   <li><span style="color: DarkOrange;">[IEEE TCDS]</span> <strong>Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition</strong><br><br>
   <strong>Ruiqi Wang†‡</strong>, Wonse Jo†, Dezhong Zhao, Weizheng Wang, Baijian Yang, Guohua Chen, and Byung-Cheol Min‡.<br>
-  <em>IEEE Transactions on Cognitive and Developmental Systems</em>, Early Access, 2024.<br>
+  <em>IEEE Transactions on Cognitive and Developmental Systems</em>, Vol. 16, No. 4, pp. 1374-1390, August 2024.<br>
   <a href="https://ieeexplore.ieee.org/document/10413204" target="_blank">[Paper]</a> <a href="https://github.com/SMARTlab-Purdue/Husformer" target="_blank">[Code]</a>
   </li>
 </ul>
