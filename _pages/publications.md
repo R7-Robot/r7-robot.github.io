@@ -46,7 +46,7 @@ author_profile: true
 
 <ul>
   <li><span style="color: DarkOrange;">[ICRA 2024]</span> <strong>Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning</strong><br><br>
-  Weizheng Wang, Le Mao, <strong>Ruiqi Wang</strong>, and Byung-Cheol Min.<br>
+  Weizheng Wang, Le Mao, <strong>Ruiqi Wang</strong>, and Byung-Cheol Min‡.<br>
   <em>International Conference on Robotics and Automation (ICRA 2024)</em>, Yokohama, Japan, May 13-17, 2024.<br>
   <a href="https://arxiv.org/abs/2309.15234" target="_blank">[Paper]</a>
   </li>
@@ -54,7 +54,7 @@ author_profile: true
 
 <ul>
   <li><span style="color: DarkOrange;">[IROS 2023]</span> <strong>Initial Task Allocation for Multi-Human Multi-Robot Teams with Attention-based Deep Reinforcement Learning</strong><br><br>
-  <strong>Ruiqi Wang</strong>, Dezhong Zhao, and Byung-Cheol Min.<br>
+  <strong>Ruiqi Wang‡</strong>, Dezhong Zhao, and Byung-Cheol Min‡.<br>
   <em>2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023)</em>, Detroit, USA, October 1-5, 2023.<br>
   <a href="https://arxiv.org/pdf/2303.02486" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/ITA-AtRL" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=P_3nURWuSnk" target="_blank">[Video]</a>
   </li>
@@ -62,7 +62,7 @@ author_profile: true
 
 <ul>
   <li><span style="color: DarkOrange;">[IROS 2023]</span> <strong>NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning</strong><br><br>
-  Weizheng Wang, <strong>Ruiqi Wang</strong>, Le Mao, and Byung-Cheol Min.<br>
+  Weizheng Wang, <strong>Ruiqi Wang</strong>, Le Mao, and Byung-Cheol Min‡.<br>
   <em>2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023)</em>, Detroit, USA, October 1-5, 2023.<br>
   <a href="https://arxiv.org/pdf/2304.05979" target="_blank">[Paper]</a> <a href="https://github.com/SMARTlab-Purdue/SAN-NaviSTAR" target="_blank">[Code]</a>
   </li>
@@ -70,7 +70,7 @@ author_profile: true
 
 <ul>
   <li><span style="color: DarkOrange;">[IROS 2022]</span> <strong>Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation</strong><br><br>
-  <strong>Ruiqi Wang</strong>, Weizheng Wang, and Byung-Cheol Min.<br>
+  <strong>Ruiqi Wang‡</strong>, Weizheng Wang, and Byung-Cheol Min.<br>
   <em>2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022)</em>, Kyoto, Japan, October 23-27, 2022.<br>
   <a href="https://arxiv.org/abs/2109.02823" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/san-fapl" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=ZVb5ZEzDKhM&feature=youtu.be" target="_blank">[Video]</a>
   </li>
