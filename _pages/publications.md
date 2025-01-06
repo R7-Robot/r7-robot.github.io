@@ -10,6 +10,15 @@ author_profile: true
 ## Journal Papers 
 
 <ul>
+  <li> <span style="color: DarkOrange;">[IEEE RA-L]</span> <strong>PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</strong><br><br>
+  <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min‡.<br>
+  <em>IEEE Robotics and Automation Letters</em>, Accepted.<br>
+  <a href="https://arxiv.org/abs/2407.08213" target="_blank">[Paper]</a> <a href="https://prefclm.github.io/" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=0vyekC2fqrY" target="_blank">[Video]</a>
+  </li>
+</ul>
+
+
+<ul>
   <li><span style="color: DarkOrange;">[IEEE THMS]</span> <strong>Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</strong><br><br>
   Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min‡.<br>
   <em>IEEE Transactions on Human-Machine Systems</em>, Early Access, 2024.<br>
@@ -77,14 +86,6 @@ author_profile: true
 </ul>
 
 ## Pre-prints/Under Review
-
-<ul>
-  <li> <strong>PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</strong><br><br>
-  <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min‡.<br>
-  <em>IEEE Robotics and Automation Letters</em>, Under Review.<br>
-  <a href="https://arxiv.org/abs/2407.08213" target="_blank">[ArXiv]</a> <a href="https://prefclm.github.io/" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=0vyekC2fqrY" target="_blank">[Video]</a>
-  </li>
-</ul>
 
 <ul>
   <li> <strong>Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</strong><br><br>
