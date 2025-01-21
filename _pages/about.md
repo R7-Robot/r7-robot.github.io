@@ -11,20 +11,25 @@ redirect_from:
 
 I'm a Ph.D. candidate in the [Smart Machine and Assistive Robotics Technology (SMART) Lab](http://www.smart-laboratory.org/) 
 at [Purdue University](https://www.purdue.edu/),
-advised by Professor [Byung-Cheol Min](http://www.smart-laboratory.org/group/bcm.html).
+advised by Professor [Byung-Cheol Min](http://www.smart-laboratory.org/group/bcm.html). 
 
-My primary research interest is adaptations in human-robot interaction and teaming. 
+My primary research centers on developing **adaptive human-robot systems** to facilitate the seamless integration of robots into daily human life. I mainly investigate adaptation mechanisms across three key dimensions:
 
-Specifically, I focus on developing adaptive human-robot systems capable of adapting to:
-  - Inherent heterogeneity of humans in terms of their abilities and backgrounds.
-  - Ever-changing human states, such as cognitive load and fatigue.
-  - Individual human preferences for personalized robot interactive behaviors.
+- **Team Heterogeneity**: How to optimize human-robot teaming by accounting for inherent yet heterogeneous human capabilities (e.g., cognitive abilities, skill levels, backgrounds) and robot characteristics (e.g., mobility, sensory abilities, autonomy levels)?
+- **Operational Dynamics**: How to enable proactive perception and adapt to evolving human states (e.g., cognitive load, fatigue), robot working conditions, and changing task requirements during operation?
+- **Individual Preferences**: How to personalize robot interactive behaviors to individual preferences through human-in-the-loop learning?
+
+Spanning scales from one-to-one human-robot interaction to team-level coordination in multi-human multi-robot teams, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
 
 My broad areas of research include:
 - Human-Robot Interaction
-- Multi-Human Multi-Robot Teaming
 - Human-in-the-Loop Robot Learning
+- Multi-Human Multi-Robot Teaming
 - Multimodal Perception and Reasoning
+- Affective Computing
+- Foundation Models for Robotics
+
+
 
 
 ## News
