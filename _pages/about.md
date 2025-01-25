@@ -19,7 +19,7 @@ My primary research centers on developing **adaptive human-robot systems** to fa
 - **Operational Dynamics**: How to enable proactive perception and adapt to evolving human states (e.g., cognitive load, fatigue), robot working conditions, and changing task requirements during operation?
 - **Individual Preferences**: How to personalize robot interactive behaviors to individual preferences through human-in-the-loop learning?
 
-Spanning scales from one-to-one human-robot interaction to team-level coordination in multi-human multi-robot teams, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
+Spanning scales from _one-to-one human-robot interaction_ to team-level coordination in _multi-human multi-robot teams_, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
 
 My broad areas of research include:
 - Human-Robot Interaction
