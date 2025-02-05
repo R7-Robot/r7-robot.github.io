@@ -9,5 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-[**[CV]**](/files/Ruiqi_Wang_Curriculum_Vitae.pdf)  [**[Research statement]**](/files/Research_statement_rising_stars_2024.pdf)    
+[**[CV]**](/files/Ruiqi_Wang_Curriculum_Vitae.pdf)  [**[Research statement]**](/files/Research_statement.pdf)    
 
