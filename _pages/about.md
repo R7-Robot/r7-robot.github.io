@@ -34,6 +34,7 @@ My broad areas of research include:
 
 ## News
 ---
+- **02/10/2025:** Our paper "Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network" has been accepted for publication in [IEEE/ACM Transactions on Audio, Speech, and Language Processing!](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655)
 - **01/27/2025:** Three papers (including one RA-L transfer) are accepted in ICRA 2025!
 - **01/06/2025:** Our paper ["PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models"](https://sites.google.com/view/ita-aehrl) has been accepted for publication in [IEEE Robotics and Automation Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369) (RA-L)!
 - **12/16/2024:** Arjun, an undergraduate I mentored, won **First Place** at the [Purdue University 2024 Fall Undergraduate Research Expo](https://www.purdue.edu/undergrad-research/conferences/fall/index.php)! He presented his outstanding research on [Initial Task Allocation in Multi-Human Multi-Robot Teams](https://sites.google.com/view/ita-rebel).
