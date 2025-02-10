@@ -10,6 +10,14 @@ author_profile: true
 ## Journal Papers 
 
 <ul>
+  <li> <span style="color: DarkOrange;">[IEEE TASLP]</span> <strong>Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</strong><br><br>
+  Jinjin Cai†, <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min‡.<br>
+  <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, Accepted.<br>
+  <a href="https://arxiv.org/abs/2410.09289" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/audformer" target="_blank">[Website]</a> 
+  </li>
+</ul>
+
+<ul>
   <li> <span style="color: DarkOrange;">[IEEE RA-L]</span> <strong>PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</strong><br><br>
   <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min‡.<br>
   <em>IEEE Robotics and Automation Letters</em>, Accepted, 2025.<br>
@@ -103,12 +111,6 @@ author_profile: true
 
 ## Pre-prints/Under Review
 
-<ul>
-  <li> <strong>Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</strong><br><br>
-  Jinjin Cai†, <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min‡.<br>
-  <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, Under Review.
-  </li>
-</ul>
 
 <ul>
   <li> <strong>PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers</strong><br><br>
