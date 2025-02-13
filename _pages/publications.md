@@ -9,27 +9,28 @@ author_profile: true
 
 ## Journal Papers 
 
+
+
+<ul>
+  <li> <span style="color: DarkOrange;">[IEEE RA-L]</span> <strong>PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</strong><br><br>
+  <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min‡.<br>
+  <em>IEEE Robotics and Automation Letters</em>, Vol. 10, No. 3, pp. 2486-2493, March 2025.<br>
+  <a href="https://arxiv.org/abs/2407.08213" target="_blank">[Paper]</a> <a href="https://prefclm.github.io/" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=0vyekC2fqrY" target="_blank">[Video]</a>
+  </li>
+</ul>
+
 <ul>
   <li> <span style="color: DarkOrange;">[IEEE TASLP]</span> <strong>Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</strong><br><br>
   Jinjin Cai†, <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min‡.<br>
-  <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, Accepted.<br>
+  <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, In Press, 2025.<br>
   <a href="https://arxiv.org/abs/2410.09289" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/audformer" target="_blank">[Website]</a> 
   </li>
 </ul>
 
 <ul>
-  <li> <span style="color: DarkOrange;">[IEEE RA-L]</span> <strong>PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</strong><br><br>
-  <strong>Ruiqi Wang†‡</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min‡.<br>
-  <em>IEEE Robotics and Automation Letters</em>, Accepted, 2025.<br>
-  <a href="https://arxiv.org/abs/2407.08213" target="_blank">[Paper]</a> <a href="https://prefclm.github.io/" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=0vyekC2fqrY" target="_blank">[Video]</a>
-  </li>
-</ul>
-
-
-<ul>
   <li><span style="color: DarkOrange;">[IEEE THMS]</span> <strong>Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</strong><br><br>
   Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min‡.<br>
-  <em>IEEE Transactions on Human-Machine Systems</em>, Early Access, 2024.<br>
+  <em>IEEE Transactions on Human-Machine Systems</em>, Vol. 55, No. 1, pp. 23-36, February 2025.<br>
   <a href="https://ieeexplore.ieee.org/document/10816723" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/affective-workload-allocation/home" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=qrmAQqfdLZk" target="_blank">[Video]</a>
   </li>
 </ul>
