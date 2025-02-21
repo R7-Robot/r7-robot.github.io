@@ -13,11 +13,11 @@ I'm a Ph.D. candidate in the [Smart Machine and Assistive Robotics Technology (S
 at [Purdue University](https://www.purdue.edu/),
 advised by Professor [Byung-Cheol Min](http://www.smart-laboratory.org/group/bcm.html). 
 
-My primary research centers on developing **adaptive human-robot systems** to facilitate the seamless integration of robots into daily human life. I mainly investigate adaptation mechanisms across three key dimensions:
+My primary research centers on developing **Adaptive Human-Robot Systems** to facilitate the seamless integration of robots into daily human life. I mainly investigate adaptation mechanisms across three key dimensions:
 
-- **Team Heterogeneity**: How to optimize human-robot teaming by accounting for inherent yet heterogeneous human capabilities (e.g., cognitive abilities, skill levels, backgrounds) and robot characteristics (e.g., mobility, sensory abilities, autonomy levels)?
+- **Team Heterogeneity**: How to optimize human-robot teaming by accounting for inherent yet heterogeneous human capabilities (e.g., cognitive abilities, skill levels, backgrounds) and robot characteristics (e.g., mobility, sensory abilities, autonomy levels) within specific task contexts?
 - **Operational Dynamics**: How to enable proactive perception and responsiveness to human states (e.g., cognitive load, fatigue), robot working conditions, and task status that evolve dynamically during operation?
-- **Individual Preferences**: How to personalize robot interactive behaviors to individual preferences through human-in-the-loop learning?
+- **Individual Preferences**: How to personalize robot interactive patterns to individual preferences through human-in-the-loop learning?
 
 Spanning scales from _one-to-one human-robot interaction_ to team-level coordination in _multi-human multi-robot teams_, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
 
