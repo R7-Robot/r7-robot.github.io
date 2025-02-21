@@ -77,7 +77,7 @@ Develop adaptive mechanisms to re-adjust team collaboration patterns and re-allo
 
 While human-robot systems can be optimized for objective factors, such as team heterogeneity and operational states, individual preferences often transcend these measurable aspects. Individuals with similar capabilities or operational conditions may still prefer different interaction patterns. Personalizing robot behaviors to align with these unique preferences is critical, as it enhances user satisfaction, engagement, and overall interaction quality. 
 
-This project aims to develop efficient human-in-the-loop, preference-based robot learning algorithms to facilitate this personalization process. We specifically investigate how to improve the efficiency of feedback required, how to accurately model human preferences toward robot behaviors, and how to efficiently fine-tune robot policies to reflect these preferences.
+This project aims to develop efficient human-in-the-loop, preference-based robot learning algorithms to facilitate this personalization process. We specifically investigate: how to minimize the amount of human feedback required while maximizing learning outcomes; how to accurately model human preferences toward robot behaviors, and how to allow rapid and effective adaptation of robot policies based on preference data.
 
 <div style="display: flex; justify-content: center; align-items: center;">
   <img src="/images/frame1.gif" style="height: 300px; width: auto; margin-right: 10px;" />
@@ -98,7 +98,7 @@ This project aims to develop efficient human-in-the-loop, preference-based robot
 
 Socially-aware robot navigation (SAN) involves optimizing a robot's trajectory to maintain comfortable and compliant spatial interactions with humans while efficiently reaching its goal without collisions. This task is fundamental yet challenging within human-robot interaction contexts, as it requires balancing safety, efficiency, and social etiquette.
 
-Our work focuses on **Modeling Complex Social Interactions** by developing algorithms that better encode and interpret the intricate social dynamics within varied environments. This involves leveraging advanced deep learning techniques to understand human behaviors in diverse settings, enabling robots to navigate with a deeper awareness of social nuances.
+Our work focuses on _modeling complex social interactions_ by developing algorithms that better encode and interpret the intricate social dynamics across humans and robots within varied environments. This involves leveraging advanced deep learning techniques to understand human behaviors in diverse settings, enabling robots to navigate with a deeper awareness of social nuances.
 
 <div style="text-align: center;">
   <img src="/images/SAN2.PNG" style="max-width: 85%; height: auto; display: block; margin: 0 auto;" alt="Socially-Aware Robot Navigation" />
