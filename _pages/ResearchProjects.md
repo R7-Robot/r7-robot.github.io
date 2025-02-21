@@ -12,9 +12,8 @@ Furthermore, while integrating human operators at the core of the decision-makin
 
 To address these challenges and unlock the full potential of MH-MR teams, this project focuses on three core objectives:
 
----
 
-### Adaptive Teaming Strategies 
+### _Adaptive Teaming Strategies_ 
 
 Develop advanced Initial Task Allocation (ITA) strategies that account for team heterogeneity during the teaming stage. This involves dynamically initializing task distribution, assigning roles, and defining collaboration patterns by considering the diverse capabilities of both humans and robots under varying task requirements. The objective is to harness this heterogeneity constructively, forming complementary human-robot pairings or chains that optimize overall team performance.
 
@@ -32,9 +31,8 @@ Develop advanced Initial Task Allocation (ITA) strategies that account for team 
 - [Initial Task Allocation for Multi-Human Multi-Robot Teams with Attention-based Deep Reinforcement Learning](https://sites.google.com/view/ITA-AtRL), *IROS 2023*.  
 - [REBEL: Rule-based and Experience-enhanced Learning with LLMs for Initial Task Allocation in Multi-Human Multi-Robot Teams](https://sites.google.com/view/ita-rebel/home), *Arxiv, pre-print 2025*.  
 
----
 
-### Multimodal Human State Reasoning
+### _Multimodal Human State Reasoning_
 
 Investigate the dynamics of human states, including cognitive load and emotion, and develop models that provide real-time assessments using multimodal physiological and behavioral signals.
 
@@ -52,9 +50,8 @@ Investigate the dynamics of human states, including cognitive load and emotion, 
 - [MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks](https://arxiv.org/pdf/2210.03065), *IEEE TAFFC 2024*.  
 - [Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition](https://ieeexplore.ieee.org/document/10413204), *IEEE TCDS 2024*.  
 
----
 
-### Dynamic Adaptation Mechanisms During Operation
+### _Dynamic Adaptation Mechanisms During Operation_
 
 Develop adaptive mechanisms to re-adjust team collaboration patterns and re-allocate tasks within the team according to perceived changes in human states, robot conditions, and evolving task progress.
 
@@ -74,10 +71,13 @@ Develop adaptive mechanisms to re-adjust team collaboration patterns and re-allo
 - [Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams](https://sites.google.com/view/affective-workload-allocation/home), *IEEE THMS*.  
 
 
+---
 
+## Human-in-the-Loop Robot Learning for Personalized Human-Robot Interaction
 
-## Human-in-the-loop Robot Learning for Personalized Human-Robot Interaction
-Human preferences for robot interaction behaviors are inherently diverse and individual. Adapting and personalizing robot behaviors to these individual preferences is crucial, as it can significantly enhance user satisfaction, engagement, and overall interaction quality. This project aims to develop efficient human-in-the-loop robot learning algorithms to facilitate this personalization process. Our primary objective is to develop innovative and transformative frameworks and algorithms that enable seamless robot adaptation in human-robot interaction by efficiently understanding and learning from human feedback and preferences.
+While human-robot systems can be optimized for objective factors, such as team heterogeneity and operational states, individual preferences often transcend these measurable aspects. Individuals with similar capabilities or operational conditions may still prefer different interaction patterns. Personalizing robot behaviors to align with these unique preferences is critical, as it enhances user satisfaction, engagement, and overall interaction quality. This project aims to develop efficient human-in-the-loop, preference-based robot learning algorithms to facilitate this personalization process. 
+
+We specifically investigate how to improve the efficiency of feedback required, how to accurately model human preferences toward robot behaviors, and how to efficiently fine-tune robot policies to reflect these preferences.
 
 <div style="display: flex; justify-content: center; align-items: center;">
   <img src="/images/frame1.gif" style="height: 300px; width: auto; margin-right: 10px;" />
@@ -85,24 +85,31 @@ Human preferences for robot interaction behaviors are inherently diverse and ind
 </div>
 
 
-Related papers:  
-- [Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation](https://sites.google.com/view/san-fapl), IROS 2022.
-- [PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models](https://prefclm.github.io/), ArXiv Pre-print.
+**Related Papers:**  
+- [PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models](https://prefclm.github.io/), *IEEE RA-L 2025*.  
+- [Personalization in Human-Robot Interaction through Preference-based Action Representation Learning](https://sites.google.com/view/pbarl/home), *ICRA 2025*.  
+- [PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers](https://sites.google.com/view/prefmmt/home), *Arxiv*.
+- [Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation](https://sites.google.com/view/san-fapl), *IROS 2022*.   
 
 
+---
 
+## Socially-Aware Robot Navigation
 
-## Socially-aware Robot Navigation
-Socially-aware robot navigation (SAN), in which a robot must optimize its trajectory to maintain comfortable and compliant spatial interactions with humans while also reaching its goal without collisions, is a fundamental but challenging task in the context of human-robot interaction. In this project, our work focuses on two main areas: 1) Encoding Complex Social Interactions: We are developing algorithms to better encode and interpret the intricate social dynamics within varied environments. This involves utilizing advanced deep learning techniques to understand human behaviors in different settings, enabling robots to navigate with a deeper awareness of social nuances; and 2) Innovative Teaching Methods for Robots: We are exploring new methods to teach robots that move beyond traditional reinforcement and inverse reinforcement learning. This includes devising intuitive and effective reward systems that more accurately reflect social compliance and exploring alternatives to reduce reliance on human demonstrations.
+Socially-aware robot navigation (SAN) involves optimizing a robot's trajectory to maintain comfortable and compliant spatial interactions with humans while efficiently reaching its goal without collisions. This task is fundamental yet challenging within human-robot interaction contexts, as it requires balancing safety, efficiency, and social etiquette.
+
+Our work focuses on **Encoding Complex Social Interactions** by developing algorithms that better encode and interpret the intricate social dynamics within varied environments. This involves leveraging advanced deep learning techniques to understand human behaviors in diverse settings, enabling robots to navigate with a deeper awareness of social nuances.
 
 <div style="text-align: center;">
-  <img src="/images/SAN2.PNG" style="max-width: 85%; height: auto; display: block; margin: 0 auto;" />
+  <img src="/images/SAN2.PNG" style="max-width: 85%; height: auto; display: block; margin: 0 auto;" alt="Socially-Aware Robot Navigation" />
 </div>
 
-Relevant papers:  
-- [Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2309.15234), ICRA 2024.
-- [NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning](https://arxiv.org/pdf/2304.05979), IROS 2023.
-- [Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation](https://sites.google.com/view/san-fapl), IROS 2022.
+
+
+**Related Papers:**  
+- [Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2309.15234), *ICRA 2024*.  
+- [NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning](https://arxiv.org/pdf/2304.05979), *IROS 2023*.  
+- [Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation](https://sites.google.com/view/san-fapl), *IROS 2022*.  
 
 
 
