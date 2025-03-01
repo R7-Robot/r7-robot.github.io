@@ -10,8 +10,10 @@ author_profile: true
 - [IEEE Robotics and Automation Letters](https://www.ieee-ras.org/publications/ra-l)
 - [IEEE Transactions on Audio, Speech and Language Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655)
 - [IEEE Transactions on Computational Social Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570650)
+- [IEEE Transactions on Human-Machine Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221037)
 - [Nature Scientific Reports](https://www.nature.com/srep/)
 - [Journal of Supercomputing](https://link.springer.com/journal/11227)
+
 
 ### Conference reviewer:
 - [BioRob 2024](https://www.biorob2024.org/)
