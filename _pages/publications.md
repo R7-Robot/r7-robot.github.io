@@ -17,13 +17,6 @@ author_profile: true
   </li>
 </ul>
 
-<ul>
-  <li> <span style="color: DarkOrange;">[IEEE TASLP]</span> <strong>Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</strong><br><br>
-  Jinjin Cai†, <strong>Ruiqi Wang†</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min.<br>
-  <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, In Press, 2025.<br>
-  <a href="https://arxiv.org/abs/2410.09289" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/audformer" target="_blank">[Website]</a> 
-  </li>
-</ul>
 
 <ul>
   <li><span style="color: DarkOrange;">[IEEE THMS]</span> <strong>Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</strong><br><br>
@@ -32,6 +25,15 @@ author_profile: true
   <a href="https://ieeexplore.ieee.org/document/10816723" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/affective-workload-allocation/home" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=qrmAQqfdLZk" target="_blank">[Video]</a>
   </li>
 </ul>
+
+<ul>
+  <li> <span style="color: DarkOrange;">[IEEE TASLP]</span> <strong>Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</strong><br><br>
+  Jinjin Cai†, <strong>Ruiqi Wang†</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min.<br>
+  <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, vol. 33, pp. 1170-1182, February 2025.<br>
+  <a href="https://arxiv.org/abs/2410.09289" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/audformer" target="_blank">[Website]</a> 
+  </li>
+</ul>
+
 
 <ul>
   <li><span style="color: DarkOrange;">[IEEE RA-L]</span> <strong>Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</strong><br><br>
