@@ -29,7 +29,7 @@ author_profile: true
 <ul>
   <li> <span style="color: DarkOrange;">[IEEE TASLP]</span> <strong>Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</strong><br><br>
   Jinjin Cai†, <strong>Ruiqi Wang†</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min.<br>
-  <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, vol. 33, pp. 1170-1182, February 2025.<br>
+  <em>IEEE Transactions on Audio, Speech, and Language Processing</em>, vol. 33, pp. 1170-1182, February 2025.<br>
   <a href="https://arxiv.org/abs/2410.09289" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/audformer" target="_blank">[Website]</a> 
   </li>
 </ul>
