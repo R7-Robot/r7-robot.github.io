@@ -34,6 +34,7 @@ My broad areas of research include:
 
 ## News
 ---
+- **06/15/2025:** Two papers are accepted in IROS 2025!
 - **02/10/2025:** Our paper "Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network" has been accepted for publication in [IEEE/ACM Transactions on Audio, Speech, and Language Processing!](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655)
 - **01/27/2025:** Three papers (including one RA-L transfer) are accepted in ICRA 2025!
 - **01/06/2025:** Our paper ["PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models"](https://sites.google.com/view/ita-aehrl) has been accepted for publication in [IEEE Robotics and Automation Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369) (RA-L)!
