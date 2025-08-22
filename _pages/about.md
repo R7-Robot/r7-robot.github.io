@@ -9,9 +9,7 @@ redirect_from:
 ---
 ## Hello! 
 
-I'm a Ph.D. candidate with the [Smart Machine And Robotics Technology (SMART) Lab](http://www.smart-laboratory.org/) 
-at [Purdue University](https://www.purdue.edu/),
-advised by Professor [Byung-Cheol Min](http://www.smart-laboratory.org/group/bcm.html). 
+I'm a Ph.D. candidate at Purdue University, where I work in the [Smart Machine And Robotics Technology (SMART) Lab](http://www.smart-laboratory.org/) with Professor [Byung-Cheol Min](http://www.smart-laboratory.org/group/bcm.html). 
 
 My primary research centers on developing **Adaptive Human-Robot Systems** to facilitate the seamless integration of robots into daily human life. I mainly investigate adaptation mechanisms across three key dimensions:
 
