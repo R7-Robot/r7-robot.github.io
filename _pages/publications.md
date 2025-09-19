@@ -30,7 +30,7 @@ author_profile: true
   <li> <span style="color: DarkOrange;">[IEEE TASLP]</span> <strong>Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</strong><br><br>
   Jinjin Cai†, <strong>Ruiqi Wang†</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min.<br>
   <em>IEEE Transactions on Audio, Speech, and Language Processing</em>, vol. 33, pp. 1170-1182, February 2025.<br>
-  <a href="https://arxiv.org/abs/2410.09289" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/audformer" target="_blank">[Website]</a> 
+  <a href="https://arxiv.org/abs/2410.09289" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/audformer" target="_blank">[Website]</a> <a href="https://github.com/R7-Robot/Mul-Aud" target="_blank">[Code]</a>
   </li>
 </ul>
 
@@ -63,7 +63,7 @@ author_profile: true
 
 <ul>
   <li style="margin-bottom: 20px;">
-    <span style="color: DarkOrange;">[NeurIPS 2025]</span><br>
+    <span style="color: DarkOrange;">[NeurIPS 2025]</span>
     <strong>PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models</strong><br><br>
     <strong>Ruiqi Wang†</strong>, Dezhong Zhao†§, Ziqin Yuan†§, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min.<br>
     <em>Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, December 2025. 
