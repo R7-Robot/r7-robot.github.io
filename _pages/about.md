@@ -32,6 +32,7 @@ My broad areas of research include:
 
 ## News
 ---
+- **09/18/2025:** PRIMT has been accepted as an **Oral (Top 0.35%)** in NeurIPS 2025!
 - **06/15/2025:** Two papers are accepted in IROS 2025!
 - **02/10/2025:** Our paper "Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network" has been accepted for publication in [IEEE/ACM Transactions on Audio, Speech, and Language Processing!](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655)
 - **01/27/2025:** Three papers (including one RA-L transfer) are accepted in ICRA 2025!
