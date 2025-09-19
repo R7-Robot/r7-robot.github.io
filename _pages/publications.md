@@ -67,7 +67,7 @@ author_profile: true
     <strong>PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models</strong><br><br>
     <strong>Ruiqi Wang†</strong>, Dezhong Zhao†§, Ziqin Yuan†§, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min.<br>
     <em>Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, December 2025. 
-      <span style="color: red; font-weight: bold;">Oral (Top 0.35%)</span>
+      <span style="color: #b22222; font-weight: bold; margin-left: 6px;">Oral (Top 0.35%)</span>
     </em><br>
     <a href="https://primt25.github.io/" target="_blank">[Website]</a>
   </li>
