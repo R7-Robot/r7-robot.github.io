@@ -62,6 +62,20 @@ author_profile: true
 ## Conference Papers 
 
 <ul>
+  <li style="margin-bottom: 20px;">
+    <span style="color: DarkOrange;">[NeurIPS 2025]</span><br>
+    <strong>PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models</strong><br><br>
+    <strong>Ruiqi Wang†</strong>, Dezhong Zhao†§, Ziqin Yuan†§, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min.<br>
+    <em>Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, December 2025. 
+      <span style="color: red; font-weight: bold;">Oral (Top 0.35%)</span>
+    </em><br><br>
+    <a href="https://primt25.github.io/" target="_blank">[Website]</a>
+  </li>
+</ul>
+
+
+
+<ul>
   <li>
     <span style="color: DarkOrange;">[IROS 2025]</span> <strong>PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers</strong><br><br>
     Dezhong Zhao†§,  <strong>Ruiqi Wang†</strong>, Dayoon Suh, Taehyeon Kim, Ziqin Yuan, Byung‑Cheol Min, and Guohua Chen.<br>
