@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 ## Reviews
+
 ### Journal Reviewer
 - [IEEE Robotics and Automation Letters (RA-L)](https://www.ieee-ras.org/publications/ra-l)  
 - [IEEE Transactions on Audio, Speech and Language Processing (T-ASLP)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655)  
@@ -43,11 +44,14 @@ author_profile: true
 ---
 
 ## Teaching
+
 ### Instructor
+
 **CNIT 175 – Visual Programming, Purdue University (Fall 2025)**  
 - Students: 40  
 
 ### Graduate Teaching Assistant
+
 **CNIT 105 – C Programming, Purdue University (Fall 2024)**  
 - Students: 208  
 - TA evaluation score: 4.5/5.0  
