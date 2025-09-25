@@ -32,7 +32,7 @@ author_profile: true
 
 - [Dayoon Suh](http://www.smart-laboratory.org/group/Dayoon_Suh.html) (Fall 2024 – Spring 2025)  
   B.S., Data Science & Applied Statistics, Purdue University  
-  *Achievements:* Co-authored ICRA 2025 paper; Mary-Ann Neel Computer Science Scholarship (2024)  
+  *Achievements:* Mary-Ann Neel Computer Science Scholarship (2024)  
   *Next Position:* M.S.E. in Robotics, Computer and Information Science, University of Pennsylvania  
 
 - [Revanth Krishna Senthilkumaran](http://www.smart-laboratory.org/group/Revanth_Krishna_Senthilkumaran.html) (Spring 2022 – Fall 2022)  
