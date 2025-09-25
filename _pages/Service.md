@@ -45,12 +45,12 @@ author_profile: true
 
 ## Teaching
 
-### Instructor
+### *Instructor*
 
 **CNIT 175 – Visual Programming, Purdue University (Fall 2025)**  
 - Students: 40  
 
-### Graduate Teaching Assistant
+### *Graduate Teaching Assistant*
 
 **CNIT 105 – C Programming, Purdue University (Fall 2024)**  
 - Students: 208  
