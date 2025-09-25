@@ -68,7 +68,7 @@ author_profile: true
     <strong>Ruiqi Wang†</strong>, Dezhong Zhao†§, Ziqin Yuan†§, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min.<br>
     <em>Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, December 2025.</em><br>
     <span style="color: #b22222; font-weight: bold;">Oral Presentation (Top 0.36%)</span><br>
-    <a href="https://primt25.github.io/" target="_blank">[Website]</a>
+    <a href="https://primt25.github.io/" target="_blank">[Website]</a><a href="https://arxiv.org/abs/2509.15607" target="_blank">[Preprint]</a><a href="href="https://primt25.github.io/" target="_blank">[Code]</a>
   </li>
 </ul>
 
