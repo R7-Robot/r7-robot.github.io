@@ -19,7 +19,7 @@ author_profile: true
 
 
 <ul>
-  <li><span style="color: DarkOrange;">[IEEE THMS]</span> <strong>Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</strong><br><br>
+  <li><span style="color: DarkOrange;">[IEEE T-HMS]</span> <strong>Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</strong><br><br>
   Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min.<br>
   <em>IEEE Transactions on Human-Machine Systems</em>, Vol. 55, No. 1, pp. 23-36, February 2025.<br>
   <a href="https://ieeexplore.ieee.org/document/10816723" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/affective-workload-allocation/home" target="_blank">[Website]</a> <a href="https://www.youtube.com/watch?v=qrmAQqfdLZk" target="_blank">[Video]</a>
@@ -27,7 +27,7 @@ author_profile: true
 </ul>
 
 <ul>
-  <li> <span style="color: DarkOrange;">[IEEE TASLP]</span> <strong>Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</strong><br><br>
+  <li> <span style="color: DarkOrange;">[IEEE T-ASLP]</span> <strong>Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</strong><br><br>
   Jinjin Cai†, <strong>Ruiqi Wang†</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min.<br>
   <em>IEEE Transactions on Audio, Speech, and Language Processing</em>, vol. 33, pp. 1170-1182, February 2025.<br>
   <a href="https://arxiv.org/abs/2410.09289" target="_blank">[Paper]</a> <a href="https://sites.google.com/view/audformer" target="_blank">[Website]</a> <a href="https://github.com/R7-Robot/Mul-Aud" target="_blank">[Code]</a>
@@ -44,7 +44,7 @@ author_profile: true
 </ul>
 
 <ul>
-  <li><span style="color: DarkOrange;">[IEEE TCDS]</span> <strong>Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition</strong><br><br>
+  <li><span style="color: DarkOrange;">[IEEE T-CDS]</span> <strong>Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition</strong><br><br>
   <strong>Ruiqi Wang†</strong>, Wonse Jo†, Dezhong Zhao, Weizheng Wang, Baijian Yang, Guohua Chen, and Byung-Cheol Min.<br>
   <em>IEEE Transactions on Cognitive and Developmental Systems</em>, Vol. 16, No. 4, pp. 1374-1390, August 2024.<br>
   <a href="https://ieeexplore.ieee.org/document/10413204" target="_blank">[Paper]</a> <a href="https://github.com/SMARTlab-Purdue/Husformer" target="_blank">[Code]</a>
@@ -52,7 +52,7 @@ author_profile: true
 </ul>
 
 <ul>
-  <li><span style="color: DarkOrange;">[IEEE TAFFC]</span> <strong>MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks</strong><br><br>
+  <li><span style="color: DarkOrange;">[IEEE T-AFFC]</span> <strong>MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks</strong><br><br>
   Wonse Jo†, <strong>Ruiqi Wang†</strong>, Go-Eum Cha, Su Sun, Revanth Senthilkumaran§, Daniel Foti, and Byung-Cheol Min.<br>
   <em>IEEE Transactions on Affective Computing</em>, Early Access, 2024.<br>
   <a href="https://arxiv.org/pdf/2210.03065" target="_blank">[Paper]</a> <a href="https://www.youtube.com/watch?v=BxVVj7R9b70&feature=youtu.be" target="_blank">[Video]</a> <a href="https://zenodo.org/records/10396672" target="_blank">[Dataset]</a>
