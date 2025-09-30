@@ -28,17 +28,17 @@ author_profile: true
 ### Undergraduate Research Students
 - [Arjun Gupte](http://www.smart-laboratory.org/group/Arjun_Gupte.html) (Spring 2023 – Present)  
   B.S., Computer Engineering, Purdue University  
-  *Achievements:* 2025 Class of Astronaut Scholarship;  
+  *Honors:* 2025 Class of Astronaut Scholarship;  
   First Place, Oral Presentation, 2024 Fall Purdue Undergraduate Research Conference  
 
 - [Dayoon Suh](http://www.smart-laboratory.org/group/Dayoon_Suh.html) (Fall 2024 – Spring 2025)  
   B.S., Data Science & Applied Statistics, Purdue University  
-  *Achievements:* Mary-Ann Neel Computer Science Scholarship (2024)  
+  *Honors:* Mary-Ann Neel Computer Science Scholarship (2024)  
   *Next Position:* M.S.E. in Robotics, Computer and Information Science, University of Pennsylvania  
 
 - [Revanth Krishna Senthilkumaran](http://www.smart-laboratory.org/group/Revanth_Krishna_Senthilkumaran.html) (Spring 2022 – Fall 2022)  
   B.S., Computer Engineering, Purdue University  
-  *Achievements:* Third Place, Oral Presentation, 2022 Spring Purdue Undergraduate Research Conference  
+  *Honors:* Third Place, Oral Presentation, 2022 Spring Purdue Undergraduate Research Conference  
   *Next Position:* M.S. in Robotics, Robotics Institute, Carnegie Mellon University  
 
 ---
