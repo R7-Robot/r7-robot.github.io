@@ -11,17 +11,19 @@ redirect_from:
 
 I'm a Ph.D. candidate at Purdue University, where I work in the [Smart Machine And Robotics Technology (SMART) Lab](http://www.smart-laboratory.org/) with Professor [Byung-Cheol Min](http://www.smart-laboratory.org/group/bcm.html). 
 
-My primary research centers on developing **Adaptive Human-Robot Systems** to facilitate the seamless integration of robots into daily human life. I mainly investigate adaptation mechanisms across three key dimensions:
+I am passionate about facilitating the seamless integration of robots into unstructured, human-centered environments: from assistive service in homes to collaborative operations in the field.
 
-- **Team Heterogeneity**: How to optimize human-robot teaming by accounting for inherent yet heterogeneous human capabilities (e.g., cognitive abilities, skill levels, backgrounds) and robot characteristics (e.g., mobility, sensory abilities, autonomy levels) within specific task contexts?
-- **Operational Dynamics**: How to enable proactive perception and responsiveness to human states (e.g., cognitive load, fatigue), robot working conditions, and task status that evolve dynamically during operation?
-- **Individual Preferences**: How to personalize robot interactive patterns to individual preferences through human-in-the-loop learning?
+To this end, my research centers on developing **Adaptive Human–Robot Systems that learn from and adapt to human-centered dynamics** across three key dimensions:
+
+- **Capability Heterogeneity**: How to optimize human–robot teaming by accounting for inherent yet diverse human capabilities (e.g., cognitive abilities, skill levels, backgrounds) and robot characteristics (e.g., mobility, sensing, autonomy) within specific task contexts?
+- **State Uncertainty**: How to enable proactive perception and responsiveness to human states (e.g., cognitive load, attention, trust), robot working conditions, and task status that evolve dynamically during operation?
+- **Preference Variability**: How to align robot interactive patterns with individual preferences through continuous, multimodal human feedback?
 
 Spanning scales from _one-to-one human-robot interaction_ to team-level coordination in _multi-human multi-robot teams_, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
 
 My broad areas of research include:
 - Human-Robot Interaction
-- Human-in-the-Loop Robot Learning
+- Human-in-the-Loop Reinforcement Learning
 - Multi-Human Multi-Robot Teaming
 - Multimodal Perception and Reasoning
 - Affective Computing
