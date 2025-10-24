@@ -25,9 +25,10 @@ My broad areas of research include:
 - Human-Robot Interaction
 - Human-in-the-Loop Reinforcement Learning
 - Multi-Human Multi-Robot Teaming
-- Multimodal Perception and Reasoning
-- Affective Computing
 - Foundation Models for Robotics
+- Multimodal Perception and Reasoning
+
+
 
 
 
