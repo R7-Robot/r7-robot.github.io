@@ -11,9 +11,9 @@ redirect_from:
 
 I'm a Ph.D. candidate at Purdue University, where I work in the [Smart Machine And Robotics Technology (SMART) Lab](http://www.smart-laboratory.org/) with Professor [Byung-Cheol Min](http://www.smart-laboratory.org/group/bcm.html). 
 
-I am passionate about facilitating the seamless integration of robots into unstructured, human-centered environments: from assistive service in homes to collaborative operations in the field.
+I am passionate about facilitating the **seamless integration of robots into unstructured, human-centered environments**: from assistive service in homes to collaborative operations in the field.
 
-To this end, my research centers on developing **Adaptive Human–Robot Systems that learn from and adapt to human-centered dynamics** across three key dimensions:
+To this end, my research centers on developing robot learning methods that enable **robots to learn from and adapt to human-centered dynamics** across three key dimensions:
 
 - **Capability Heterogeneity**: How to optimize human–robot teaming by accounting for inherent yet diverse human capabilities (e.g., cognitive abilities, skill levels, backgrounds) and robot characteristics (e.g., mobility, sensing, autonomy) within specific task contexts?
 - **State Uncertainty**: How to enable proactive perception and responsiveness to human states (e.g., cognitive load, attention, trust), robot working conditions, and task status that evolve dynamically during operation?
