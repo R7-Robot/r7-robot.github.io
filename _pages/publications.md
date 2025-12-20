@@ -18,7 +18,7 @@ author_profile: true
   </div>
   <div class="pub-legend-item">
     <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
-    Interactive & Value-Aligned Learning
+    Interactive & Value-Aligned Robot Learning
   </div>
   <div class="pub-legend-item">
     <svg class="pub-icon icon-collab"><use href="#icon-collab"/></svg>
