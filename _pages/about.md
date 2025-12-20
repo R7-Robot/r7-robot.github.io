@@ -285,11 +285,11 @@ To this end, my research centers on developing robot learning methods that enabl
   </div>
 </div>
 
-<div class="vision-box">
-Spanning scales from one-to-one human-robot interaction to team-level coordination in multi-human multi-robot teams, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
-</div>
 
-**My broad areas of research include:**
+Spanning scales from one-to-one human-robot interaction to team-level coordination in multi-human multi-robot teams, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
+
+
+**Research Areas:**
 
 <div class="research-areas">
   <span class="area-tag">Human-Robot Interaction</span>
@@ -307,23 +307,23 @@ Spanning scales from one-to-one human-robot interaction to team-level coordinati
 <ul class="news-list">
   <li class="news-item">
     <span class="news-date">Sep 18</span>
-    <span class="news-content">PRIMT has been accepted as <span class="news-badge">Oral (Top 0.35%)</span> in NeurIPS 2025!</span>
+    <span class="news-content">PRIMT accepted as <span class="news-badge">Oral (Top 0.35%)</span> at NeurIPS 2025!</span>
   </li>
   <li class="news-item">
     <span class="news-date">Jun 15</span>
-    <span class="news-content">Two papers are accepted in IROS 2025!</span>
+    <span class="news-content">Two papers accepted at <a href="#">IROS 2025</a>!</span>
   </li>
   <li class="news-item">
     <span class="news-date">Feb 10</span>
-    <span class="news-content">Our paper "Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network" has been accepted for publication in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655">IEEE/ACM Transactions on Audio, Speech, and Language Processing</a>!</span>
+    <span class="news-content">Paper on <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655">Multimodal Audio-based Disease Prediction</a> accepted at IEEE/ACM T-ASLP!</span>
   </li>
   <li class="news-item">
     <span class="news-date">Jan 27</span>
-    <span class="news-content">Three papers (including one RA-L transfer) are accepted in ICRA 2025!</span>
+    <span class="news-content">Three papers (including one RA-L transfer) accepted at <a href="#">ICRA 2025</a>!</span>
   </li>
   <li class="news-item">
     <span class="news-date">Jan 06</span>
-    <span class="news-content">Our paper <a href="https://sites.google.com/view/ita-aehrl">"PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models"</a> has been accepted for publication in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE Robotics and Automation Letters</a> (RA-L)!</span>
+    <span class="news-content"><a href="https://sites.google.com/view/ita-aehrl">PrefCLM</a> accepted at IEEE Robotics and Automation Letters!</span>
   </li>
 </ul>
 
@@ -331,35 +331,35 @@ Spanning scales from one-to-one human-robot interaction to team-level coordinati
 <ul class="news-list">
   <li class="news-item">
     <span class="news-date">Dec 16</span>
-    <span class="news-content">Arjun, an undergraduate I mentored, won <span class="news-badge">First Place</span> at the <a href="https://www.purdue.edu/undergrad-research/conferences/fall/index.php">Purdue University 2024 Fall Undergraduate Research Expo</a>! He presented his outstanding research on <a href="https://sites.google.com/view/ita-rebel">Initial Task Allocation in Multi-Human Multi-Robot Teams</a>.</span>
+    <span class="news-content">Arjun (mentored undergrad) won <span class="news-badge">First Place</span> at <a href="https://www.purdue.edu/undergrad-research/conferences/fall/index.php">Purdue Fall Undergraduate Research Expo</a>!</span>
   </li>
   <li class="news-item">
     <span class="news-date">Dec 13</span>
-    <span class="news-content">I passed my Ph.D. dissertation proposal defense!</span>
+    <span class="news-content">Passed my Ph.D. dissertation proposal defense! 🎉</span>
   </li>
   <li class="news-item">
     <span class="news-date">Nov 26</span>
-    <span class="news-content">Our paper <a href="https://sites.google.com/view/affective-workload-allocation/home">"Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams"</a> has been accepted for publication in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221037">IEEE Transactions on Human-Machine Systems</a>!</span>
+    <span class="news-content"><a href="https://sites.google.com/view/affective-workload-allocation/home">Cognitive Load-based Affective Workload Allocation</a> accepted at IEEE T-HMS!</span>
   </li>
   <li class="news-item">
     <span class="news-date">Jul 10</span>
-    <span class="news-content">Our paper <a href="https://ieeexplore.ieee.org/document/10557131">"MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks"</a> has been accepted for publication in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369">IEEE Transactions on Affective Computing</a>!</span>
+    <span class="news-content"><a href="https://ieeexplore.ieee.org/document/10557131">MOCAS Dataset</a> accepted at IEEE Transactions on Affective Computing!</span>
   </li>
   <li class="news-item">
     <span class="news-date">May 02</span>
-    <span class="news-content">I passed my Ph.D. preliminary exam! Special thanks to my advisor, my committee members, and my peers in the SMART lab!</span>
+    <span class="news-content">Passed my Ph.D. preliminary exam!</span>
   </li>
   <li class="news-item">
     <span class="news-date">Feb 05</span>
-    <span class="news-content">Our paper <a href="https://sites.google.com/view/ita-aehrl">"Initial Task Assignment in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach"</a> has been accepted for publication in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE Robotics and Automation Letters</a> (RA-L)!</span>
+    <span class="news-content"><a href="https://sites.google.com/view/ita-aehrl">Attention-enhanced Hierarchical RL for Task Assignment</a> accepted at IEEE RA-L!</span>
   </li>
   <li class="news-item">
     <span class="news-date">Jan 28</span>
-    <span class="news-content">Our paper <a href="https://sites.google.com/view/samarl">"SAMARL: Multi Robot Socially-aware Navigation with Multi-agent Reinforcement Learning"</a> has been accepted in <a href="https://2024.ieee-icra.org/">ICRA 2024</a>!</span>
+    <span class="news-content"><a href="https://sites.google.com/view/samarl">SAMARL</a> accepted at ICRA 2024!</span>
   </li>
   <li class="news-item">
     <span class="news-date">Jan 17</span>
-    <span class="news-content">Our paper <a href="https://ieeexplore.ieee.org/document/10413204">"Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition"</a> has been accepted for publication in <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274989">IEEE Transactions on Cognitive and Developmental Systems</a>! Check out our <a href="https://github.com/SMARTlab-Purdue/Husformer">source code</a> as well!</span>
+    <span class="news-content"><a href="https://ieeexplore.ieee.org/document/10413204">Husformer</a> accepted at IEEE T-CDS! <a href="https://github.com/SMARTlab-Purdue/Husformer">[Code]</a></span>
   </li>
 </ul>
 
@@ -373,15 +373,15 @@ Spanning scales from one-to-one human-robot interaction to team-level coordinati
 <ul class="news-list">
   <li class="news-item">
     <span class="news-date">Dec 28</span>
-    <span class="news-content">Conducted a one-day <a href="https://polytechnic.purdue.edu/ahmrs/outreach/2023-fall-wlhs">robotics seminar</a> at <a href="https://www.wl.k12.in.us/jrsr">West Lafayette Jr./Sr. High School</a> to introduce and explore the realms of cutting-edge research in human-robot interaction, multi-robot systems, and robot design.</span>
+    <span class="news-content">Conducted <a href="https://polytechnic.purdue.edu/ahmrs/outreach/2023-fall-wlhs">robotics seminar</a> at West Lafayette Jr./Sr. High School.</span>
   </li>
   <li class="news-item">
     <span class="news-date">Jun 21</span>
-    <span class="news-content">Two papers <a href="https://sites.google.com/view/ITA-AtRL">"Initial Task Allocation for Multi-Human Multi-Robot Teams with Attention-based Deep Reinforcement Learning"</a> and <a href="https://sites.google.com/view/san-navistar">"NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning"</a> are accepted in <a href="https://ieee-iros.org/">IROS 2023</a>!</span>
+    <span class="news-content">Two papers accepted at <a href="https://ieee-iros.org/">IROS 2023</a>: <a href="https://sites.google.com/view/ITA-AtRL">ITA-AtRL</a> and <a href="https://sites.google.com/view/san-navistar">NaviSTAR</a>!</span>
   </li>
   <li class="news-item">
     <span class="news-date">May 27</span>
-    <span class="news-content">Conducted an exceptional <a href="https://polytechnic.purdue.edu/ahmrs/outreach/2023-spring-wlhs">five-day robotics outreach program</a> at <a href="https://www.wl.k12.in.us/jrsr">West Lafayette Jr./Sr. High School</a> to captivate K-12 students with the intriguing world of robotics, providing them with invaluable hands-on experiences and insights into practical applications!</span>
+    <span class="news-content">Conducted <a href="https://polytechnic.purdue.edu/ahmrs/outreach/2023-spring-wlhs">five-day robotics outreach program</a> for K-12 students.</span>
   </li>
 </ul>
 
@@ -389,11 +389,11 @@ Spanning scales from one-to-one human-robot interaction to team-level coordinati
 <ul class="news-list">
   <li class="news-item">
     <span class="news-date">Dec 18</span>
-    <span class="news-content">Held a one-day <a href="https://polytechnic.purdue.edu/ahmrs/outreach/2022-fall-macau-anglican-college">outreach event</a> at <a href="https://acm.edu.mo/">Macau Anglican College</a> to provide K-12 students and their teachers with cutting-edge robotic research on Human-in-the-loop Reinforcement Learning and Affective Robotics!</span>
+    <span class="news-content">Held <a href="https://polytechnic.purdue.edu/ahmrs/outreach/2022-fall-macau-anglican-college">outreach event</a> at Macau Anglican College.</span>
   </li>
   <li class="news-item">
     <span class="news-date">Jun 30</span>
-    <span class="news-content">Our paper <a href="https://ieeexplore.ieee.org/document/9981616">"Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation"</a> is accepted in <a href="https://iros2022.org/">IROS 2022</a>! Check the <a href="https://sites.google.com/view/san-fapl">Project Website</a> for details.</span>
+    <span class="news-content"><a href="https://sites.google.com/view/san-fapl">Feedback-efficient Active Preference Learning</a> accepted at IROS 2022!</span>
   </li>
 </ul>
 
