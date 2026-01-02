@@ -262,12 +262,12 @@ author_profile: true
     </div>
     <span class="pub-venue">IEEE RA-L</span>
   </div>
+    <div class="pub-banner">
+    <img src="/images/publications/prefclm.png" alt="PrefCLM" />
+  </div>
   <h3 class="pub-title">PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</h3>
   <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min.</p>
   <p class="pub-venue-detail">IEEE Robotics and Automation Letters, Vol. 10, No. 3, pp. 2486-2493, March 2025.</p>
-  <div class="pub-banner">
-    <img src="/images/publications/prefclm.png" alt="PrefCLM" />
-  </div>
   <div class="pub-links">
     <a href="https://arxiv.org/abs/2407.08213" target="_blank">Paper</a>
     <a href="https://prefclm.github.io/" target="_blank">Website</a>
