@@ -803,7 +803,7 @@ author_profile: true
       <span class="pub-type preprint">Under Review</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/rebel.png" alt="REBEL" />
+      <img src="/images/publications/REBEL.png" alt="REBEL" />
     </div>
     <h3 class="pub-title">REBEL: Rule-based and Experience-enhanced Learning with LLMs for Initial Task Allocation in Multi-Human Multi-Robot Teams</h3>
     <p class="pub-authors">Arjun Gupte†§, <strong>Ruiqi Wang†</strong>, L. N. Vishnunandan Venkatesh, Taehyeon Kim, Dezhong Zhao, and Byung-Cheol Min.</p>
