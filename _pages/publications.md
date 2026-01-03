@@ -297,7 +297,7 @@ author_profile: true
   <div class="year-header">
     <span class="year-badge">2025</span>
     <div class="year-line"></div>
-    <span class="year-count">8 papers</span>
+    <span class="year-count">9 papers</span>
   </div>
   
   <div class="pub-list">
@@ -473,7 +473,27 @@ author_profile: true
       <a href="https://github.com/R7-Robot/Mul-Aud" target="_blank">Code</a>
     </div>
   </article>
-
+  
+ <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+      </div>
+      <span class="pub-type journal">Journal</span>
+      <span class="pub-venue">IEEE T-AFFC</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/mocas.png" alt="MOCAS" />
+    </div>
+    <h3 class="pub-title">MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks</h3>
+    <p class="pub-authors">Wonse Jo†, <strong>Ruiqi Wang†</strong>, Go-Eum Cha, Su Sun, Revanth Senthilkumaran§, Daniel Foti, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE Transactions on Affective Computing, vol. 16, no. 1, pp. 116-132, Jan.-March 2025.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/pdf/2210.03065" target="_blank">Paper</a>
+      <a href="https://www.youtube.com/watch?v=BxVVj7R9b70&feature=youtu.be" target="_blank">Video</a>
+      <a href="https://zenodo.org/records/10396672" target="_blank">Dataset</a>
+    </div>
+  </article>
 
   </div>
 </div>
@@ -486,7 +506,6 @@ author_profile: true
     <div class="year-line"></div>
     <span class="year-count">4 papers</span>
   </div>
-  
   <div class="pub-list">
 
   <article class="pub-card">
@@ -530,26 +549,6 @@ author_profile: true
     </div>
   </article>
 
-  <article class="pub-card">
-    <div class="pub-header">
-      <div class="pub-icons">
-        <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
-      </div>
-      <span class="pub-type journal">Journal</span>
-      <span class="pub-venue">IEEE T-AFFC</span>
-    </div>
-    <div class="pub-banner">
-      <img src="/images/publications/mocas.png" alt="MOCAS" />
-    </div>
-    <h3 class="pub-title">MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks</h3>
-    <p class="pub-authors">Wonse Jo†, <strong>Ruiqi Wang†</strong>, Go-Eum Cha, Su Sun, Revanth Senthilkumaran§, Daniel Foti, and Byung-Cheol Min.</p>
-    <p class="pub-venue-detail">IEEE Transactions on Affective Computing, Early Access, 2024.</p>
-    <div class="pub-links">
-      <a href="https://arxiv.org/pdf/2210.03065" target="_blank">Paper</a>
-      <a href="https://www.youtube.com/watch?v=BxVVj7R9b70&feature=youtu.be" target="_blank">Video</a>
-      <a href="https://zenodo.org/records/10396672" target="_blank">Dataset</a>
-    </div>
-  </article>
 
   <article class="pub-card">
     <div class="pub-header">
