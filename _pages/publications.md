@@ -484,7 +484,7 @@ author_profile: true
       <span class="pub-venue">IROS 2025</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/trust.jpg" alt="Trust Dynamics" />
+      <img src="/images/publications/trust.png" alt="Trust Dynamics" />
     </div>
     <h3 class="pub-title">Modeling and Evaluating Trust Dynamics in Multi-Human Multi-Robot Task Allocation</h3>
     <p class="pub-authors">Ike Obi, <strong>Ruiqi Wang</strong>, Wonse Jo, and Byung-Cheol Min.</p>
