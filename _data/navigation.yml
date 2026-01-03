@@ -3,8 +3,8 @@ main:
   - title: "Publications"
     url: /Publications/
 
-  - title: "Research Projects"
-    url: /ResearchProjects/  
+  #- title: "Research Projects"
+    #url: /ResearchProjects/  
     
   - title: "Robot Prototypings"
     url: /Prototypings/
@@ -15,6 +15,6 @@ main:
   #- title: "Life Beyond Robotics"
   #  url: /Life/
     
-  - title: "CV"
-    url: /cv/
+  #- title: "CV"
+    #url: /cv/
     
