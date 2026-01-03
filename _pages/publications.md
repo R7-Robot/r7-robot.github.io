@@ -770,13 +770,13 @@ author_profile: true
       <span class="pub-venue">IROS 2022</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/san-fapl.png" alt="SAN-FAPL" />
+      <img src="/images/publications/FAPL.png" alt="SAN-FAPL" />
     </div>
     <h3 class="pub-title">Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation</h3>
     <p class="pub-authors"><strong>Ruiqi Wang</strong>, Weizheng Wang, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022), Kyoto, Japan, October 23-27, 2022.</p>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2109.02823" target="_blank">Paper</a>
+      <a href="https://arxiv.org/abs/2201.00469" target="_blank">Paper</a>
       <a href="https://sites.google.com/view/san-fapl" target="_blank">Website</a>
       <a href="https://www.youtube.com/watch?v=ZVb5ZEzDKhM&feature=youtu.be" target="_blank">Video</a>
     </div>
