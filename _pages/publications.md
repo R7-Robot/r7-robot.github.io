@@ -568,7 +568,7 @@ author_profile: true
       <span class="pub-venue">IEEE T-HMS</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/thms.png" alt="Cognitive Load Allocation" />
+      <img src="/images/publications/AW.gif" alt="Cognitive Load Allocation" />
     </div>
     <h3 class="pub-title">Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</h3>
     <p class="pub-authors">Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min.</p>
