@@ -554,7 +554,7 @@ author_profile: true
       <img src="/images/publications/prefclm.png" alt="PrefCLM" />
     </div>
     <h3 class="pub-title">PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</h3>
-    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min.</p>
+    <p class="pub-authors"><strong>Ruiqi Wang</strong>, Dezhong Zhao, Ziqin Yuan, Ike Obi, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">IEEE Robotics and Automation Letters, Vol. 10, No. 3, pp. 2486-2493, March 2025.</p>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2407.08213" target="_blank">Paper</a>
@@ -651,7 +651,7 @@ author_profile: true
       <img src="/images/publications/ita-aehrl.png" alt="ITA-AEHRL" />
     </div>
     <h3 class="pub-title">Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</h3>
-    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Arjun Gupte§, and Byung-Cheol Min.</p>
+    <p class="pub-authors"><strong>Ruiqi Wang</strong>, Dezhong Zhao, Arjun Gupte§, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">IEEE Robotics and Automation Letters, vol. 9, no. 4, pp. 3451-3458, April 2024.</p>
     <div class="pub-links">
       <a href="https://ieeexplore.ieee.org/abstract/document/10436714" target="_blank">Paper</a>
