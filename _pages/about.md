@@ -35,75 +35,126 @@ redirect_from:
 </svg>
 
 <style>
-/* Pronunciation Style */
+/* Pronunciation - Elevated Card Style */
 .name-pronunciation {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.1rem;
-  color: #6b7280;
-  margin-top: -1rem; /* Pull closer to the title */
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin-top: -0.5rem;
   margin-bottom: 2rem;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.name-pronunciation:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
 }
 
 .pronounce-icon {
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   color: #2563eb;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.1);
 }
 
-/* Button Styles */
+.name-pronunciation span {
+  font-size: 1.05rem;
+  color: #475569;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* Enhanced Button Container */
 .hero-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
+/* Enhanced Button Styles */
 .action-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
-  text-decoration: none !important; /* Force override default link styles */
-  font-weight: 500;
+  gap: 0.6rem;
+  padding: 0.85rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none !important;
+  font-weight: 600;
   font-size: 0.95rem;
-  transition: all 0.2s ease;
-  border: 1px solid transparent;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.action-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  transition: left 0.5s;
+}
+
+.action-btn:hover::before {
+  left: 100%;
 }
 
 .action-btn svg {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
 }
 
-/* Primary Button (CV) */
+.action-btn:hover svg {
+  transform: scale(1.1);
+}
+
+/* Primary Button - Enhanced */
 .btn-primary {
-  background-color: #2563eb;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
   color: white !important;
-  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
 }
 
 .btn-primary:hover {
-  background-color: #1d4ed8;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
 }
 
-/* Secondary Button (Research Statement) */
+/* Secondary Button - Enhanced */
 .btn-secondary {
-  background-color: #f3f4f6;
+  background: white;
   color: #374151 !important;
   border-color: #d1d5db;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
 }
 
 .btn-secondary:hover {
-  background-color: #e5e7eb;
+  background: #f9fafb;
   border-color: #9ca3af;
   color: #111827 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
 }
 
 /* Hero Section */
@@ -319,15 +370,6 @@ redirect_from:
 I'm a Ph.D. candidate at Purdue University, where I work in the <a href="http://www.smart-laboratory.org/">Smart Machine And Robotics Technology (SMART) Lab</a> with Professor <a href="http://www.smart-laboratory.org/group/bcm.html">Byung-Cheol Min</a>.
 </p>
 
-<div class="hero-buttons">
-  <a href="/files/Ruiqi_Wang_CV.pdf" target="_blank" class="action-btn btn-primary">
-    <svg><use href="#icon-download"/></svg> Curriculum Vitae
-  </a>
-  <a href="/files/Research_Statement.pdf" target="_blank" class="action-btn btn-secondary">
-    <svg><use href="#icon-file"/></svg> Research Statement
-  </a>
-</div>
-
 My research goal is to facilitate the **seamless integration of robots into unstructured, human-centered environments**: from assistive service in homes to collaborative operations in the field.
 
 To this end, my research centers on developing interactive and data-driven learning methods that enable **robots to learn from and adapt to human-centered dynamics** across three key dimensions:
@@ -359,6 +401,15 @@ To this end, my research centers on developing interactive and data-driven learn
 </div>
 
 Spanning scales from one-to-one human-robot interaction to team-level coordination in multi-human multi-robot teams, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
+
+<div class="hero-buttons">
+  <a href="/files/Ruiqi_Wang_CV.pdf" target="_blank" class="action-btn btn-primary">
+    <svg><use href="#icon-download"/></svg> Curriculum Vitae
+  </a>
+  <a href="/files/Research_Statement.pdf" target="_blank" class="action-btn btn-secondary">
+    <svg><use href="#icon-file"/></svg> Research Statement
+  </a>
+</div>
 
 **Research Areas:**
 
