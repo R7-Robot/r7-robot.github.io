@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<!-- Custom SVG Icons -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="icon-team" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="7" cy="5" r="2.5"/><path d="M3 21v-2a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4v2"/>
@@ -23,15 +22,96 @@ redirect_from:
     <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
     <path d="M12 2v4"/><path d="M12 18v4"/><path d="M2 12h4"/><path d="M18 12h4"/>
   </symbol>
+  <symbol id="icon-speaker" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+  </symbol>
+  <symbol id="icon-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+  </symbol>
+  <symbol id="icon-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+  </symbol>
 </svg>
 
 <style>
+/* Pronunciation Style */
+.name-pronunciation {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #6b7280;
+  margin-top: -1rem; /* Pull closer to the title */
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pronounce-icon {
+  width: 18px;
+  height: 18px;
+  color: #2563eb;
+}
+
+/* Button Styles */
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none !important; /* Force override default link styles */
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.action-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* Primary Button (CV) */
+.btn-primary {
+  background-color: #2563eb;
+  color: white !important;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);
+}
+
+/* Secondary Button (Research Statement) */
+.btn-secondary {
+  background-color: #f3f4f6;
+  color: #374151 !important;
+  border-color: #d1d5db;
+}
+
+.btn-secondary:hover {
+  background-color: #e5e7eb;
+  border-color: #9ca3af;
+  color: #111827 !important;
+}
+
 /* Hero Section */
 .hero-intro {
   font-size: 1.1rem;
   line-height: 1.7;
   color: #374151;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .hero-intro a {
@@ -43,12 +123,6 @@ redirect_from:
 
 .hero-intro a:hover {
   border-bottom-color: #2563eb;
-}
-
-.highlight-text {
-  background: linear-gradient(120deg, #fef3c7 0%, #fde68a 100%);
-  padding: 0 4px;
-  border-radius: 3px;
 }
 
 /* Research Dimensions - Vertical Layout */
@@ -107,19 +181,6 @@ redirect_from:
   color: #4b5563;
   line-height: 1.6;
   margin: 0;
-}
-
-/* Vision statement */
-.vision-box {
-  background: linear-gradient(135deg, #eff6ff 0%, #f5f3ff 100%);
-  border-left: 4px solid #2563eb;
-  padding: 1rem 1.25rem;
-  border-radius: 0 8px 8px 0;
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
-  color: #374151;
-  line-height: 1.6;
-  font-style: italic;
 }
 
 /* Research Areas Tags */
@@ -247,15 +308,27 @@ redirect_from:
 }
 </style>
 
+<div class="name-pronunciation">
+  <svg class="pronounce-icon"><use href="#icon-speaker"/></svg>
+  <span>/ Ray-chee Wong /</span>
+</div>
+
 ## Hello! 
 
 <p class="hero-intro">
 I'm a Ph.D. candidate at Purdue University, where I work in the <a href="http://www.smart-laboratory.org/">Smart Machine And Robotics Technology (SMART) Lab</a> with Professor <a href="http://www.smart-laboratory.org/group/bcm.html">Byung-Cheol Min</a>.
 </p>
 
+<div class="hero-buttons">
+  <a href="/files/Ruiqi_Wang_CV.pdf" target="_blank" class="action-btn btn-primary">
+    <svg><use href="#icon-download"/></svg> Curriculum Vitae
+  </a>
+  <a href="/files/Research_Statement.pdf" target="_blank" class="action-btn btn-secondary">
+    <svg><use href="#icon-file"/></svg> Research Statement
+  </a>
+</div>
 
 My research goal is to facilitate the **seamless integration of robots into unstructured, human-centered environments**: from assistive service in homes to collaborative operations in the field.
-
 
 To this end, my research centers on developing interactive and data-driven learning methods that enable **robots to learn from and adapt to human-centered dynamics** across three key dimensions:
 
@@ -285,9 +358,7 @@ To this end, my research centers on developing interactive and data-driven learn
   </div>
 </div>
 
-
 Spanning scales from one-to-one human-robot interaction to team-level coordination in multi-human multi-robot teams, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
-
 
 **Research Areas:**
 
