@@ -504,7 +504,7 @@ author_profile: true
       <span class="pub-venue">ICRA 2025</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/pbarl.png" alt="PBARL" />
+      <img src="/images/publications/pbarl.gif" alt="PBARL" />
     </div>
     <h3 class="pub-title">Personalization in Human-Robot Interaction through Preference-based Action Representation Learning</h3>
     <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Dayoon Suh§, Ziqin Yuan, Guohua Chen, and Byung-Cheol Min.</p>
