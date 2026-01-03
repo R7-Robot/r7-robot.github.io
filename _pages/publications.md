@@ -664,7 +664,7 @@ author_profile: true
       <span class="pub-venue">IEEE T-CDS</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/husformer.png" alt="Husformer" />
+      <img src="/images/publications/hus.jpg" alt="Husformer" />
     </div>
     <h3 class="pub-title">Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition</h3>
     <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Wonse Jo†, Dezhong Zhao, Weizheng Wang, Baijian Yang, Guohua Chen, and Byung-Cheol Min.</p>
