@@ -329,69 +329,6 @@ author_profile: true
       <div class="pub-icons">
         <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
       </div>
-      <span class="pub-type journal">Journal</span>
-      <span class="pub-venue">IEEE RA-L</span>
-    </div>
-    <div class="pub-banner">
-      <img src="/images/publications/prefclm.png" alt="PrefCLM" />
-    </div>
-    <h3 class="pub-title">PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</h3>
-    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min.</p>
-    <p class="pub-venue-detail">IEEE Robotics and Automation Letters, Vol. 10, No. 3, pp. 2486-2493, March 2025.</p>
-    <div class="pub-links">
-      <a href="https://arxiv.org/abs/2407.08213" target="_blank">Paper</a>
-      <a href="https://prefclm.github.io/" target="_blank">Website</a>
-      <a href="https://www.youtube.com/watch?v=0vyekC2fqrY" target="_blank">Video</a>
-    </div>
-  </article>
-
-  <article class="pub-card">
-    <div class="pub-header">
-      <div class="pub-icons">
-        <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
-      </div>
-      <span class="pub-type journal">Journal</span>
-      <span class="pub-venue">IEEE T-HMS</span>
-    </div>
-    <div class="pub-banner">
-      <img src="/images/publications/thms.png" alt="Cognitive Load Allocation" />
-    </div>
-    <h3 class="pub-title">Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</h3>
-    <p class="pub-authors">Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min.</p>
-    <p class="pub-venue-detail">IEEE Transactions on Human-Machine Systems, Vol. 55, No. 1, pp. 23-36, February 2025.</p>
-    <div class="pub-links">
-      <a href="https://ieeexplore.ieee.org/document/10816723" target="_blank">Paper</a>
-      <a href="https://sites.google.com/view/affective-workload-allocation/home" target="_blank">Website</a>
-      <a href="https://www.youtube.com/watch?v=qrmAQqfdLZk" target="_blank">Video</a>
-    </div>
-  </article>
-
-  <article class="pub-card">
-    <div class="pub-header">
-      <div class="pub-icons">
-        <svg class="pub-icon icon-collab"><use href="#icon-collab"/></svg>
-      </div>
-      <span class="pub-type journal">Journal</span>
-      <span class="pub-venue">IEEE T-ASLP</span>
-    </div>
-    <div class="pub-banner">
-      <img src="/images/publications/audformer.png" alt="Audformer" />
-    </div>
-    <h3 class="pub-title">Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</h3>
-    <p class="pub-authors">Jinjin Cai†, <strong>Ruiqi Wang†</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min.</p>
-    <p class="pub-venue-detail">IEEE Transactions on Audio, Speech, and Language Processing, vol. 33, pp. 1170-1182, February 2025.</p>
-    <div class="pub-links">
-      <a href="https://arxiv.org/abs/2410.09289" target="_blank">Paper</a>
-      <a href="https://sites.google.com/view/audformer" target="_blank">Website</a>
-      <a href="https://github.com/R7-Robot/Mul-Aud" target="_blank">Code</a>
-    </div>
-  </article>
-
-  <article class="pub-card">
-    <div class="pub-header">
-      <div class="pub-icons">
-        <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
-      </div>
       <span class="pub-type conference">Conference</span>
       <span class="pub-venue">IROS 2025</span>
     </div>
@@ -472,6 +409,71 @@ author_profile: true
       <a href="https://www.youtube.com/watch?v=T5-DcMCpA5Q" target="_blank">Video</a>
     </div>
   </article>
+
+
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+      </div>
+      <span class="pub-type journal">Journal</span>
+      <span class="pub-venue">IEEE RA-L</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/prefclm.png" alt="PrefCLM" />
+    </div>
+    <h3 class="pub-title">PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</h3>
+    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE Robotics and Automation Letters, Vol. 10, No. 3, pp. 2486-2493, March 2025.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2407.08213" target="_blank">Paper</a>
+      <a href="https://prefclm.github.io/" target="_blank">Website</a>
+      <a href="https://www.youtube.com/watch?v=0vyekC2fqrY" target="_blank">Video</a>
+    </div>
+  </article>
+
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+      </div>
+      <span class="pub-type journal">Journal</span>
+      <span class="pub-venue">IEEE T-HMS</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/thms.png" alt="Cognitive Load Allocation" />
+    </div>
+    <h3 class="pub-title">Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</h3>
+    <p class="pub-authors">Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE Transactions on Human-Machine Systems, Vol. 55, No. 1, pp. 23-36, February 2025.</p>
+    <div class="pub-links">
+      <a href="https://ieeexplore.ieee.org/document/10816723" target="_blank">Paper</a>
+      <a href="https://sites.google.com/view/affective-workload-allocation/home" target="_blank">Website</a>
+      <a href="https://www.youtube.com/watch?v=qrmAQqfdLZk" target="_blank">Video</a>
+    </div>
+  </article>
+
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-collab"><use href="#icon-collab"/></svg>
+      </div>
+      <span class="pub-type journal">Journal</span>
+      <span class="pub-venue">IEEE T-ASLP</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/audformer.png" alt="Audformer" />
+    </div>
+    <h3 class="pub-title">Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</h3>
+    <p class="pub-authors">Jinjin Cai†, <strong>Ruiqi Wang†</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE Transactions on Audio, Speech, and Language Processing, vol. 33, pp. 1170-1182, February 2025.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2410.09289" target="_blank">Paper</a>
+      <a href="https://sites.google.com/view/audformer" target="_blank">Website</a>
+      <a href="https://github.com/R7-Robot/Mul-Aud" target="_blank">Code</a>
+    </div>
+  </article>
+
 
   </div>
 </div>
