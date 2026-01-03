@@ -48,7 +48,7 @@ author_profile: true
 ### *Instructor*
 
 **CNIT 175 – Visual Programming, Purdue University (Fall 2025)**  
-- Students: 40  
+- Students: 34  
 
 ### *Graduate Teaching Assistant*
 
