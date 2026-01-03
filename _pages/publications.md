@@ -610,7 +610,7 @@ author_profile: true
       <span class="pub-venue">IEEE T-AFFC</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/mocas.png" alt="MOCAS" />
+      <img src="/images/publications/mocas.gif" alt="MOCAS" />
     </div>
     <h3 class="pub-title">MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks</h3>
     <p class="pub-authors">Wonse Jo†, <strong>Ruiqi Wang†</strong>, Go-Eum Cha, Su Sun, Revanth Senthilkumaran§, Daniel Foti, and Byung-Cheol Min.</p>
