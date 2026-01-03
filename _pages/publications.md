@@ -5,7 +5,6 @@ permalink: /Publications/
 author_profile: true
 ---
 
-<!-- Custom SVG Icons -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="icon-team" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="7" cy="5" r="2.5"/><path d="M3 21v-2a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4v2"/>
@@ -264,25 +263,21 @@ author_profile: true
   letter-spacing: 0.02em;
 }
 
-/* Banner image - 自适应高度 */
+/* Banner image - UPDATED: Width fills, Height adapts */
 .pub-banner {
   width: 100%;
-  max-height: 280px;
-  min-height: 120px;
+  /* Removed max-height/min-height constraints */
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 1rem;
   background: #f9fafb;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block; /* Changed from flex to block */
 }
 
 .pub-banner img {
-  width: 100%;
-  height: auto;
-  max-height: 280px;
-  object-fit: contain;
+  width: 100%;       /* Force width to fill container */
+  height: auto;      /* Maintain aspect ratio */
+  display: block;    /* Remove bottom whitespace */
   transition: transform 0.3s;
 }
 
@@ -361,14 +356,10 @@ author_profile: true
     padding: 1rem;
   }
   
-  .pub-banner {
-    max-height: 200px;
-    min-height: 100px;
-  }
+  /* Removed previous height restrictions for mobile banner */
 }
 </style>
 
-<!-- ========== Filter Buttons ========== -->
 <div class="filter-section">
   <div class="filter-group">
     <span class="filter-label">Year</span>
@@ -430,7 +421,6 @@ author_profile: true
 <p class="pub-note">†: Equal contribution · §: Mentored student</p>
 
 
-<!-- ==================== 2025 ==================== -->
 <div class="year-section" data-year="2025">
   <div class="year-header">
     <span class="year-badge">2025</span>
@@ -636,7 +626,6 @@ author_profile: true
 </div>
 
 
-<!-- ==================== 2024 ==================== -->
 <div class="year-section" data-year="2024">
   <div class="year-header">
     <span class="year-badge">2024</span>
@@ -709,7 +698,6 @@ author_profile: true
 </div>
 
 
-<!-- ==================== 2023 ==================== -->
 <div class="year-section" data-year="2023">
   <div class="year-header">
     <span class="year-badge">2023</span>
@@ -764,7 +752,6 @@ author_profile: true
 </div>
 
 
-<!-- ==================== 2022 ==================== -->
 <div class="year-section" data-year="2022">
   <div class="year-header">
     <span class="year-badge">2022</span>
@@ -799,7 +786,6 @@ author_profile: true
 </div>
 
 
-<!-- ==================== Pre-prints ==================== -->
 <div class="year-section" data-year="preprint">
   <div class="year-header">
     <span class="year-badge">Pre-prints</span>
@@ -831,7 +817,6 @@ author_profile: true
   </div>
 </div>
 
-<!-- ========== Filter Script ========== -->
 <script>
 (function() {
   const filters = { year: 'all', type: 'all', theme: 'all' };
