@@ -67,6 +67,38 @@ author_profile: true
   margin-bottom: 2rem;
 }
 
+/* Year section */
+.year-section {
+  margin-bottom: 2.5rem;
+}
+
+.year-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.year-badge {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.year-line {
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(90deg, #e5e7eb, transparent);
+}
+
+.year-count {
+  font-size: 0.85rem;
+  color: #6b7280;
+  background: #f3f4f6;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+}
+
 /* Publication list */
 .pub-list {
   display: flex;
@@ -77,7 +109,7 @@ author_profile: true
   margin: 0;
 }
 
-/* Publication card - Banner layout */
+/* Publication card */
 .pub-card {
   background: #fff;
   border: 1px solid #e5e5e5;
@@ -92,7 +124,7 @@ author_profile: true
   transform: translateY(-2px);
 }
 
-/* Header with icons and venue */
+/* Header */
 .pub-header {
   display: flex;
   flex-wrap: wrap;
@@ -114,6 +146,28 @@ author_profile: true
   background: #fef3c7;
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
+}
+
+.pub-type {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.pub-type.journal {
+  color: #0369a1;
+  background: #e0f2fe;
+}
+
+.pub-type.conference {
+  color: #7c3aed;
+  background: #ede9fe;
+}
+
+.pub-type.preprint {
+  color: #6b7280;
+  background: #f3f4f6;
 }
 
 .pub-oral {
@@ -146,20 +200,6 @@ author_profile: true
 
 .pub-banner:hover img {
   transform: scale(1.03);
-}
-
-/* Placeholder for no image */
-.pub-banner.placeholder {
-  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pub-banner.placeholder svg {
-  width: 48px;
-  height: 48px;
-  color: #9ca3af;
 }
 
 /* Title */
@@ -251,337 +291,404 @@ author_profile: true
 
 <p class="pub-note">†: Equal contribution · §: Mentored student</p>
 
-## Journal Papers
 
-<div class="pub-list">
-
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
-    </div>
-    <span class="pub-venue">IEEE RA-L</span>
+<!-- ==================== 2025 ==================== -->
+<div class="year-section">
+  <div class="year-header">
+    <span class="year-badge">2025</span>
+    <div class="year-line"></div>
+    <span class="year-count">8 papers</span>
   </div>
+  
+  <div class="pub-list">
+
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+      </div>
+      <span class="pub-type conference">Conference</span>
+      <span class="pub-venue">NeurIPS 2025</span>
+      <span class="pub-oral">Oral · Top 0.36%</span>
+    </div>
     <div class="pub-banner">
-    <img src="/images/publications/prefclm.png" alt="PrefCLM" />
-  </div>
-  <h3 class="pub-title">PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</h3>
-  <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">IEEE Robotics and Automation Letters, Vol. 10, No. 3, pp. 2486-2493, March 2025.</p>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2407.08213" target="_blank">Paper</a>
-    <a href="https://prefclm.github.io/" target="_blank">Website</a>
-    <a href="https://www.youtube.com/watch?v=0vyekC2fqrY" target="_blank">Video</a>
-  </div>
-</article>
-
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+      <img src="/images/publications/primt.gif" alt="PRIMT" />
     </div>
-    <span class="pub-venue">IEEE T-HMS</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/thms.png" alt="Cognitive Load Allocation" />
-  </div>
-  <h3 class="pub-title">Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</h3>
-  <p class="pub-authors">Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">IEEE Transactions on Human-Machine Systems, Vol. 55, No. 1, pp. 23-36, February 2025.</p>
-  <div class="pub-links">
-    <a href="https://ieeexplore.ieee.org/document/10816723" target="_blank">Paper</a>
-    <a href="https://sites.google.com/view/affective-workload-allocation/home" target="_blank">Website</a>
-    <a href="https://www.youtube.com/watch?v=qrmAQqfdLZk" target="_blank">Video</a>
-  </div>
-</article>
-
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-collab"><use href="#icon-collab"/></svg>
+    <h3 class="pub-title">PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models</h3>
+    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†§, Ziqin Yuan†§, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, December 2025.</p>
+    <div class="pub-links">
+      <a href="https://primt25.github.io/" target="_blank">Website</a>
+      <a href="https://arxiv.org/abs/2509.15607" target="_blank">Preprint</a>
+      <a href="https://primt25.github.io/" target="_blank">Code</a>
     </div>
-    <span class="pub-venue">IEEE T-ASLP</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/audformer.png" alt="Audformer" />
-  </div>
-  <h3 class="pub-title">Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</h3>
-  <p class="pub-authors">Jinjin Cai†, <strong>Ruiqi Wang†</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">IEEE Transactions on Audio, Speech, and Language Processing, vol. 33, pp. 1170-1182, February 2025.</p>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2410.09289" target="_blank">Paper</a>
-    <a href="https://sites.google.com/view/audformer" target="_blank">Website</a>
-    <a href="https://github.com/R7-Robot/Mul-Aud" target="_blank">Code</a>
-  </div>
-</article>
+  </article>
 
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+      </div>
+      <span class="pub-type journal">Journal</span>
+      <span class="pub-venue">IEEE RA-L</span>
     </div>
-    <span class="pub-venue">IEEE RA-L</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/ita-aehrl.png" alt="ITA-AEHRL" />
-  </div>
-  <h3 class="pub-title">Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</h3>
-  <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Arjun Gupte§, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">IEEE Robotics and Automation Letters, vol. 9, no. 4, pp. 3451-3458, April 2024.</p>
-  <div class="pub-links">
-    <a href="https://ieeexplore.ieee.org/abstract/document/10436714" target="_blank">Paper</a>
-    <a href="https://sites.google.com/view/ita-aehrl" target="_blank">Website</a>
-    <a href="https://www.youtube.com/watch?v=wMXLYCuktRk" target="_blank">Video</a>
-  </div>
-</article>
-
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+    <div class="pub-banner">
+      <img src="/images/publications/prefclm.png" alt="PrefCLM" />
     </div>
-    <span class="pub-venue">IEEE T-CDS</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/husformer.png" alt="Husformer" />
-  </div>
-  <h3 class="pub-title">Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition</h3>
-  <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Wonse Jo†, Dezhong Zhao, Weizheng Wang, Baijian Yang, Guohua Chen, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">IEEE Transactions on Cognitive and Developmental Systems, Vol. 16, No. 4, pp. 1374-1390, August 2024.</p>
-  <div class="pub-links">
-    <a href="https://ieeexplore.ieee.org/document/10413204" target="_blank">Paper</a>
-    <a href="https://github.com/SMARTlab-Purdue/Husformer" target="_blank">Code</a>
-  </div>
-</article>
-
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+    <h3 class="pub-title">PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</h3>
+    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE Robotics and Automation Letters, Vol. 10, No. 3, pp. 2486-2493, March 2025.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2407.08213" target="_blank">Paper</a>
+      <a href="https://prefclm.github.io/" target="_blank">Website</a>
+      <a href="https://www.youtube.com/watch?v=0vyekC2fqrY" target="_blank">Video</a>
     </div>
-    <span class="pub-venue">IEEE T-AFFC</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/mocas.png" alt="MOCAS" />
-  </div>
-  <h3 class="pub-title">MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks</h3>
-  <p class="pub-authors">Wonse Jo†, <strong>Ruiqi Wang†</strong>, Go-Eum Cha, Su Sun, Revanth Senthilkumaran§, Daniel Foti, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">IEEE Transactions on Affective Computing, Early Access, 2024.</p>
-  <div class="pub-links">
-    <a href="https://arxiv.org/pdf/2210.03065" target="_blank">Paper</a>
-    <a href="https://www.youtube.com/watch?v=BxVVj7R9b70&feature=youtu.be" target="_blank">Video</a>
-    <a href="https://zenodo.org/records/10396672" target="_blank">Dataset</a>
-  </div>
-</article>
+  </article>
 
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+      </div>
+      <span class="pub-type journal">Journal</span>
+      <span class="pub-venue">IEEE T-HMS</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/thms.png" alt="Cognitive Load Allocation" />
+    </div>
+    <h3 class="pub-title">Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</h3>
+    <p class="pub-authors">Wonse Jo, <strong>Ruiqi Wang</strong>, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE Transactions on Human-Machine Systems, Vol. 55, No. 1, pp. 23-36, February 2025.</p>
+    <div class="pub-links">
+      <a href="https://ieeexplore.ieee.org/document/10816723" target="_blank">Paper</a>
+      <a href="https://sites.google.com/view/affective-workload-allocation/home" target="_blank">Website</a>
+      <a href="https://www.youtube.com/watch?v=qrmAQqfdLZk" target="_blank">Video</a>
+    </div>
+  </article>
+
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-collab"><use href="#icon-collab"/></svg>
+      </div>
+      <span class="pub-type journal">Journal</span>
+      <span class="pub-venue">IEEE T-ASLP</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/audformer.png" alt="Audformer" />
+    </div>
+    <h3 class="pub-title">Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</h3>
+    <p class="pub-authors">Jinjin Cai†, <strong>Ruiqi Wang†</strong>, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE Transactions on Audio, Speech, and Language Processing, vol. 33, pp. 1170-1182, February 2025.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2410.09289" target="_blank">Paper</a>
+      <a href="https://sites.google.com/view/audformer" target="_blank">Website</a>
+      <a href="https://github.com/R7-Robot/Mul-Aud" target="_blank">Code</a>
+    </div>
+  </article>
+
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+      </div>
+      <span class="pub-type conference">Conference</span>
+      <span class="pub-venue">IROS 2025</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/prefmmt.png" alt="PrefMMT" />
+    </div>
+    <h3 class="pub-title">PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers</h3>
+    <p class="pub-authors">Dezhong Zhao†§, <strong>Ruiqi Wang†</strong>, Dayoon Suh, Taehyeon Kim, Ziqin Yuan, Byung-Cheol Min, and Guohua Chen.</p>
+    <p class="pub-venue-detail">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Hangzhou, China, October 2025.</p>
+    <div class="pub-links">
+      <a href="https://sites.google.com/view/prefmmt/home" target="_blank">Website</a>
+      <a href="https://arxiv.org/abs/2409.13683" target="_blank">ArXiv</a>
+      <a href="https://www.youtube.com/watch?v=_g1Nl4POPxo" target="_blank">Video</a>
+      <a href="https://github.com/SMARTlab-Purdue/PrefMMT" target="_blank">Code</a>
+    </div>
+  </article>
+
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+        <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+      </div>
+      <span class="pub-type conference">Conference</span>
+      <span class="pub-venue">IROS 2025</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/trust.png" alt="Trust Dynamics" />
+    </div>
+    <h3 class="pub-title">Modeling and Evaluating Trust Dynamics in Multi-Human Multi-Robot Task Allocation</h3>
+    <p class="pub-authors">Ike Obi, <strong>Ruiqi Wang</strong>, Wonse Jo, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Hangzhou, China, October 2025.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2409.16009" target="_blank">ArXiv</a>
+      <a href="https://www.youtube.com/watch?v=75gRdjIpHD4" target="_blank">Video</a>
+    </div>
+  </article>
+
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+      </div>
+      <span class="pub-type conference">Conference</span>
+      <span class="pub-venue">ICRA 2025</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/pbarl.png" alt="PBARL" />
+    </div>
+    <h3 class="pub-title">Personalization in Human-Robot Interaction through Preference-based Action Representation Learning</h3>
+    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Dayoon Suh§, Ziqin Yuan, Guohua Chen, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</p>
+    <div class="pub-links">
+      <a href="https://sites.google.com/view/pbarl/home" target="_blank">Website</a>
+      <a href="https://arxiv.org/abs/2409.13822" target="_blank">ArXiv</a>
+      <a href="https://youtu.be/LWmmS0uGsCw" target="_blank">Video</a>
+    </div>
+  </article>
+
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+        <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+      </div>
+      <span class="pub-type conference">Conference</span>
+      <span class="pub-venue">ICRA 2025</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/ata-hrl.png" alt="ATA-HRL" />
+    </div>
+    <h3 class="pub-title">Adaptive Task Allocation in Multi-Human Multi-Robot Teams under Team Heterogeneity and Dynamic Information Uncertainty</h3>
+    <p class="pub-authors">Ziqin Yuan†, <strong>Ruiqi Wang†</strong>, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</p>
+    <div class="pub-links">
+      <a href="https://sites.google.com/view/ata-hrl/home" target="_blank">Website</a>
+      <a href="https://arxiv.org/abs/2409.13824" target="_blank">ArXiv</a>
+      <a href="https://www.youtube.com/watch?v=T5-DcMCpA5Q" target="_blank">Video</a>
+    </div>
+  </article>
+
+  </div>
 </div>
 
-## Conference Papers
 
-<div class="pub-list">
+<!-- ==================== 2024 ==================== -->
+<div class="year-section">
+  <div class="year-header">
+    <span class="year-badge">2024</span>
+    <div class="year-line"></div>
+    <span class="year-count">4 papers</span>
+  </div>
+  
+  <div class="pub-list">
 
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+      </div>
+      <span class="pub-type journal">Journal</span>
+      <span class="pub-venue">IEEE RA-L</span>
     </div>
-    <span class="pub-venue">NeurIPS 2025</span>
-    <span class="pub-oral">Oral · Top 0.36%</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/primt.gif" alt="PRIMT" />
-  </div>
-  <h3 class="pub-title">PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models</h3>
-  <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†§, Ziqin Yuan†§, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, December 2025.</p>
-  <div class="pub-links">
-    <a href="https://primt25.github.io/" target="_blank">Website</a>
-    <a href="https://arxiv.org/abs/2509.15607" target="_blank">Preprint</a>
-    <a href="https://primt25.github.io/" target="_blank">Code</a>
-  </div>
-</article>
-
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+    <div class="pub-banner">
+      <img src="/images/publications/ita-aehrl.png" alt="ITA-AEHRL" />
     </div>
-    <span class="pub-venue">IROS 2025</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/prefmmt.png" alt="PrefMMT" />
-  </div>
-  <h3 class="pub-title">PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers</h3>
-  <p class="pub-authors">Dezhong Zhao†§, <strong>Ruiqi Wang†</strong>, Dayoon Suh, Taehyeon Kim, Ziqin Yuan, Byung-Cheol Min, and Guohua Chen.</p>
-  <p class="pub-venue-detail">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Hangzhou, China, October 2025.</p>
-  <div class="pub-links">
-    <a href="https://sites.google.com/view/prefmmt/home" target="_blank">Website</a>
-    <a href="https://arxiv.org/abs/2409.13683" target="_blank">ArXiv</a>
-    <a href="https://www.youtube.com/watch?v=_g1Nl4POPxo" target="_blank">Video</a>
-    <a href="https://github.com/SMARTlab-Purdue/PrefMMT" target="_blank">Code</a>
-  </div>
-</article>
-
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
-      <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+    <h3 class="pub-title">Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</h3>
+    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Arjun Gupte§, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE Robotics and Automation Letters, vol. 9, no. 4, pp. 3451-3458, April 2024.</p>
+    <div class="pub-links">
+      <a href="https://ieeexplore.ieee.org/abstract/document/10436714" target="_blank">Paper</a>
+      <a href="https://sites.google.com/view/ita-aehrl" target="_blank">Website</a>
+      <a href="https://www.youtube.com/watch?v=wMXLYCuktRk" target="_blank">Video</a>
     </div>
-    <span class="pub-venue">IROS 2025</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/trust.png" alt="Trust Dynamics" />
-  </div>
-  <h3 class="pub-title">Modeling and Evaluating Trust Dynamics in Multi-Human Multi-Robot Task Allocation</h3>
-  <p class="pub-authors">Ike Obi, <strong>Ruiqi Wang</strong>, Wonse Jo, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Hangzhou, China, October 2025.</p>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2409.16009" target="_blank">ArXiv</a>
-    <a href="https://www.youtube.com/watch?v=75gRdjIpHD4" target="_blank">Video</a>
-  </div>
-</article>
+  </article>
 
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+      </div>
+      <span class="pub-type journal">Journal</span>
+      <span class="pub-venue">IEEE T-CDS</span>
     </div>
-    <span class="pub-venue">ICRA 2025</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/pbarl.png" alt="PBARL" />
-  </div>
-  <h3 class="pub-title">Personalization in Human-Robot Interaction through Preference-based Action Representation Learning</h3>
-  <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Dayoon Suh§, Ziqin Yuan, Guohua Chen, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</p>
-  <div class="pub-links">
-    <a href="https://sites.google.com/view/pbarl/home" target="_blank">Website</a>
-    <a href="https://arxiv.org/abs/2409.13822" target="_blank">ArXiv</a>
-    <a href="https://youtu.be/LWmmS0uGsCw" target="_blank">Video</a>
-  </div>
-</article>
-
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
-      <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+    <div class="pub-banner">
+      <img src="/images/publications/husformer.png" alt="Husformer" />
     </div>
-    <span class="pub-venue">ICRA 2025</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/ata-hrl.png" alt="ATA-HRL" />
-  </div>
-  <h3 class="pub-title">Adaptive Task Allocation in Multi-Human Multi-Robot Teams under Team Heterogeneity and Dynamic Information Uncertainty</h3>
-  <p class="pub-authors">Ziqin Yuan†, <strong>Ruiqi Wang†</strong>, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</p>
-  <div class="pub-links">
-    <a href="https://sites.google.com/view/ata-hrl/home" target="_blank">Website</a>
-    <a href="https://arxiv.org/abs/2409.13824" target="_blank">ArXiv</a>
-    <a href="https://www.youtube.com/watch?v=T5-DcMCpA5Q" target="_blank">Video</a>
-  </div>
-</article>
-
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+    <h3 class="pub-title">Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition</h3>
+    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Wonse Jo†, Dezhong Zhao, Weizheng Wang, Baijian Yang, Guohua Chen, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE Transactions on Cognitive and Developmental Systems, Vol. 16, No. 4, pp. 1374-1390, August 2024.</p>
+    <div class="pub-links">
+      <a href="https://ieeexplore.ieee.org/document/10413204" target="_blank">Paper</a>
+      <a href="https://github.com/SMARTlab-Purdue/Husformer" target="_blank">Code</a>
     </div>
-    <span class="pub-venue">ICRA 2024</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/samarl.png" alt="SAMARL" />
-  </div>
-  <h3 class="pub-title">Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning</h3>
-  <p class="pub-authors">Weizheng Wang, Le Mao, <strong>Ruiqi Wang</strong>, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">International Conference on Robotics and Automation (ICRA 2024), Yokohama, Japan, May 13-17, 2024.</p>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2309.15234" target="_blank">Paper</a>
-  </div>
-</article>
+  </article>
 
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+      </div>
+      <span class="pub-type journal">Journal</span>
+      <span class="pub-venue">IEEE T-AFFC</span>
     </div>
-    <span class="pub-venue">IROS 2023</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/ita-atrl.png" alt="ITA-AtRL" />
-  </div>
-  <h3 class="pub-title">Initial Task Allocation for Multi-Human Multi-Robot Teams with Attention-based Deep Reinforcement Learning</h3>
-  <p class="pub-authors"><strong>Ruiqi Wang</strong>, Dezhong Zhao, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023), Detroit, USA, October 1-5, 2023.</p>
-  <div class="pub-links">
-    <a href="https://arxiv.org/pdf/2303.02486" target="_blank">Paper</a>
-    <a href="https://sites.google.com/view/ITA-AtRL" target="_blank">Website</a>
-    <a href="https://www.youtube.com/watch?v=P_3nURWuSnk" target="_blank">Video</a>
-  </div>
-</article>
-
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+    <div class="pub-banner">
+      <img src="/images/publications/mocas.png" alt="MOCAS" />
     </div>
-    <span class="pub-venue">IROS 2023</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/navistar.png" alt="NaviSTAR" />
-  </div>
-  <h3 class="pub-title">NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning</h3>
-  <p class="pub-authors">Weizheng Wang, <strong>Ruiqi Wang</strong>, Le Mao, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023), Detroit, USA, October 1-5, 2023.</p>
-  <div class="pub-links">
-    <a href="https://arxiv.org/pdf/2304.05979" target="_blank">Paper</a>
-    <a href="https://github.com/SMARTlab-Purdue/SAN-NaviSTAR" target="_blank">Code</a>
-  </div>
-</article>
-
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+    <h3 class="pub-title">MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks</h3>
+    <p class="pub-authors">Wonse Jo†, <strong>Ruiqi Wang†</strong>, Go-Eum Cha, Su Sun, Revanth Senthilkumaran§, Daniel Foti, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">IEEE Transactions on Affective Computing, Early Access, 2024.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/pdf/2210.03065" target="_blank">Paper</a>
+      <a href="https://www.youtube.com/watch?v=BxVVj7R9b70&feature=youtu.be" target="_blank">Video</a>
+      <a href="https://zenodo.org/records/10396672" target="_blank">Dataset</a>
     </div>
-    <span class="pub-venue">IROS 2022</span>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/san-fapl.png" alt="SAN-FAPL" />
-  </div>
-  <h3 class="pub-title">Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation</h3>
-  <p class="pub-authors"><strong>Ruiqi Wang</strong>, Weizheng Wang, and Byung-Cheol Min.</p>
-  <p class="pub-venue-detail">2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022), Kyoto, Japan, October 23-27, 2022.</p>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2109.02823" target="_blank">Paper</a>
-    <a href="https://sites.google.com/view/san-fapl" target="_blank">Website</a>
-    <a href="https://www.youtube.com/watch?v=ZVb5ZEzDKhM&feature=youtu.be" target="_blank">Video</a>
-  </div>
-</article>
+  </article>
 
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+      </div>
+      <span class="pub-type conference">Conference</span>
+      <span class="pub-venue">ICRA 2024</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/samarl.png" alt="SAMARL" />
+    </div>
+    <h3 class="pub-title">Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning</h3>
+    <p class="pub-authors">Weizheng Wang, Le Mao, <strong>Ruiqi Wang</strong>, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">International Conference on Robotics and Automation (ICRA 2024), Yokohama, Japan, May 13-17, 2024.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2309.15234" target="_blank">Paper</a>
+    </div>
+  </article>
+
+  </div>
 </div>
 
-## Pre-prints / Under Review
 
-<div class="pub-list">
+<!-- ==================== 2023 ==================== -->
+<div class="year-section">
+  <div class="year-header">
+    <span class="year-badge">2023</span>
+    <div class="year-line"></div>
+    <span class="year-count">2 papers</span>
+  </div>
+  
+  <div class="pub-list">
 
-<article class="pub-card">
-  <div class="pub-header">
-    <div class="pub-icons">
-      <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+      </div>
+      <span class="pub-type conference">Conference</span>
+      <span class="pub-venue">IROS 2023</span>
     </div>
-  </div>
-  <div class="pub-banner">
-    <img src="/images/publications/rebel.png" alt="REBEL" />
-  </div>
-  <h3 class="pub-title">REBEL: Rule-based and Experience-enhanced Learning with LLMs for Initial Task Allocation in Multi-Human Multi-Robot Teams</h3>
-  <p class="pub-authors">Arjun Gupte†§, <strong>Ruiqi Wang†</strong>, L. N. Vishnunandan Venkatesh, Taehyeon Kim, Dezhong Zhao, and Byung-Cheol Min.</p>
-  <div class="pub-links">
-    <a href="https://sites.google.com/view/ita-rebel/home" target="_blank">Website</a>
-    <a href="https://arxiv.org/abs/2409.16266" target="_blank">ArXiv</a>
-    <a href="https://www.youtube.com/watch?v=HeGPVLd1Bps" target="_blank">Video</a>
-  </div>
-</article>
+    <div class="pub-banner">
+      <img src="/images/publications/ita-atrl.png" alt="ITA-AtRL" />
+    </div>
+    <h3 class="pub-title">Initial Task Allocation for Multi-Human Multi-Robot Teams with Attention-based Deep Reinforcement Learning</h3>
+    <p class="pub-authors"><strong>Ruiqi Wang</strong>, Dezhong Zhao, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023), Detroit, USA, October 1-5, 2023.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/pdf/2303.02486" target="_blank">Paper</a>
+      <a href="https://sites.google.com/view/ITA-AtRL" target="_blank">Website</a>
+      <a href="https://www.youtube.com/watch?v=P_3nURWuSnk" target="_blank">Video</a>
+    </div>
+  </article>
 
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+      </div>
+      <span class="pub-type conference">Conference</span>
+      <span class="pub-venue">IROS 2023</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/navistar.png" alt="NaviSTAR" />
+    </div>
+    <h3 class="pub-title">NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning</h3>
+    <p class="pub-authors">Weizheng Wang, <strong>Ruiqi Wang</strong>, Le Mao, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023), Detroit, USA, October 1-5, 2023.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/pdf/2304.05979" target="_blank">Paper</a>
+      <a href="https://github.com/SMARTlab-Purdue/SAN-NaviSTAR" target="_blank">Code</a>
+    </div>
+  </article>
+
+  </div>
+</div>
+
+
+<!-- ==================== 2022 ==================== -->
+<div class="year-section">
+  <div class="year-header">
+    <span class="year-badge">2022</span>
+    <div class="year-line"></div>
+    <span class="year-count">1 paper</span>
+  </div>
+  
+  <div class="pub-list">
+
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+      </div>
+      <span class="pub-type conference">Conference</span>
+      <span class="pub-venue">IROS 2022</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/san-fapl.png" alt="SAN-FAPL" />
+    </div>
+    <h3 class="pub-title">Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation</h3>
+    <p class="pub-authors"><strong>Ruiqi Wang</strong>, Weizheng Wang, and Byung-Cheol Min.</p>
+    <p class="pub-venue-detail">2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022), Kyoto, Japan, October 23-27, 2022.</p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2109.02823" target="_blank">Paper</a>
+      <a href="https://sites.google.com/view/san-fapl" target="_blank">Website</a>
+      <a href="https://www.youtube.com/watch?v=ZVb5ZEzDKhM&feature=youtu.be" target="_blank">Video</a>
+    </div>
+  </article>
+
+  </div>
+</div>
+
+
+<!-- ==================== Pre-prints ==================== -->
+<div class="year-section">
+  <div class="year-header">
+    <span class="year-badge">Pre-prints</span>
+    <div class="year-line"></div>
+  </div>
+  
+  <div class="pub-list">
+
+  <article class="pub-card">
+    <div class="pub-header">
+      <div class="pub-icons">
+        <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+      </div>
+      <span class="pub-type preprint">Under Review</span>
+    </div>
+    <div class="pub-banner">
+      <img src="/images/publications/rebel.png" alt="REBEL" />
+    </div>
+    <h3 class="pub-title">REBEL: Rule-based and Experience-enhanced Learning with LLMs for Initial Task Allocation in Multi-Human Multi-Robot Teams</h3>
+    <p class="pub-authors">Arjun Gupte†§, <strong>Ruiqi Wang†</strong>, L. N. Vishnunandan Venkatesh, Taehyeon Kim, Dezhong Zhao, and Byung-Cheol Min.</p>
+    <div class="pub-links">
+      <a href="https://sites.google.com/view/ita-rebel/home" target="_blank">Website</a>
+      <a href="https://arxiv.org/abs/2409.16266" target="_blank">ArXiv</a>
+      <a href="https://www.youtube.com/watch?v=HeGPVLd1Bps" target="_blank">Video</a>
+    </div>
+  </article>
+
+  </div>
 </div>
