@@ -526,7 +526,7 @@ author_profile: true
       <span class="pub-venue">ICRA 2025</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/ata-hrl.png" alt="ATA-HRL" />
+      <img src="/images/publications/ATA.gif" alt="ATA-HRL" />
     </div>
     <h3 class="pub-title">Adaptive Task Allocation in Multi-Human Multi-Robot Teams under Team Heterogeneity and Dynamic Information Uncertainty</h3>
     <p class="pub-authors">Ziqin Yuan†§, <strong>Ruiqi Wang†</strong>, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min.</p>
