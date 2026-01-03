@@ -447,7 +447,7 @@ author_profile: true
       <img src="/images/publications/primt.gif" alt="PRIMT" />
     </div>
     <h3 class="pub-title">PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models</h3>
-    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†§, Ziqin Yuan†§, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min.</p>
+    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Ziqin Yuan†, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, December 2025.</p>
     <div class="pub-links">
       <a href="https://primt25.github.io/" target="_blank">Website</a>
@@ -533,7 +533,7 @@ author_profile: true
       <img src="/images/publications/ata-hrl.png" alt="ATA-HRL" />
     </div>
     <h3 class="pub-title">Adaptive Task Allocation in Multi-Human Multi-Robot Teams under Team Heterogeneity and Dynamic Information Uncertainty</h3>
-    <p class="pub-authors">Ziqin Yuan†, <strong>Ruiqi Wang†</strong>, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min.</p>
+    <p class="pub-authors">Ziqin Yuan†§, <strong>Ruiqi Wang†</strong>, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</p>
     <div class="pub-links">
       <a href="https://sites.google.com/view/ata-hrl/home" target="_blank">Website</a>
