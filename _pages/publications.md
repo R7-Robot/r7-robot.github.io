@@ -737,7 +737,7 @@ author_profile: true
       <span class="pub-venue">IROS 2023</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/navistar.png" alt="NaviSTAR" />
+      <img src="/images/publications/Navi.gif" alt="NaviSTAR" />
     </div>
     <h3 class="pub-title">NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning</h3>
     <p class="pub-authors">Weizheng Wang, <strong>Ruiqi Wang</strong>, Le Mao, and Byung-Cheol Min.</p>
