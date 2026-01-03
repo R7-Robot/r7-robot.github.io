@@ -34,6 +34,8 @@ redirect_from:
   </symbol>
 </svg>
 
+
+
 <style>
 /* Pronunciation - Elevated Card Style */
 .name-pronunciation {
@@ -73,34 +75,30 @@ redirect_from:
   letter-spacing: 0.01em;
 }
 
-/* Enhanced Button Container */
+/* Elegant Button Container - No Background */
 .hero-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
   margin-top: 1.5rem;
-  padding: 1.5rem;
-  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
-  border: 1px solid #e5e7eb;
-  border-radius: 16px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
-/* Enhanced Button Styles */
+/* Premium Light Blue Gradient Buttons */
 .action-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  padding: 0.85rem 1.5rem;
-  border-radius: 10px;
+  padding: 0.9rem 1.6rem;
+  border-radius: 12px;
   text-decoration: none !important;
   font-weight: 600;
   font-size: 0.95rem;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 2px solid transparent;
+  border: none;
   position: relative;
   overflow: hidden;
+  color: white !important;
 }
 
 .action-btn::before {
@@ -110,7 +108,7 @@ redirect_from:
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
   transition: left 0.5s;
 }
 
@@ -125,36 +123,31 @@ redirect_from:
 }
 
 .action-btn:hover svg {
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(-5deg);
 }
 
-/* Primary Button - Enhanced */
+/* CV Button - Premium Medium Blue */
 .btn-primary {
-  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-  color: white !important;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #2563eb 100%);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 50%, #1d4ed8 100%);
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
 }
 
-/* Secondary Button - Enhanced */
+/* Research Statement Button - Lighter Blue */
 .btn-secondary {
-  background: white;
-  color: #374151 !important;
-  border-color: #d1d5db;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  background: linear-gradient(135deg, #93c5fd 0%, #60a5fa 50%, #3b82f6 100%);
+  box-shadow: 0 4px 15px rgba(96, 165, 250, 0.3);
 }
 
 .btn-secondary:hover {
-  background: #f9fafb;
-  border-color: #9ca3af;
-  color: #111827 !important;
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #2563eb 100%);
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 25px rgba(96, 165, 250, 0.4);
 }
 
 /* Hero Section */
@@ -356,6 +349,17 @@ redirect_from:
 
 .news-old.show {
   display: block;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .hero-buttons {
+    flex-direction: column;
+  }
+  
+  .action-btn {
+    justify-content: center;
+  }
 }
 </style>
 
