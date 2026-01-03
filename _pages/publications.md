@@ -461,7 +461,7 @@ author_profile: true
       <span class="pub-venue">IROS 2025</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/prefmmt.png" alt="PrefMMT" />
+      <img src="/images/publications/PrefMMT.png" alt="PrefMMT" />
     </div>
     <h3 class="pub-title">PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers</h3>
     <p class="pub-authors">Dezhong Zhao†§, <strong>Ruiqi Wang†</strong>, Dayoon Suh, Taehyeon Kim, Ziqin Yuan, Byung-Cheol Min, and Guohua Chen.</p>
