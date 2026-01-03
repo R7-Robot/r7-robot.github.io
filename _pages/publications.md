@@ -374,7 +374,7 @@ author_profile: true
   </div>
   
   <div class="filter-group">
-    <span class="filter-label">Type</span>
+    <span class="filter-label">Venue</span>
     <button class="filter-btn active" data-filter="type" data-value="all">All</button>
     <button class="filter-btn" data-filter="type" data-value="journal">Journal</button>
     <button class="filter-btn" data-filter="type" data-value="conference">Conference</button>
@@ -384,22 +384,22 @@ author_profile: true
     <span class="filter-label">Theme</span>
     <button class="filter-btn active" data-filter="theme" data-value="all">All</button>
     <button class="filter-btn" data-filter="theme" data-value="team" data-theme="team">
-      <svg class="pub-icon"><use href="#icon-team"/></svg>Teaming
+      <svg class="pub-icon"><use href="#icon-team"/></svg>
     </button>
     <button class="filter-btn" data-filter="theme" data-value="state" data-theme="state">
-      <svg class="pub-icon"><use href="#icon-state"/></svg>State
+      <svg class="pub-icon"><use href="#icon-state"/></svg>
     </button>
     <button class="filter-btn" data-filter="theme" data-value="learning" data-theme="learning">
-      <svg class="pub-icon"><use href="#icon-learning"/></svg>Learning
+      <svg class="pub-icon"><use href="#icon-learning"/></svg>
     </button>
     <button class="filter-btn" data-filter="theme" data-value="collab" data-theme="collab">
-      <svg class="pub-icon"><use href="#icon-collab"/></svg>Collab
+      <svg class="pub-icon"><use href="#icon-collab"/></svg>
     </button>
   </div>
 </div>
 
 <div class="results-count">
-  Showing <strong><span id="visible-count">17</span></strong> of <strong>17</strong> publications
+  Showing <strong><span id="visible-count">16</span></strong> of <strong>16</strong> publications
 </div>
 
 <div class="pub-legend">
