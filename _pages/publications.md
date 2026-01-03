@@ -444,7 +444,7 @@ author_profile: true
       <span class="pub-oral">Oral · Top 0.36%</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/primt.gif" alt="PRIMT" />
+      <img src="/images/publications/PRIMT.gif" alt="PRIMT" />
     </div>
     <h3 class="pub-title">PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models</h3>
     <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Ziqin Yuan†, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min.</p>
