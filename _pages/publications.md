@@ -264,25 +264,30 @@ author_profile: true
   letter-spacing: 0.02em;
 }
 
-/* Banner image */
+/* Banner image - 自适应高度 */
 .pub-banner {
   width: 100%;
-  height: 180px;
+  max-height: 280px;
+  min-height: 120px;
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 1rem;
-  background: #f3f4f6;
+  background: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pub-banner img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: 280px;
+  object-fit: contain;
   transition: transform 0.3s;
 }
 
 .pub-banner:hover img {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 /* Title */
@@ -357,7 +362,8 @@ author_profile: true
   }
   
   .pub-banner {
-    height: 140px;
+    max-height: 200px;
+    min-height: 100px;
   }
 }
 </style>
@@ -447,7 +453,7 @@ author_profile: true
       <img src="/images/publications/PRIMT.gif" alt="PRIMT" />
     </div>
     <h3 class="pub-title">PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models</h3>
-    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Ziqin Yuan†, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min.</p>
+    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†§, Ziqin Yuan†§, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, December 2025.</p>
     <div class="pub-links">
       <a href="https://primt25.github.io/" target="_blank">Website</a>
@@ -533,7 +539,7 @@ author_profile: true
       <img src="/images/publications/ata-hrl.png" alt="ATA-HRL" />
     </div>
     <h3 class="pub-title">Adaptive Task Allocation in Multi-Human Multi-Robot Teams under Team Heterogeneity and Dynamic Information Uncertainty</h3>
-    <p class="pub-authors">Ziqin Yuan†§, <strong>Ruiqi Wang†</strong>, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min.</p>
+    <p class="pub-authors">Ziqin Yuan†, <strong>Ruiqi Wang†</strong>, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</p>
     <div class="pub-links">
       <a href="https://sites.google.com/view/ata-hrl/home" target="_blank">Website</a>
@@ -554,7 +560,7 @@ author_profile: true
       <img src="/images/publications/prefclm.png" alt="PrefCLM" />
     </div>
     <h3 class="pub-title">PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</h3>
-    <p class="pub-authors"><strong>Ruiqi Wang</strong>, Dezhong Zhao, Ziqin Yuan, Ike Obi, and Byung-Cheol Min.</p>
+    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Ziqin Yuan, Ike Obi, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">IEEE Robotics and Automation Letters, Vol. 10, No. 3, pp. 2486-2493, March 2025.</p>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2407.08213" target="_blank">Paper</a>
@@ -651,7 +657,7 @@ author_profile: true
       <img src="/images/publications/ita-aehrl.png" alt="ITA-AEHRL" />
     </div>
     <h3 class="pub-title">Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</h3>
-    <p class="pub-authors"><strong>Ruiqi Wang</strong>, Dezhong Zhao, Arjun Gupte§, and Byung-Cheol Min.</p>
+    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Arjun Gupte§, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">IEEE Robotics and Automation Letters, vol. 9, no. 4, pp. 3451-3458, April 2024.</p>
     <div class="pub-links">
       <a href="https://ieeexplore.ieee.org/abstract/document/10436714" target="_blank">Paper</a>
