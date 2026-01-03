@@ -643,7 +643,7 @@ author_profile: true
       <span class="pub-venue">IEEE RA-L</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/ita-aehrl.png" alt="ITA-AEHRL" />
+      <img src="/images/publications/aehrl.gif" alt="ITA-AEHRL" />
     </div>
     <h3 class="pub-title">Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</h3>
     <p class="pub-authors"><strong>Ruiqi Wang</strong>, Dezhong Zhao, Arjun Gupte§, and Byung-Cheol Min.</p>
