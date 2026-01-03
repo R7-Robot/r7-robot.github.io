@@ -684,7 +684,7 @@ author_profile: true
       <span class="pub-venue">ICRA 2024</span>
     </div>
     <div class="pub-banner">
-      <img src="/images/publications/samarl.png" alt="SAMARL" />
+      <img src="/images/publications/SAMARL.png" alt="SAMARL" />
     </div>
     <h3 class="pub-title">Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning</h3>
     <p class="pub-authors">Weizheng Wang, Le Mao, <strong>Ruiqi Wang</strong>, and Byung-Cheol Min.</p>
