@@ -27,7 +27,82 @@ author_profile: true
 </svg>
 
 <style>
-/* Icon colors */
+/* ========== Filter Section ========== */
+.filter-section {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.filter-group:last-child {
+  margin-bottom: 0;
+}
+
+.filter-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6b7280;
+  min-width: 55px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.filter-btn {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #4b5563;
+  background: #f3f4f6;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filter-btn:hover {
+  background: #e5e7eb;
+}
+
+.filter-btn.active {
+  background: #1f2937;
+  color: #fff;
+}
+
+/* Theme buttons with colors when active */
+.filter-btn[data-theme="team"].active { background: #2563eb; }
+.filter-btn[data-theme="state"].active { background: #7c3aed; }
+.filter-btn[data-theme="learning"].active { background: #dc2626; }
+.filter-btn[data-theme="collab"].active { background: #059669; }
+
+.filter-btn svg {
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+  vertical-align: -2px;
+}
+
+/* Results count */
+.results-count {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 1.25rem;
+}
+
+.results-count strong {
+  color: #1f2937;
+}
+
+/* ========== Icon colors ========== */
 .pub-icon {
   width: 20px;
   height: 20px;
@@ -41,15 +116,15 @@ author_profile: true
 .icon-learning { color: #dc2626; }
 .icon-collab { color: #059669; }
 
-/* Legend */
+/* ========== Legend ========== */
 .pub-legend {
   display: flex;
   flex-wrap: wrap;
   gap: 1.25rem;
-  margin-bottom: 2rem;
-  padding: 1.25rem;
-  background: #fff;
-  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem;
+  background: #f9fafb;
+  border-radius: 10px;
   border: 1px solid #e5e5e5;
 }
 
@@ -57,7 +132,7 @@ author_profile: true
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   color: #555;
 }
 
@@ -67,9 +142,13 @@ author_profile: true
   margin-bottom: 2rem;
 }
 
-/* Year section */
+/* ========== Year section ========== */
 .year-section {
   margin-bottom: 2.5rem;
+}
+
+.year-section.hidden {
+  display: none;
 }
 
 .year-header {
@@ -99,7 +178,7 @@ author_profile: true
   border-radius: 12px;
 }
 
-/* Publication list */
+/* ========== Publication list ========== */
 .pub-list {
   display: flex;
   flex-direction: column;
@@ -109,13 +188,17 @@ author_profile: true
   margin: 0;
 }
 
-/* Publication card */
+/* ========== Publication card ========== */
 .pub-card {
   background: #fff;
   border: 1px solid #e5e5e5;
   border-radius: 12px;
   padding: 1.25rem 1.5rem;
   transition: all 0.2s ease;
+}
+
+.pub-card.hidden {
+  display: none;
 }
 
 .pub-card:hover {
@@ -253,8 +336,17 @@ author_profile: true
   color: white;
 }
 
-/* Responsive */
+/* ========== Responsive ========== */
 @media (max-width: 600px) {
+  .filter-section {
+    padding: 0.85rem;
+  }
+  
+  .filter-label {
+    min-width: 100%;
+    margin-bottom: 0.2rem;
+  }
+  
   .pub-legend {
     padding: 1rem;
     gap: 0.75rem;
@@ -269,6 +361,46 @@ author_profile: true
   }
 }
 </style>
+
+<!-- ========== Filter Buttons ========== -->
+<div class="filter-section">
+  <div class="filter-group">
+    <span class="filter-label">Year</span>
+    <button class="filter-btn active" data-filter="year" data-value="all">All</button>
+    <button class="filter-btn" data-filter="year" data-value="2025">2025</button>
+    <button class="filter-btn" data-filter="year" data-value="2024">2024</button>
+    <button class="filter-btn" data-filter="year" data-value="2023">2023</button>
+    <button class="filter-btn" data-filter="year" data-value="2022">2022</button>
+  </div>
+  
+  <div class="filter-group">
+    <span class="filter-label">Type</span>
+    <button class="filter-btn active" data-filter="type" data-value="all">All</button>
+    <button class="filter-btn" data-filter="type" data-value="journal">Journal</button>
+    <button class="filter-btn" data-filter="type" data-value="conference">Conference</button>
+  </div>
+  
+  <div class="filter-group">
+    <span class="filter-label">Theme</span>
+    <button class="filter-btn active" data-filter="theme" data-value="all">All</button>
+    <button class="filter-btn" data-filter="theme" data-value="team" data-theme="team">
+      <svg class="pub-icon"><use href="#icon-team"/></svg>Teaming
+    </button>
+    <button class="filter-btn" data-filter="theme" data-value="state" data-theme="state">
+      <svg class="pub-icon"><use href="#icon-state"/></svg>State
+    </button>
+    <button class="filter-btn" data-filter="theme" data-value="learning" data-theme="learning">
+      <svg class="pub-icon"><use href="#icon-learning"/></svg>Learning
+    </button>
+    <button class="filter-btn" data-filter="theme" data-value="collab" data-theme="collab">
+      <svg class="pub-icon"><use href="#icon-collab"/></svg>Collab
+    </button>
+  </div>
+</div>
+
+<div class="results-count">
+  Showing <strong><span id="visible-count">17</span></strong> of <strong>17</strong> publications
+</div>
 
 <div class="pub-legend">
   <div class="pub-legend-item">
@@ -293,16 +425,16 @@ author_profile: true
 
 
 <!-- ==================== 2025 ==================== -->
-<div class="year-section">
+<div class="year-section" data-year="2025">
   <div class="year-header">
     <span class="year-badge">2025</span>
     <div class="year-line"></div>
-    <span class="year-count">9 papers</span>
+    <span class="year-count"><span class="year-visible">9</span> papers</span>
   </div>
   
   <div class="pub-list">
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2025" data-type="conference" data-themes="learning">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
@@ -324,7 +456,7 @@ author_profile: true
     </div>
   </article>
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2025" data-type="conference" data-themes="learning">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
@@ -346,7 +478,7 @@ author_profile: true
     </div>
   </article>
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2025" data-type="conference" data-themes="team state">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
@@ -367,7 +499,7 @@ author_profile: true
     </div>
   </article>
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2025" data-type="conference" data-themes="learning">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
@@ -388,7 +520,7 @@ author_profile: true
     </div>
   </article>
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2025" data-type="conference" data-themes="team state">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
@@ -410,8 +542,7 @@ author_profile: true
     </div>
   </article>
 
-
-  <article class="pub-card">
+  <article class="pub-card" data-year="2025" data-type="journal" data-themes="learning">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
@@ -432,7 +563,7 @@ author_profile: true
     </div>
   </article>
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2025" data-type="journal" data-themes="state">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
@@ -453,7 +584,7 @@ author_profile: true
     </div>
   </article>
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2025" data-type="journal" data-themes="collab">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-collab"><use href="#icon-collab"/></svg>
@@ -474,7 +605,7 @@ author_profile: true
     </div>
   </article>
   
- <article class="pub-card">
+  <article class="pub-card" data-year="2025" data-type="journal" data-themes="state">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
@@ -500,15 +631,15 @@ author_profile: true
 
 
 <!-- ==================== 2024 ==================== -->
-<div class="year-section">
+<div class="year-section" data-year="2024">
   <div class="year-header">
     <span class="year-badge">2024</span>
     <div class="year-line"></div>
-    <span class="year-count">4 papers</span>
+    <span class="year-count"><span class="year-visible">3</span> papers</span>
   </div>
   <div class="pub-list">
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2024" data-type="journal" data-themes="team">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
@@ -529,7 +660,7 @@ author_profile: true
     </div>
   </article>
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2024" data-type="journal" data-themes="state">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
@@ -549,8 +680,7 @@ author_profile: true
     </div>
   </article>
 
-
-  <article class="pub-card">
+  <article class="pub-card" data-year="2024" data-type="conference" data-themes="team">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
@@ -574,16 +704,16 @@ author_profile: true
 
 
 <!-- ==================== 2023 ==================== -->
-<div class="year-section">
+<div class="year-section" data-year="2023">
   <div class="year-header">
     <span class="year-badge">2023</span>
     <div class="year-line"></div>
-    <span class="year-count">2 papers</span>
+    <span class="year-count"><span class="year-visible">2</span> papers</span>
   </div>
   
   <div class="pub-list">
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2023" data-type="conference" data-themes="team">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
@@ -604,7 +734,7 @@ author_profile: true
     </div>
   </article>
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2023" data-type="conference" data-themes="learning">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
@@ -629,16 +759,16 @@ author_profile: true
 
 
 <!-- ==================== 2022 ==================== -->
-<div class="year-section">
+<div class="year-section" data-year="2022">
   <div class="year-header">
     <span class="year-badge">2022</span>
     <div class="year-line"></div>
-    <span class="year-count">1 paper</span>
+    <span class="year-count"><span class="year-visible">1</span> paper</span>
   </div>
   
   <div class="pub-list">
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="2022" data-type="conference" data-themes="learning">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
@@ -664,15 +794,16 @@ author_profile: true
 
 
 <!-- ==================== Pre-prints ==================== -->
-<div class="year-section">
+<div class="year-section" data-year="preprint">
   <div class="year-header">
     <span class="year-badge">Pre-prints</span>
     <div class="year-line"></div>
+    <span class="year-count"><span class="year-visible">1</span> paper</span>
   </div>
   
   <div class="pub-list">
 
-  <article class="pub-card">
+  <article class="pub-card" data-year="preprint" data-type="preprint" data-themes="team">
     <div class="pub-header">
       <div class="pub-icons">
         <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
@@ -693,3 +824,52 @@ author_profile: true
 
   </div>
 </div>
+
+<!-- ========== Filter Script ========== -->
+<script>
+(function() {
+  const filters = { year: 'all', type: 'all', theme: 'all' };
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const pubCards = document.querySelectorAll('.pub-card');
+  const yearSections = document.querySelectorAll('.year-section');
+  const visibleCountEl = document.getElementById('visible-count');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      const filterType = this.dataset.filter;
+      const filterValue = this.dataset.value;
+      filters[filterType] = filterValue;
+      
+      document.querySelectorAll(`[data-filter="${filterType}"]`).forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      applyFilters();
+    });
+  });
+
+  function applyFilters() {
+    let visibleCount = 0;
+
+    pubCards.forEach(card => {
+      const yearMatch = filters.year === 'all' || card.dataset.year === filters.year;
+      const typeMatch = filters.type === 'all' || card.dataset.type === filters.type;
+      const themeMatch = filters.theme === 'all' || (card.dataset.themes || '').includes(filters.theme);
+
+      if (yearMatch && typeMatch && themeMatch) {
+        card.classList.remove('hidden');
+        visibleCount++;
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+
+    visibleCountEl.textContent = visibleCount;
+
+    yearSections.forEach(section => {
+      const visibleInSection = section.querySelectorAll('.pub-card:not(.hidden)').length;
+      const yearCountEl = section.querySelector('.year-visible');
+      if (yearCountEl) yearCountEl.textContent = visibleInSection;
+      section.classList.toggle('hidden', visibleInSection === 0);
+    });
+  }
+})();
+</script>
