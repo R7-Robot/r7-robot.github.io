@@ -34,54 +34,47 @@ redirect_from:
   </symbol>
 </svg>
 
-
-
 <style>
-/* Pronunciation - Elevated Card Style */
+/* Pronunciation - Simplified subtle style */
 .name-pronunciation {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 1rem 1.5rem;
-  margin-top: -0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #6b7280;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: -0.75rem;
   margin-bottom: 2rem;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 0.75rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  transition: all 0.3s ease;
+  gap: 0.4rem;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
 }
 
 .name-pronunciation:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transform: translateY(-1px);
+  opacity: 1;
 }
 
 .pronounce-icon {
-  width: 22px;
-  height: 22px;
-  color: #2563eb;
-  background: white;
-  padding: 8px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.1);
+  width: 16px;
+  height: 16px;
+  color: #9ca3af;
+  flex-shrink: 0;
 }
 
 .name-pronunciation span {
-  font-size: 1.05rem;
-  color: #475569;
-  font-weight: 500;
-  letter-spacing: 0.01em;
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
-/* Elegant Button Container - No Background */
+/* Elegant Button Container */
 .hero-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 2rem;
-  margin-top: 1.5rem;
+  gap: 0.875rem;
+  margin-bottom: 2.5rem;
+  margin-top: 1.75rem;
 }
 
 /* Premium Light Blue Gradient Buttons */
@@ -89,11 +82,11 @@ redirect_from:
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  padding: 0.9rem 1.6rem;
-  border-radius: 12px;
+  padding: 0.875rem 1.5rem;
+  border-radius: 10px;
   text-decoration: none !important;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.94rem;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
   position: relative;
@@ -117,8 +110,8 @@ redirect_from:
 }
 
 .action-btn svg {
-  width: 20px;
-  height: 20px;
+  width: 19px;
+  height: 19px;
   transition: transform 0.3s ease;
 }
 
@@ -129,33 +122,33 @@ redirect_from:
 /* CV Button - Premium Medium Blue */
 .btn-primary {
   background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #2563eb 100%);
-  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.25);
 }
 
 .btn-primary:hover {
   background: linear-gradient(135deg, #3b82f6 0%, #2563eb 50%, #1d4ed8 100%);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.35);
 }
 
 /* Research Statement Button - Lighter Blue */
 .btn-secondary {
   background: linear-gradient(135deg, #93c5fd 0%, #60a5fa 50%, #3b82f6 100%);
-  box-shadow: 0 4px 15px rgba(96, 165, 250, 0.3);
+  box-shadow: 0 4px 14px rgba(96, 165, 250, 0.25);
 }
 
 .btn-secondary:hover {
   background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #2563eb 100%);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(96, 165, 250, 0.4);
+  box-shadow: 0 6px 20px rgba(96, 165, 250, 0.35);
 }
 
 /* Hero Section */
 .hero-intro {
-  font-size: 1.1rem;
-  line-height: 1.7;
+  font-size: 1.08rem;
+  line-height: 1.75;
   color: #374151;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .hero-intro a {
@@ -163,10 +156,18 @@ redirect_from:
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s;
+  font-weight: 500;
 }
 
 .hero-intro a:hover {
   border-bottom-color: #2563eb;
+}
+
+/* Research goal highlight */
+.hero-intro + p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
 }
 
 /* Research Dimensions - Vertical Layout */
@@ -174,22 +175,22 @@ redirect_from:
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin: 1.5rem 0 2rem;
+  margin: 1.75rem 0 2.25rem;
 }
 
 .dimension-card {
   background: #fff;
   border: 1px solid #e5e7eb;
-  border-left: 4px solid #e5e7eb;
-  border-radius: 0 12px 12px 0;
-  padding: 1.25rem 1.5rem;
-  transition: all 0.2s ease;
+  border-left: 3px solid #e5e7eb;
+  border-radius: 0 10px 10px 0;
+  padding: 1.2rem 1.4rem;
+  transition: all 0.25s ease;
 }
 
 .dimension-card:hover {
   border-color: #d1d5db;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  transform: translateX(4px);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+  transform: translateX(3px);
 }
 
 .dimension-card.blue { border-left-color: #2563eb; }
@@ -199,13 +200,13 @@ redirect_from:
 .dimension-header {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 0.6rem;
+  gap: 0.7rem;
+  margin-bottom: 0.65rem;
 }
 
 .dimension-icon {
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   flex-shrink: 0;
 }
 
@@ -214,16 +215,17 @@ redirect_from:
 .dimension-icon.red { color: #dc2626; }
 
 .dimension-title {
-  font-size: 1.05rem;
+  font-size: 1.02rem;
   font-weight: 600;
   color: #1f2937;
   margin: 0;
+  letter-spacing: -0.01em;
 }
 
 .dimension-desc {
-  font-size: 0.92rem;
+  font-size: 0.93rem;
   color: #4b5563;
-  line-height: 1.6;
+  line-height: 1.65;
   margin: 0;
 }
 
@@ -231,22 +233,25 @@ redirect_from:
 .research-areas {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 1rem 0 2rem;
+  gap: 0.6rem;
+  margin: 1.25rem 0 2.5rem;
 }
 
 .area-tag {
   background: #f3f4f6;
   color: #374151;
-  padding: 0.4rem 0.85rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 18px;
+  font-size: 0.86rem;
   font-weight: 500;
   transition: all 0.2s;
+  border: 1px solid transparent;
 }
 
 .area-tag:hover {
   background: #e5e7eb;
+  border-color: #d1d5db;
+  transform: translateY(-1px);
 }
 
 /* News Section */
@@ -254,16 +259,18 @@ redirect_from:
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2.5rem;
 }
 
 .news-year {
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.95rem;
+  font-weight: 700;
   color: #6b7280;
-  margin: 1.5rem 0 0.75rem;
+  margin: 1.75rem 0 0.85rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #e5e7eb;
+  letter-spacing: 0.02em;
 }
 
 .news-year:first-of-type {
@@ -278,9 +285,19 @@ redirect_from:
 
 .news-item {
   display: flex;
-  gap: 1rem;
-  padding: 0.75rem 0;
+  gap: 1.1rem;
+  padding: 0.8rem 0;
   border-bottom: 1px solid #f3f4f6;
+  transition: background-color 0.2s;
+}
+
+.news-item:hover {
+  background-color: #fafbfc;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 6px;
 }
 
 .news-item:last-child {
@@ -289,25 +306,28 @@ redirect_from:
 
 .news-date {
   flex-shrink: 0;
-  width: 70px;
-  font-size: 0.8rem;
+  width: 68px;
+  font-size: 0.82rem;
   font-weight: 600;
   color: #9ca3af;
+  padding-top: 0.1rem;
 }
 
 .news-content {
   font-size: 0.95rem;
   color: #374151;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .news-content a {
   color: #2563eb;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
 }
 
 .news-content a:hover {
-  text-decoration: underline;
+  border-bottom-color: #2563eb;
 }
 
 .news-badge {
@@ -316,10 +336,12 @@ redirect_from:
   color: #991b1b;
   font-size: 0.7rem;
   font-weight: 700;
-  padding: 0.15rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 4px;
   text-transform: uppercase;
-  margin-left: 0.25rem;
+  margin-left: 0.3rem;
+  vertical-align: baseline;
+  line-height: 1;
 }
 
 /* Collapsible old news */
@@ -329,29 +351,63 @@ redirect_from:
   gap: 0.5rem;
   background: #f9fafb;
   border: 1px solid #e5e7eb;
-  padding: 0.6rem 1rem;
+  padding: 0.65rem 1.1rem;
   border-radius: 8px;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   color: #6b7280;
   cursor: pointer;
-  margin-top: 1rem;
+  margin-top: 1.25rem;
   transition: all 0.2s;
+  font-weight: 500;
 }
 
 .news-toggle:hover {
   background: #f3f4f6;
   color: #374151;
+  border-color: #d1d5db;
 }
 
 .news-old {
   display: none;
+  margin-top: 0.5rem;
 }
 
 .news-old.show {
   display: block;
 }
 
-/* Responsive */
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-intro {
+    font-size: 1.05rem;
+  }
+  
+  .dimension-card {
+    padding: 1.1rem 1.2rem;
+  }
+  
+  .dimension-title {
+    font-size: 0.98rem;
+  }
+  
+  .dimension-desc {
+    font-size: 0.91rem;
+  }
+  
+  .news-item {
+    gap: 0.9rem;
+  }
+  
+  .news-date {
+    width: 62px;
+    font-size: 0.8rem;
+  }
+  
+  .news-content {
+    font-size: 0.93rem;
+  }
+}
+
 @media (max-width: 640px) {
   .hero-buttons {
     flex-direction: column;
@@ -359,6 +415,30 @@ redirect_from:
   
   .action-btn {
     justify-content: center;
+    width: 100%;
+  }
+  
+  .name-pronunciation {
+    font-size: 0.85rem;
+  }
+  
+  .research-areas {
+    gap: 0.5rem;
+  }
+  
+  .area-tag {
+    font-size: 0.82rem;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .news-item {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .news-date {
+    width: auto;
+    padding-top: 0;
   }
 }
 </style>
@@ -371,7 +451,7 @@ redirect_from:
 ## Hello! 
 
 <p class="hero-intro">
-I'm a Ph.D. candidate at Purdue University, where I work in the <a href="http://www.smart-laboratory.org/">Smart Machine And Robotics Technology (SMART) Lab</a> with Professor <a href="http://www.smart-laboratory.org/group/bcm.html">Byung-Cheol Min</a>.
+I'm a Ph.D. candidate at Purdue University, where I work in the <a href="http://www.smart-laboratory.org/">Smart Machine And Robotics Technology (SMART) Lab</a> with Professor <a href="http://www.smart-laboratory.org/group/bcm.html">B.C. Min</a>.
 </p>
 
 My research goal is to facilitate the **seamless integration of robots into unstructured, human-centered environments**: from assistive service in homes to collaborative operations in the field.
