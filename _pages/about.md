@@ -456,7 +456,7 @@ I'm a Ph.D. candidate at Purdue University, where I work in the <a href="http://
 
 My research goal is to facilitate the **seamless integration of robots into unstructured, human-centered environments**: from assistive service in homes to collaborative operations in the field.
 
-To this end, my research centers on developing interactive and data-driven learning methods that enable **robots to learn from and adapt to human-centered dynamics** across three key dimensions:
+To this end, my research centers on developing data-driven and interactive learning methods that enable **robots to learn from and adapt to human-centered dynamics** across three key dimensions:
 
 <div class="research-dimensions">
   <div class="dimension-card blue">
