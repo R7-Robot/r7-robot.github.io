@@ -457,7 +457,7 @@ I'm a Ph.D. candidate at Purdue University, where I work in the <a href="http://
 My research goal is to facilitate the **seamless integration of robots into unstructured, human-centered environments**: from assistive service in homes to collaborative operations in the field.
 
 To this end, my research centers on developing data-driven and interactive learning methods that enable **robots to learn from and adapt to human-centered dynamics** across three key dimensions:
-
+<div class="research-dimensions">
   <div class="dimension-card red">
     <div class="dimension-header">
       <svg class="dimension-icon red"><use href="#icon-learning"/></svg>
@@ -465,8 +465,6 @@ To this end, my research centers on developing data-driven and interactive learn
     </div>
     <p class="dimension-desc">How to align robot interactive patterns with individual preferences through continuous, multimodal human feedback?</p>
   </div>
-
-
   
   <div class="dimension-card purple">
     <div class="dimension-header">
@@ -476,7 +474,7 @@ To this end, my research centers on developing data-driven and interactive learn
     <p class="dimension-desc">How to enable proactive perception and responsiveness to human states (e.g., cognitive load, attention, trust), robot working conditions, and task status that evolve dynamically during operation?</p>
   </div>
   
-<div class="research-dimensions">
+
   <div class="dimension-card blue">
     <div class="dimension-header">
       <svg class="dimension-icon blue"><use href="#icon-team"/></svg>
@@ -484,7 +482,7 @@ To this end, my research centers on developing data-driven and interactive learn
     </div>
     <p class="dimension-desc">How to optimize human–robot teaming by accounting for inherent yet diverse human capabilities (e.g., cognitive abilities, skill levels, backgrounds) and robot characteristics (e.g., mobility, sensing, autonomy) within specific task contexts?</p>
   </div>
-
+</div>
 Spanning scales from one-to-one human-robot interaction to team-level coordination in multi-human multi-robot teams, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
 
 <div class="hero-buttons">
