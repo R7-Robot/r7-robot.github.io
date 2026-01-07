@@ -380,14 +380,14 @@ author_profile: true
   <div class="filter-group">
     <span class="filter-label">Theme</span>
     <button class="filter-btn active" data-filter="theme" data-value="all">All</button>
-    <button class="filter-btn" data-filter="theme" data-value="team" data-theme="team">
-      <svg class="pub-icon"><use href="#icon-team"/></svg>
+    <button class="filter-btn" data-filter="theme" data-value="learning" data-theme="learning">
+      <svg class="pub-icon"><use href="#icon-learning"/></svg>
     </button>
     <button class="filter-btn" data-filter="theme" data-value="state" data-theme="state">
       <svg class="pub-icon"><use href="#icon-state"/></svg>
     </button>
-    <button class="filter-btn" data-filter="theme" data-value="learning" data-theme="learning">
-      <svg class="pub-icon"><use href="#icon-learning"/></svg>
+    <button class="filter-btn" data-filter="theme" data-value="team" data-theme="team">
+      <svg class="pub-icon"><use href="#icon-team"/></svg>
     </button>
     <button class="filter-btn" data-filter="theme" data-value="collab" data-theme="collab">
       <svg class="pub-icon"><use href="#icon-collab"/></svg>
@@ -404,16 +404,16 @@ author_profile: true
     Interactive & Value-Aligned Robot Learning
   </div>
     
+
+  <div class="pub-legend-item">
+    <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+    Human State-Aware Interaction
+  </div>
 <div class="pub-legend">
   <div class="pub-legend-item">
     <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
     Heterogeneity-Aware Human-Robot Teaming
   </div>
-  <div class="pub-legend-item">
-    <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
-    Human State-Aware Interaction
-  </div>
-
   <div class="pub-legend-item">
     <svg class="pub-icon icon-collab"><use href="#icon-collab"/></svg>
     Interdisciplinary Collaboration
