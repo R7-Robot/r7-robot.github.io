@@ -465,7 +465,7 @@ To this end, my research centers on developing data-driven and interactive learn
     </div>
     <p class="dimension-desc">How to align robot interactive patterns with individual preferences through continuous, multimodal human feedback?</p>
   </div>
-</div>
+
 
   
   <div class="dimension-card purple">
