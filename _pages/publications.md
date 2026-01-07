@@ -399,6 +399,11 @@ author_profile: true
   Showing <strong><span id="visible-count">16</span></strong> of <strong>16</strong> publications
 </div>
 
+  <div class="pub-legend-item">
+    <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+    Interactive & Value-Aligned Robot Learning
+  </div>
+    
 <div class="pub-legend">
   <div class="pub-legend-item">
     <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
@@ -408,10 +413,7 @@ author_profile: true
     <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
     Human State-Aware Interaction
   </div>
-  <div class="pub-legend-item">
-    <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
-    Interactive & Value-Aligned Robot Learning
-  </div>
+
   <div class="pub-legend-item">
     <svg class="pub-icon icon-collab"><use href="#icon-collab"/></svg>
     Interdisciplinary Collaboration
