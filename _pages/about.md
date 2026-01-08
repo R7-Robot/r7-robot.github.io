@@ -485,6 +485,8 @@ To this end, my research centers on developing data-driven and interactive learn
 </div>
 Spanning scales from one-to-one human-robot interaction to team-level coordination in multi-human multi-robot teams, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
 
+
+{% comment %}
 <div class="hero-buttons">
   <a href="/files/Ruiqi_Wang_CV.pdf" target="_blank" class="action-btn btn-primary">
     <svg><use href="#icon-download"/></svg> Curriculum Vitae
@@ -493,6 +495,7 @@ Spanning scales from one-to-one human-robot interaction to team-level coordinati
     <svg><use href="#icon-file"/></svg> Research Statement
   </a>
 </div>
+{% endcomment %}
 
 **Research Areas:**
 
