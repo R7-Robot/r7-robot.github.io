@@ -266,18 +266,17 @@ author_profile: true
 /* Banner image - UPDATED: Width fills, Height adapts */
 .pub-banner {
   width: 100%;
-  /* Removed max-height/min-height constraints */
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 1rem;
   background: #f9fafb;
-  display: block; /* Changed from flex to block */
+  display: block;
 }
 
 .pub-banner img {
-  width: 100%;       /* Force width to fill container */
-  height: auto;      /* Maintain aspect ratio */
-  display: block;    /* Remove bottom whitespace */
+  width: 100%;
+  height: auto;
+  display: block;
   transition: transform 0.3s;
 }
 
@@ -355,8 +354,6 @@ author_profile: true
   .pub-card {
     padding: 1rem;
   }
-  
-  /* Removed previous height restrictions for mobile banner */
 }
 </style>
 
@@ -419,7 +416,7 @@ author_profile: true
   </div>
 </div>
 
-<p class="pub-note">†: Equal contribution · §: Mentored student</p>
+<p class="pub-note">†: Equal contribution · §: Work I led</p>
 
 
 <div class="year-section" data-year="2025">
@@ -465,7 +462,7 @@ author_profile: true
       <img src="/images/publications/PrefMMT.png" alt="PrefMMT" />
     </div>
     <h3 class="pub-title">PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers</h3>
-    <p class="pub-authors">Dezhong Zhao†§, <strong>Ruiqi Wang†</strong>, Dayoon Suh, Taehyeon Kim, Ziqin Yuan, Byung-Cheol Min, and Guohua Chen.</p>
+    <p class="pub-authors">Dezhong Zhao†, <strong>Ruiqi Wang†§</strong>, Dayoon Suh, Taehyeon Kim, Ziqin Yuan, Byung-Cheol Min, and Guohua Chen.</p>
     <p class="pub-venue-detail">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Hangzhou, China, October 2025.</p>
     <div class="pub-links">
       <a href="https://sites.google.com/view/prefmmt/home" target="_blank">Website</a>
@@ -508,7 +505,7 @@ author_profile: true
       <img src="/images/publications/pbarl.gif" alt="PBARL" />
     </div>
     <h3 class="pub-title">Personalization in Human-Robot Interaction through Preference-based Action Representation Learning</h3>
-    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Dayoon Suh§, Ziqin Yuan, Guohua Chen, and Byung-Cheol Min.</p>
+    <p class="pub-authors"><strong>Ruiqi Wang†</strong>, Dezhong Zhao†, Dayoon Suh, Ziqin Yuan, Guohua Chen, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</p>
     <div class="pub-links">
       <a href="https://sites.google.com/view/pbarl/home" target="_blank">Website</a>
@@ -530,7 +527,7 @@ author_profile: true
       <img src="/images/publications/ATA.gif" alt="ATA-HRL" />
     </div>
     <h3 class="pub-title">Adaptive Task Allocation in Multi-Human Multi-Robot Teams under Team Heterogeneity and Dynamic Information Uncertainty</h3>
-    <p class="pub-authors">Ziqin Yuan†§, <strong>Ruiqi Wang†</strong>, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min.</p>
+    <p class="pub-authors">Ziqin Yuan†, <strong>Ruiqi Wang†§</strong>, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">IEEE International Conference on Robotics and Automation (ICRA), Atlanta, USA, 19-23 May, 2025.</p>
     <div class="pub-links">
       <a href="https://sites.google.com/view/ata-hrl/home" target="_blank">Website</a>
@@ -614,7 +611,7 @@ author_profile: true
       <img src="/images/publications/mocas.gif" alt="MOCAS" />
     </div>
     <h3 class="pub-title">MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks</h3>
-    <p class="pub-authors">Wonse Jo†, <strong>Ruiqi Wang†</strong>, Go-Eum Cha, Su Sun, Revanth Senthilkumaran§, Daniel Foti, and Byung-Cheol Min.</p>
+    <p class="pub-authors">Wonse Jo†, <strong>Ruiqi Wang†</strong>, Go-Eum Cha, Su Sun, Revanth Senthilkumaran, Daniel Foti, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">IEEE Transactions on Affective Computing, vol. 16, no. 1, pp. 116-132, Jan.-March 2025.</p>
     <div class="pub-links">
       <a href="https://arxiv.org/pdf/2210.03065" target="_blank">Paper</a>
@@ -647,7 +644,7 @@ author_profile: true
       <img src="/images/publications/aehrl2.gif" alt="ITA-AEHRL" />
     </div>
     <h3 class="pub-title">Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</h3>
-    <p class="pub-authors"><strong>Ruiqi Wang</strong>, Dezhong Zhao, Arjun Gupte§, and Byung-Cheol Min.</p>
+    <p class="pub-authors"><strong>Ruiqi Wang</strong>, Dezhong Zhao, Arjun Gupte, and Byung-Cheol Min.</p>
     <p class="pub-venue-detail">IEEE Robotics and Automation Letters, vol. 9, no. 4, pp. 3451-3458, April 2024.</p>
     <div class="pub-links">
       <a href="https://ieeexplore.ieee.org/abstract/document/10436714" target="_blank">Paper</a>
@@ -807,7 +804,7 @@ author_profile: true
       <img src="/images/publications/REBEL.png" alt="REBEL" />
     </div>
     <h3 class="pub-title">REBEL: Rule-based and Experience-enhanced Learning with LLMs for Initial Task Allocation in Multi-Human Multi-Robot Teams</h3>
-    <p class="pub-authors">Arjun Gupte†§, <strong>Ruiqi Wang†</strong>, L. N. Vishnunandan Venkatesh, Taehyeon Kim, Dezhong Zhao, and Byung-Cheol Min.</p>
+    <p class="pub-authors">Arjun Gupte†, <strong>Ruiqi Wang†§</strong>, L. N. Vishnunandan Venkatesh, Taehyeon Kim, Dezhong Zhao, and Byung-Cheol Min.</p>
     <div class="pub-links">
       <a href="https://sites.google.com/view/ita-rebel/home" target="_blank">Website</a>
       <a href="https://arxiv.org/abs/2409.16266" target="_blank">ArXiv</a>
