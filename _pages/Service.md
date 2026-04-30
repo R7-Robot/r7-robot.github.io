@@ -278,8 +278,8 @@ author_profile: true
   <div>
     <h3>Conference Reviewer</h3>
     <div class="review-list">
-      <a href="https://iros2025.org/" class="review-pill" target="_blank">IROS 2023, 2025 <svg><use href="#icon-link"/></svg></a>
-      <a href="https://2025.ieee-icra.org/" class="review-pill" target="_blank">ICRA 2024, 2025 <svg><use href="#icon-link"/></svg></a>
+      <a href="https://iros2025.org/" class="review-pill" target="_blank">IROS 2023, 2024, 2025, 2026 <svg><use href="#icon-link"/></svg></a>
+      <a href="https://2025.ieee-icra.org/" class="review-pill" target="_blank">ICRA 2024, 2025, 2026 <svg><use href="#icon-link"/></svg></a>
       <a href="https://www.biorob2024.org/" class="review-pill" target="_blank">BioRob 2024 <svg><use href="#icon-link"/></svg></a>
       <a href="https://www.tahri.org/" class="review-pill" target="_blank">TAHRI 2024 <svg><use href="#icon-link"/></svg></a>
     </div>
@@ -299,6 +299,10 @@ author_profile: true
   <div class="student-detail">
     <svg class="icon-star"><use href="#icon-star"/></svg>
     <span><strong>Honors:</strong> 2025 Class of Astronaut Scholarship; First Place, Oral Presentation, 2024 Fall Purdue Undergraduate Research Conference</span>
+  </div>
+    <div class="student-detail">
+    <svg class="icon-next"><use href="#icon-next"/></svg>
+    <span><strong>Next Position:</strong> M.S. in CS, Stanford University</span>
   </div>
 </div>
 
