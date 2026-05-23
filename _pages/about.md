@@ -9,6 +9,20 @@ redirect_from:
 ---
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+  <!-- Card 1: asking / eliciting feedback -->
+  <symbol id="icon-elicit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.7a8.5 8.5 0 0 1-.9-3.8A8.38 8.38 0 0 1 12.5 3 8.38 8.38 0 0 1 21 11.5z"/>
+    <path d="M9.5 9a2.5 2.5 0 0 1 4.6 1.3c0 1.7-2.5 2.5-2.5 2.5"/><line x1="12" y1="16" x2="12" y2="16"/>
+  </symbol>
+  <!-- Card 2: distill into structure (funnel) -->
+  <symbol id="icon-reward" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 4h18l-7 8v6l-4 2v-8L3 4z"/><circle cx="19" cy="17" r="3"/><path d="M19 15.5v3M17.5 17h3"/>
+  </symbol>
+  <!-- Card 3: sustain across change (cycle) -->
+  <symbol id="icon-align" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 12a9 9 0 1 1-3-6.7"/><polyline points="21 3 21 8 16 8"/><circle cx="12" cy="12" r="2.5"/>
+  </symbol>
   <symbol id="icon-team" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="7" cy="5" r="2.5"/><path d="M3 21v-2a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4v2"/>
     <rect x="15" y="3" width="6" height="5" rx="1"/><path d="M18 8v3"/><path d="M15 14h6"/><path d="M16 14v7"/><path d="M20 14v7"/>
@@ -35,6 +49,8 @@ redirect_from:
 </svg>
 
 <style>
+
+  
 /* Pronunciation - Simplified subtle style */
 .name-pronunciation {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -454,36 +470,36 @@ redirect_from:
 I'm a Ph.D. candidate at Purdue University, where I work in the <a href="http://www.smart-laboratory.org/">Smart Machine And Robotics Technology (SMART) Lab</a> with Professor <a href="http://www.smart-laboratory.org/group/bcm.html">B.C. Min</a>.
 </p>
 
-My research goal is to facilitate the **seamless integration of robots into unstructured, human-centered environments**: from assistive service in homes to collaborative operations in the field.
+My research goal is to enable robots to integrate seamlessly into unstructured, human-centered environments. 
 
-To this end, my research centers on developing data-driven and interactive learning methods that enable **robots to learn from and adapt to human-centered dynamics** across three key dimensions:
+To this end, I develop methods for **robot learning from human feedback**, enabling robots to acquire scalable, aligned, and personalized behaviors without hand-specified objectives. I pursue this goal along three directions:
+
+
 <div class="research-dimensions">
   <div class="dimension-card red">
     <div class="dimension-header">
-      <svg class="dimension-icon red"><use href="#icon-learning"/></svg>
-      <h4 class="dimension-title">Preference Variability</h4>
+      <svg class="dimension-icon red"><use href="#icon-elicit"/></svg>
+      <h4 class="dimension-title">Eliciting Informative Feedback</h4>
     </div>
-    <p class="dimension-desc">How to align robot interactive patterns with individual preferences through continuous, multimodal human feedback?</p>
+    <p class="dimension-desc"><em>How can robots obtain informative feedback with minimal human effort?</em> My research uses foundation models as informative feedback priors to reduce human burden, while developing active, context-aware elicitation that decides when, what, and how to ask.</p>
   </div>
-  
+
   <div class="dimension-card purple">
     <div class="dimension-header">
-      <svg class="dimension-icon purple"><use href="#icon-state"/></svg>
-      <h4 class="dimension-title">State Uncertainty</h4>
+      <svg class="dimension-icon purple"><use href="#icon-reward"/></svg>
+      <h4 class="dimension-title">Learning Intent-Aligned Reward Representations</h4>
     </div>
-    <p class="dimension-desc">How to enable proactive perception and responsiveness to human states (e.g., cognitive load, attention, trust), robot working conditions, and task status that evolve dynamically during operation?</p>
+    <p class="dimension-desc"><em>How can robots convert imperfect, multimodal feedback into reward representations that faithfully capture human intent?</em> My research develops reward learning methods that distill subtle, noisy, and multimodal feedback into structured representations of human intent, improving credit assignment and robustness to ambiguous, sparse, or conflicting supervision.</p>
   </div>
-  
 
   <div class="dimension-card blue">
     <div class="dimension-header">
-      <svg class="dimension-icon blue"><use href="#icon-team"/></svg>
-      <h4 class="dimension-title">Capability Heterogeneity</h4>
+      <svg class="dimension-icon blue"><use href="#icon-align"/></svg>
+      <h4 class="dimension-title">Sustaining Generalizable Alignment</h4>
     </div>
-    <p class="dimension-desc">How to optimize human–robot teaming by accounting for inherent yet diverse human capabilities (e.g., cognitive abilities, skill levels, backgrounds) and robot characteristics (e.g., mobility, sensing, autonomy) within specific task contexts?</p>
+    <p class="dimension-desc"><em>How can robots remain aligned as tasks, users, and environments change?</em> My research develops transferable alignment mechanisms that generalize learned intent across tasks, users, and environments while preserving stable alignment, maintaining task performance, and avoiding drift from human intent.</p>
   </div>
 </div>
-Spanning scales from one-to-one human-robot interaction to team-level coordination in multi-human multi-robot teams, my work aims to lay the foundation for a future where robots can naturally understand, adapt to, and collaborate with any human, in any context or situation.
 
 
 {% comment %}
@@ -497,14 +513,17 @@ Spanning scales from one-to-one human-robot interaction to team-level coordinati
 </div>
 {% endcomment %}
 
+Beyond learning from explicit feedback, my research also studies how robots can respond to broader human signals in real time, including physiological state, cognitive workload, trust, and interaction dynamics. Rather than treating these as supervision to learn from, I study how robots can read and adapt to such signals on the fly to sustain fluent, safe, and effective collaboration, especially in human-robot teaming.
+
 **Research Areas:**
 
 <div class="research-areas">
+  <span class="area-tag">Learning from Human Feedback</span>
+  <span class="area-tag">Preference-based Reinforcement Learning</span>
   <span class="area-tag">Human-Robot Interaction</span>
-  <span class="area-tag">Human-in-the-Loop Reinforcement Learning</span>
-  <span class="area-tag">Multi-Human Multi-Robot Teaming</span>
+  <span class="area-tag">Multimodal Learning</span>
   <span class="area-tag">Foundation Models for Robotics</span>
-  <span class="area-tag">Multimodal Perception and Reasoning</span>
+  <span class="area-tag">Multi-Human Multi-Robot Teaming</span>
 </div>
 
 ## News
