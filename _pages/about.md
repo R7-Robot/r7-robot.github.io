@@ -50,7 +50,6 @@ redirect_from:
 
 <style>
 
-  
 /* Pronunciation - Simplified subtle style */
 .name-pronunciation {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -186,63 +185,62 @@ redirect_from:
   margin-bottom: 1.25rem;
 }
 
-/* Research Dimensions - Vertical Layout */
+/* Research Dimensions - Clean inline layout */
 .research-dimensions {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.4rem;
   margin: 1.75rem 0 2.25rem;
 }
 
-.dimension-card {
-  background: #fff;
-  border: 1px solid #e5e7eb;
+.dimension {
+  padding-left: 1.1rem;
   border-left: 3px solid #e5e7eb;
-  border-radius: 0 10px 10px 0;
-  padding: 1.2rem 1.4rem;
-  transition: all 0.25s ease;
 }
 
-.dimension-card:hover {
-  border-color: #d1d5db;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
-  transform: translateX(3px);
-}
+.dimension.blue { border-left-color: #2563eb; }
+.dimension.purple { border-left-color: #7c3aed; }
+.dimension.red { border-left-color: #dc2626; }
 
-.dimension-card.blue { border-left-color: #2563eb; }
-.dimension-card.purple { border-left-color: #7c3aed; }
-.dimension-card.red { border-left-color: #dc2626; }
-
-.dimension-header {
-  display: flex;
+.dimension-lead {
+  display: inline-flex;
   align-items: center;
-  gap: 0.7rem;
-  margin-bottom: 0.65rem;
-}
-
-.dimension-icon {
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-}
-
-.dimension-icon.blue { color: #2563eb; }
-.dimension-icon.purple { color: #7c3aed; }
-.dimension-icon.red { color: #dc2626; }
-
-.dimension-title {
-  font-size: 1.02rem;
-  font-weight: 600;
+  gap: 0.5rem;
+  font-weight: 700;
   color: #1f2937;
-  margin: 0;
+  font-size: 1.0rem;
   letter-spacing: -0.01em;
 }
 
-.dimension-desc {
+.dimension-lead svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.dimension-lead.blue svg { color: #2563eb; }
+.dimension-lead.purple svg { color: #7c3aed; }
+.dimension-lead.red svg { color: #dc2626; }
+
+.dimension-q {
+  display: block;
+  font-style: italic;
+  color: #6b7280;
+  font-size: 0.93rem;
+  margin: 0.35rem 0 0.3rem;
+  line-height: 1.55;
+}
+
+.dimension-a {
   font-size: 0.93rem;
   color: #4b5563;
   line-height: 1.65;
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .dimension-lead { font-size: 0.96rem; }
+  .dimension-q, .dimension-a { font-size: 0.91rem; }
 }
 
 /* Research Areas Tags */
@@ -476,29 +474,25 @@ To this end, I develop methods for **robot learning from human feedback**, enabl
 
 
 <div class="research-dimensions">
-  <div class="dimension-card red">
-    <div class="dimension-header">
-      <svg class="dimension-icon red"><use href="#icon-elicit"/></svg>
-      <h4 class="dimension-title">Eliciting Informative Feedback</h4>
-    </div>
-    <p class="dimension-desc"><em>How can robots obtain informative feedback with minimal human effort?</em> <br> My research uses foundation models as informative feedback priors to reduce human burden, while developing active, context-aware elicitation that decides when, what, and how to ask.</p>
+
+  <div class="dimension red">
+    <span class="dimension-lead red"><svg><use href="#icon-elicit"/></svg>Eliciting informative feedback</span>
+    <span class="dimension-q">How can robots obtain informative feedback with minimal human effort?</span>
+    <p class="dimension-a">My research uses foundation models as feedback priors to lower human burden, and develops active elicitation that decides when, what, and how to ask.</p>
   </div>
 
-  <div class="dimension-card purple">
-    <div class="dimension-header">
-      <svg class="dimension-icon purple"><use href="#icon-reward"/></svg>
-      <h4 class="dimension-title">Learning Intent-Aligned Reward Representations</h4>
-    </div>
-    <p class="dimension-desc"><em>How can robots convert imperfect, multimodal feedback into reward representations that faithfully capture human intent?</em> <br> My research develops reward learning methods that distill subtle, noisy, and multimodal feedback into structured representations of human intent, improving credit assignment and robustness to ambiguous, sparse, or conflicting supervision.</p>
+  <div class="dimension purple">
+    <span class="dimension-lead purple"><svg><use href="#icon-reward"/></svg>Learning intent-aligned rewards</span>
+    <span class="dimension-q">How can robots convert imperfect, multimodal feedback into rewards that faithfully capture human intent?</span>
+    <p class="dimension-a">My research distills noisy, multimodal feedback into structured reward representations, improving credit assignment under ambiguous or sparse supervision.</p>
   </div>
 
-  <div class="dimension-card blue">
-    <div class="dimension-header">
-      <svg class="dimension-icon blue"><use href="#icon-align"/></svg>
-      <h4 class="dimension-title">Sustaining Generalizable Alignment</h4>
-    </div>
-    <p class="dimension-desc"><em>How can robots remain aligned as tasks, users, and environments change?</em> <br> My research develops transferable alignment mechanisms that generalize learned intent across tasks, users, and environments while preserving stable alignment, maintaining task performance, and avoiding drift from human intent.</p>
+  <div class="dimension blue">
+    <span class="dimension-lead blue"><svg><use href="#icon-align"/></svg>Sustaining generalizable alignment</span>
+    <span class="dimension-q">How can robots remain aligned as tasks, users, and environments change?</span>
+    <p class="dimension-a">My research develops transferable mechanisms that carry learned intent across tasks, users, and environments without drifting from human intent.</p>
   </div>
+
 </div>
 
 
