@@ -137,6 +137,7 @@ author_profile: true
 /* ========== Publication row (compact, horizontal) ========== */
 .pub-card {
   display: flex;
+  align-items: center;
   gap: 1.25rem;
   padding: 1rem 0.5rem;
   border-bottom: 1px solid #f0f0f0;
@@ -148,7 +149,7 @@ author_profile: true
 .pub-card:hover { background: #fafbfc; }
 
 /* Thumbnail (left) */
-.pub-thumb { flex: 0 0 200px; align-self: flex-start; }
+.pub-thumb { flex: 0 0 240px; }
 
 .pub-thumb img {
   width: 100%;
@@ -222,8 +223,20 @@ author_profile: true
 
 /* Links — inline slash-separated text */
 .pub-links { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; }
-.pub-links a { font-size: 0.82rem; color: #2563eb; text-decoration: none; }
-.pub-links a:hover { text-decoration: underline; }
+.pub-links a {
+  font-size: 0.82rem;
+  color: #2563eb;
+  text-decoration: none;
+  border: none !important;
+  background: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+.pub-links a:hover {
+  text-decoration: underline;
+  background: none !important;
+  color: #2563eb !important;
+}
 .pub-links a:not(:last-child)::after { content: "/"; color: #cbd5e1; margin-left: 0.4rem; }
 
 /* ========== Lightbox ========== */
@@ -660,8 +673,6 @@ author_profile: true
   </div>
 </div>
 
-<div id="pub-lightbox" class="lightbox"><img id="pub-lightbox-img" src="" alt="" /></div>
-
 <script>
 (function() {
   const filters = { year: 'all', type: 'all', theme: 'all' };
@@ -709,26 +720,31 @@ author_profile: true
   }
 
   // ===== Lightbox: click thumbnail to zoom =====
-  const lightbox = document.getElementById('pub-lightbox');
-  const lightboxImg = document.getElementById('pub-lightbox-img');
+  const lightbox = document.createElement('div');
+  lightbox.id = 'pub-lightbox';
+  lightbox.style.cssText = 'display:none;position:fixed;inset:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:99999;align-items:center;justify-content:center;cursor:zoom-out;padding:2rem;box-sizing:border-box;';
+  const lightboxImg = document.createElement('img');
+  lightboxImg.style.cssText = 'max-width:92%;max-height:92%;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,0.5);';
+  lightbox.appendChild(lightboxImg);
+  document.body.appendChild(lightbox);
+
+  function openLightbox(src) {
+    lightboxImg.src = src;
+    lightbox.style.display = 'flex';
+  }
+  function closeLightbox() {
+    lightbox.style.display = 'none';
+    lightboxImg.src = '';
+  }
 
   document.querySelectorAll('.pub-thumb img').forEach(img => {
-    img.addEventListener('click', function() {
-      lightboxImg.src = this.src;
-      lightbox.classList.add('open');
-    });
+    img.style.cursor = 'zoom-in';
+    img.addEventListener('click', function() { openLightbox(this.src); });
   });
 
-  lightbox.addEventListener('click', function() {
-    lightbox.classList.remove('open');
-    lightboxImg.src = '';
-  });
-
+  lightbox.addEventListener('click', closeLightbox);
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      lightbox.classList.remove('open');
-      lightboxImg.src = '';
-    }
+    if (e.key === 'Escape') closeLightbox();
   });
 })();
 </script>
