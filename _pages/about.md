@@ -507,7 +507,7 @@ To this end, I develop methods for **robot learning from human feedback**, enabl
 </div>
 {% endcomment %}
 
-Beyond learning from feedback, my research also studies how robots can respond to broader human signals in real time, including physiological state, cognitive workload, trust, and interaction dynamics, to sustain fluent, safe, and effective collaboration, especially in human-robot teaming.
+Beyond learning from feedback, my research also studies how robots can respond to broader human signals in real time, including physiological state, cognitive workload, trust, and interaction dynamics, to sustain fluent, safe, and effective collaboration.
 
 **Research Areas:**
 
