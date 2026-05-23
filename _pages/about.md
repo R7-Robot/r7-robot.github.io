@@ -481,7 +481,7 @@ To this end, I develop methods for **robot learning from human feedback**, enabl
       <svg class="dimension-icon red"><use href="#icon-elicit"/></svg>
       <h4 class="dimension-title">Eliciting Informative Feedback</h4>
     </div>
-    <p class="dimension-desc"><em>How can robots obtain informative feedback with minimal human effort?</em> My research uses foundation models as informative feedback priors to reduce human burden, while developing active, context-aware elicitation that decides when, what, and how to ask.</p>
+    <p class="dimension-desc"><em>How can robots obtain informative feedback with minimal human effort?</em> <br> My research uses foundation models as informative feedback priors to reduce human burden, while developing active, context-aware elicitation that decides when, what, and how to ask.</p>
   </div>
 
   <div class="dimension-card purple">
@@ -489,7 +489,7 @@ To this end, I develop methods for **robot learning from human feedback**, enabl
       <svg class="dimension-icon purple"><use href="#icon-reward"/></svg>
       <h4 class="dimension-title">Learning Intent-Aligned Reward Representations</h4>
     </div>
-    <p class="dimension-desc"><em>How can robots convert imperfect, multimodal feedback into reward representations that faithfully capture human intent?</em> My research develops reward learning methods that distill subtle, noisy, and multimodal feedback into structured representations of human intent, improving credit assignment and robustness to ambiguous, sparse, or conflicting supervision.</p>
+    <p class="dimension-desc"><em>How can robots convert imperfect, multimodal feedback into reward representations that faithfully capture human intent?</em> <br> My research develops reward learning methods that distill subtle, noisy, and multimodal feedback into structured representations of human intent, improving credit assignment and robustness to ambiguous, sparse, or conflicting supervision.</p>
   </div>
 
   <div class="dimension-card blue">
@@ -497,7 +497,7 @@ To this end, I develop methods for **robot learning from human feedback**, enabl
       <svg class="dimension-icon blue"><use href="#icon-align"/></svg>
       <h4 class="dimension-title">Sustaining Generalizable Alignment</h4>
     </div>
-    <p class="dimension-desc"><em>How can robots remain aligned as tasks, users, and environments change?</em> My research develops transferable alignment mechanisms that generalize learned intent across tasks, users, and environments while preserving stable alignment, maintaining task performance, and avoiding drift from human intent.</p>
+    <p class="dimension-desc"><em>How can robots remain aligned as tasks, users, and environments change?</em> <br> My research develops transferable alignment mechanisms that generalize learned intent across tasks, users, and environments while preserving stable alignment, maintaining task performance, and avoiding drift from human intent.</p>
   </div>
 </div>
 
@@ -513,7 +513,7 @@ To this end, I develop methods for **robot learning from human feedback**, enabl
 </div>
 {% endcomment %}
 
-Beyond learning from explicit feedback, my research also studies how robots can respond to broader human signals in real time, including physiological state, cognitive workload, trust, and interaction dynamics. Rather than treating these as supervision to learn from, I study how robots can read and adapt to such signals on the fly to sustain fluent, safe, and effective collaboration, especially in human-robot teaming.
+Beyond learning from feedback, my research also studies how robots can respond to broader human signals in real time, including physiological state, cognitive workload, trust, and interaction dynamics, to sustain fluent, safe, and effective collaboration, especially in human-robot teaming.
 
 **Research Areas:**
 
