@@ -198,9 +198,9 @@ redirect_from:
   border-left: 3px solid #e5e7eb;
 }
 
-.dimension.blue { border-left-color: #2563eb; }
-.dimension.purple { border-left-color: #7c3aed; }
-.dimension.red { border-left-color: #dc2626; }
+.dimension.red    { border-left-color: #9aa68f; }  /* sage green */
+.dimension.purple { border-left-color: #8c9aa3; }  /* misty blue-grey */
+.dimension.blue   { border-left-color: #8f8a9e; }  /* greyed violet */
 
 .dimension-lead {
   display: inline-flex;
@@ -218,10 +218,10 @@ redirect_from:
   flex-shrink: 0;
 }
 
-.dimension-lead.blue svg { color: #2563eb; }
-.dimension-lead.purple svg { color: #7c3aed; }
-.dimension-lead.red svg { color: #dc2626; }
-
+.dimension-lead.red    svg { color: #9aa68f; }
+.dimension-lead.purple svg { color: #8c9aa3; }
+.dimension-lead.blue   svg { color: #8f8a9e; }
+  
 .dimension-q {
   display: block;
   font-style: italic;
@@ -478,13 +478,13 @@ To this end, I develop methods for **robot learning from human feedback**, enabl
   <div class="dimension red">
     <span class="dimension-lead red"><svg><use href="#icon-elicit"/></svg>Eliciting informative feedback</span>
     <span class="dimension-q">How can robots obtain informative feedback with minimal human effort?</span>
-    <p class="dimension-a">My research uses foundation models as feedback priors to lower human burden, and develops active elicitation that decides when, what, and how to ask.</p>
+    <p class="dimension-a">My research uses foundation models as feedback priors to reduce human burden, and develops active, context-aware elicitation that decides when, what, and how to ask.</p> 
   </div>
 
   <div class="dimension purple">
     <span class="dimension-lead purple"><svg><use href="#icon-reward"/></svg>Learning intent-aligned rewards</span>
     <span class="dimension-q">How can robots convert imperfect, multimodal feedback into rewards that faithfully capture human intent?</span>
-    <p class="dimension-a">My research distills noisy, multimodal feedback into structured reward representations, improving credit assignment under ambiguous or sparse supervision.</p>
+    <p class="dimension-a">My research develops robust reward learning methods that distill subtle, noisy, and multimodal feedback into structured representations of human intent.</p>
   </div>
 
   <div class="dimension blue">
