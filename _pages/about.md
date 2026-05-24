@@ -465,12 +465,18 @@ redirect_from:
 ## Hello! 
 
 <p class="hero-intro">
-I'm a Ph.D. candidate at Purdue University, where I work in the <a href="http://www.smart-laboratory.org/">Smart Machine And Robotics Technology (SMART) Lab</a> with Professor <a href="http://www.smart-laboratory.org/group/bcm.html">B.C. Min</a>.
+I'm a Ph.D. candidate at Purdue University, where I work in the <a href="http://www.smart-laboratory.org/">SMART Lab</a> with Professor <a href="http://www.smart-laboratory.org/group/bcm.html">B.C. Min</a>.
 </p>
 
-My research goal is to enable robots to integrate seamlessly into unstructured, human-centered environments. 
+My research goal is to build **human-centered robotic intelligence**: robots that understand, respond to, and align with the people they serve or work with.
 
-To this end, I develop methods for **robot learning from human feedback**, enabling robots to acquire scalable, aligned, and personalized behaviors without hand-specified objectives. I pursue this goal along three directions:
+Toward this, I develop efficient and scalable methods for **robot learning from human feedback** that elicit informative feedback at minimal human cost, distill it into rewards that faithfully capture human intent, and generalize the learned behavior across tasks, users, and environments.
+
+My research also studies how robots can perceive and adapt to broader human signals in real time, including physiological state, cognitive workload, trust, and interaction dynamics, to sustain fluent, safe, and effective collaboration.
+
+
+{% comment %}
+I pursue this goal along three directions:
 
 
 <div class="research-dimensions">
@@ -494,7 +500,7 @@ To this end, I develop methods for **robot learning from human feedback**, enabl
   </div>
 
 </div>
-
+{% endcomment %}
 
 {% comment %}
 <div class="hero-buttons">
@@ -507,7 +513,6 @@ To this end, I develop methods for **robot learning from human feedback**, enabl
 </div>
 {% endcomment %}
 
-Beyond learning from feedback, my research also studies how robots can respond to broader human signals in real time, including physiological state, cognitive workload, trust, and interaction dynamics, to sustain fluent, safe, and effective collaboration.
 
 **Research Areas:**
 
