@@ -674,7 +674,7 @@ author_profile: true
 </div>
 
 <script>
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
   const filters = { year: 'all', type: 'all', theme: 'all' };
   const filterBtns = document.querySelectorAll('.filter-btn');
   const pubCards = document.querySelectorAll('.pub-card');
@@ -687,7 +687,7 @@ author_profile: true
       const filterValue = this.dataset.value;
       filters[filterType] = filterValue;
 
-      document.querySelectorAll(`[data-filter="${filterType}"]`).forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('[data-filter="' + filterType + '"]').forEach(b => b.classList.remove('active'));
       this.classList.add('active');
       applyFilters();
     });
@@ -746,5 +746,5 @@ author_profile: true
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') closeLightbox();
   });
-})();
+});
 </script>
