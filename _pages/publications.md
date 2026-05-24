@@ -141,43 +141,7 @@ author_profile: true
   margin-bottom: 2rem;
 }
 
-/* ========== Year section ========== */
-.year-section {
-  margin-bottom: 2.5rem;
-}
-
-.year-section.hidden {
-  display: none;
-}
-
-.year-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1.25rem;
-}
-
-.year-badge {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #1f2937;
-}
-
-.year-line {
-  flex: 1;
-  height: 2px;
-  background: linear-gradient(90deg, #e5e7eb, transparent);
-}
-
-.year-count {
-  font-size: 0.85rem;
-  color: #6b7280;
-  background: #f3f4f6;
-  padding: 0.25rem 0.75rem;
-  border-radius: 12px;
-}
-
-/* ========== Publication list ========== */
+/* ========== Publication list (single continuous list) ========== */
 .pub-list {
   display: flex;
   flex-direction: column;
@@ -478,7 +442,7 @@ author_profile: true
 <div class="pub-legend">
   <div class="pub-legend-item">
     <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
-    Robot Learning from Human Feedback
+    Interactive & Value-Aligned Robot Learning
   </div>
     
   <div class="pub-legend-item">
@@ -498,14 +462,7 @@ author_profile: true
 <p class="pub-note">†: Equal contribution · §: Work I led</p>
 
 
-<div class="year-section" data-year="2025">
-  <div class="year-header">
-    <span class="year-badge">2025</span>
-    <div class="year-line"></div>
-    <span class="year-count"><span class="year-visible">9</span> papers</span>
-  </div>
-  
-  <div class="pub-list">
+<div class="pub-list">
 
   <article class="pub-card" data-year="2025" data-type="conference" data-themes="learning">
     <div class="pub-banner">
@@ -717,18 +674,6 @@ author_profile: true
     </div>
   </article>
 
-  </div>
-</div>
-
-
-<div class="year-section" data-year="2024">
-  <div class="year-header">
-    <span class="year-badge">2024</span>
-    <div class="year-line"></div>
-    <span class="year-count"><span class="year-visible">3</span> papers</span>
-  </div>
-  <div class="pub-list">
-
   <article class="pub-card" data-year="2024" data-type="journal" data-themes="team">
     <div class="pub-banner">
       <img src="/images/publications/aehrl2.gif" alt="ITA-AEHRL" />
@@ -774,39 +719,27 @@ author_profile: true
     </div>
   </article>
 
-  <article class="pub-card" data-year="2024" data-type="conference" data-themes="team">
+  <article class="pub-card" data-year="2024" data-type="preprint" data-themes="team">
     <div class="pub-banner">
-      <img src="/images/publications/SAMARL.png" alt="SAMARL" />
+      <img src="/images/publications/REBEL.png" alt="REBEL" />
     </div>
     <div class="pub-body">
       <div class="pub-header">
         <div class="pub-icons">
           <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
         </div>
-        <span class="pub-type conference">Conference</span>
-        <span class="pub-venue">ICRA 2024</span>
+        <span class="pub-type preprint">Under Review</span>
       </div>
-      <h3 class="pub-title">Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning</h3>
-      <p class="pub-authors">Weizheng Wang, Le Mao, <strong>Ruiqi Wang</strong>, and Byung-Cheol Min.</p>
-      <p class="pub-venue-detail">International Conference on Robotics and Automation (ICRA 2024), Yokohama, Japan, May 13-17, 2024.</p>
+      <h3 class="pub-title">REBEL: Rule-based and Experience-enhanced Learning with LLMs for Initial Task Allocation in Multi-Human Multi-Robot Teams</h3>
+      <p class="pub-authors">Arjun Gupte†, <strong>Ruiqi Wang†§</strong>, L. N. Vishnunandan Venkatesh, Taehyeon Kim, Dezhong Zhao, and Byung-Cheol Min.</p>
+      <p class="pub-venue-detail">arXiv preprint, 2024.</p>
       <div class="pub-links">
-        <a href="https://arxiv.org/abs/2309.15234" target="_blank">Paper</a>
+        <a href="https://sites.google.com/view/ita-rebel/home" target="_blank">Website</a>
+        <a href="https://arxiv.org/abs/2409.16266" target="_blank">ArXiv</a>
+        <a href="https://www.youtube.com/watch?v=HeGPVLd1Bps" target="_blank">Video</a>
       </div>
     </div>
   </article>
-
-  </div>
-</div>
-
-
-<div class="year-section" data-year="2023">
-  <div class="year-header">
-    <span class="year-badge">2023</span>
-    <div class="year-line"></div>
-    <span class="year-count"><span class="year-visible">2</span> papers</span>
-  </div>
-  
-  <div class="pub-list">
 
   <article class="pub-card" data-year="2023" data-type="conference" data-themes="team">
     <div class="pub-banner">
@@ -853,19 +786,6 @@ author_profile: true
     </div>
   </article>
 
-  </div>
-</div>
-
-
-<div class="year-section" data-year="2022">
-  <div class="year-header">
-    <span class="year-badge">2022</span>
-    <div class="year-line"></div>
-    <span class="year-count"><span class="year-visible">1</span> paper</span>
-  </div>
-  
-  <div class="pub-list">
-
   <article class="pub-card" data-year="2022" data-type="conference" data-themes="learning">
     <div class="pub-banner">
       <img src="/images/publications/FAPL.png" alt="SAN-FAPL" />
@@ -889,41 +809,6 @@ author_profile: true
     </div>
   </article>
 
-  </div>
-</div>
-
-
-<div class="year-section" data-year="preprint">
-  <div class="year-header">
-    <span class="year-badge">Pre-prints</span>
-    <div class="year-line"></div>
-    <span class="year-count"><span class="year-visible">1</span> paper</span>
-  </div>
-  
-  <div class="pub-list">
-
-  <article class="pub-card" data-year="preprint" data-type="preprint" data-themes="team">
-    <div class="pub-banner">
-      <img src="/images/publications/REBEL.png" alt="REBEL" />
-    </div>
-    <div class="pub-body">
-      <div class="pub-header">
-        <div class="pub-icons">
-          <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
-        </div>
-        <span class="pub-type preprint">Under Review</span>
-      </div>
-      <h3 class="pub-title">REBEL: Rule-based and Experience-enhanced Learning with LLMs for Initial Task Allocation in Multi-Human Multi-Robot Teams</h3>
-      <p class="pub-authors">Arjun Gupte†, <strong>Ruiqi Wang†§</strong>, L. N. Vishnunandan Venkatesh, Taehyeon Kim, Dezhong Zhao, and Byung-Cheol Min.</p>
-      <div class="pub-links">
-        <a href="https://sites.google.com/view/ita-rebel/home" target="_blank">Website</a>
-        <a href="https://arxiv.org/abs/2409.16266" target="_blank">ArXiv</a>
-        <a href="https://www.youtube.com/watch?v=HeGPVLd1Bps" target="_blank">Video</a>
-      </div>
-    </div>
-  </article>
-
-  </div>
 </div>
 
 <div class="lightbox-overlay" id="lightbox">
@@ -936,7 +821,6 @@ author_profile: true
   const filters = { year: 'all', type: 'all', theme: 'all' };
   const filterBtns = document.querySelectorAll('.filter-btn');
   const pubCards = document.querySelectorAll('.pub-card');
-  const yearSections = document.querySelectorAll('.year-section');
   const visibleCountEl = document.getElementById('visible-count');
 
   filterBtns.forEach(btn => {
@@ -968,13 +852,6 @@ author_profile: true
     });
 
     visibleCountEl.textContent = visibleCount;
-
-    yearSections.forEach(section => {
-      const visibleInSection = section.querySelectorAll('.pub-card:not(.hidden)').length;
-      const yearCountEl = section.querySelector('.year-visible');
-      if (yearCountEl) yearCountEl.textContent = visibleInSection;
-      section.classList.toggle('hidden', visibleInSection === 0);
-    });
   }
 })();
 
