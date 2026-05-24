@@ -181,21 +181,21 @@ author_profile: true
 .pub-list {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 0.9rem;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* ========== Publication card - left image, right text ========== */
+/* ========== Publication card - left image, right text (compact) ========== */
 .pub-card {
   display: flex;
   align-items: stretch;
-  gap: 1.25rem;
+  gap: 1rem;
   background: #fff;
   border: 1px solid #e5e5e5;
   border-radius: 12px;
-  padding: 1.25rem 1.5rem;
+  padding: 1rem 1.25rem;
   transition: all 0.2s ease;
 }
 
@@ -211,10 +211,10 @@ author_profile: true
 
 /* Left thumbnail */
 .pub-banner {
-  flex: 0 0 220px;
-  width: 220px;
+  flex: 0 0 190px;
+  width: 190px;
   align-self: center;
-  max-height: 160px;
+  max-height: 130px;
   border-radius: 8px;
   overflow: hidden;
   background: #f9fafb;
@@ -224,7 +224,7 @@ author_profile: true
 .pub-banner img {
   width: 100%;
   height: 100%;
-  max-height: 160px;
+  max-height: 130px;
   object-fit: cover;
   object-position: center;
   display: block;
@@ -250,7 +250,7 @@ author_profile: true
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .pub-icons {
@@ -303,18 +303,19 @@ author_profile: true
 
 /* Title */
 .pub-title {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 600;
-  line-height: 1.4;
-  margin-bottom: 0.5rem;
+  line-height: 1.35;
+  margin-bottom: 0.4rem;
   color: #1a1a1a;
 }
 
 /* Authors */
 .pub-authors {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   color: #555;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.3rem;
+  line-height: 1.45;
 }
 
 .pub-authors strong {
@@ -324,10 +325,11 @@ author_profile: true
 
 /* Venue detail */
 .pub-venue-detail {
-  font-size: 0.85rem;
+  font-size: 0.83rem;
   color: #555;
   font-style: italic;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.45;
 }
 
 /* Links */
