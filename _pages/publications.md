@@ -187,11 +187,11 @@ author_profile: true
   margin: 0;
 }
 
-/* ========== Publication card (horizontal compact) ========== */
+/* ========== Publication card - left image, right text ========== */
 .pub-card {
   display: flex;
-  align-items: center;
-  gap: 1.5rem;
+  align-items: stretch;
+  gap: 1.25rem;
   background: #fff;
   border: 1px solid #e5e5e5;
   border-radius: 12px;
@@ -209,33 +209,39 @@ author_profile: true
   transform: translateY(-2px);
 }
 
-/* Thumbnail (left) */
+/* Left thumbnail */
 .pub-banner {
-  flex: 0 0 200px;
-  height: 112px;
+  flex: 0 0 220px;
+  width: 220px;
+  align-self: center;
+  max-height: 160px;
   border-radius: 8px;
   overflow: hidden;
   background: #f9fafb;
+  display: block;
 }
 
 .pub-banner img {
   width: 100%;
   height: 100%;
+  max-height: 160px;
   object-fit: cover;
+  object-position: center;
   display: block;
-  border-radius: 8px;
-  cursor: zoom-in;
   transition: transform 0.3s;
+  cursor: zoom-in;
 }
 
-.pub-card:hover .pub-banner img {
-  transform: scale(1.04);
+.pub-banner:hover img {
+  transform: scale(1.02);
 }
 
-/* Body (right) */
+/* Right text column */
 .pub-body {
-  flex: 1;
+  flex: 1 1 auto;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header */
@@ -244,7 +250,7 @@ author_profile: true
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.75rem;
 }
 
 .pub-icons {
@@ -262,6 +268,28 @@ author_profile: true
   border-radius: 4px;
 }
 
+.pub-type {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.pub-type.journal {
+  color: #0369a1;
+  background: #e0f2fe;
+}
+
+.pub-type.conference {
+  color: #7c3aed;
+  background: #ede9fe;
+}
+
+.pub-type.preprint {
+  color: #6b7280;
+  background: #f3f4f6;
+}
+
 .pub-oral {
   font-size: 0.7rem;
   font-weight: 700;
@@ -273,29 +301,20 @@ author_profile: true
   letter-spacing: 0.02em;
 }
 
-.pub-preprint {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #6b7280;
-  background: #f3f4f6;
-  padding: 0.2rem 0.6rem;
-  border-radius: 4px;
-}
-
 /* Title */
 .pub-title {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.4;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
   color: #1a1a1a;
 }
 
 /* Authors */
 .pub-authors {
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   color: #555;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.35rem;
 }
 
 .pub-authors strong {
@@ -305,10 +324,10 @@ author_profile: true
 
 /* Venue detail */
 .pub-venue-detail {
-  font-size: 0.83rem;
+  font-size: 0.85rem;
   color: #555;
   font-style: italic;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.75rem;
 }
 
 /* Links */
@@ -316,6 +335,7 @@ author_profile: true
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-top: auto;
 }
 
 .pub-links a {
@@ -333,32 +353,83 @@ author_profile: true
   color: white;
 }
 
+/* ========== Lightbox (click to zoom) ========== */
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.85);
+  cursor: zoom-out;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.lightbox-overlay.show {
+  display: flex;
+  opacity: 1;
+}
+
+.lightbox-overlay img {
+  max-width: 92%;
+  max-height: 92%;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.75rem;
+  font-size: 2.5rem;
+  line-height: 1;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.15s ease;
+  user-select: none;
+}
+
+.lightbox-close:hover { opacity: 1; }
+
 /* ========== Responsive ========== */
 @media (max-width: 600px) {
   .filter-section {
     padding: 0.85rem;
   }
-
+  
   .filter-label {
     min-width: 100%;
     margin-bottom: 0.2rem;
   }
-
+  
   .pub-legend {
     padding: 1rem;
     gap: 0.75rem;
   }
-
+  
+  /* Narrow screens: stack image on top, text below */
   .pub-card {
     flex-direction: column;
-    align-items: stretch;
-    gap: 1rem;
     padding: 1rem;
   }
-
+  
   .pub-banner {
-    flex: 0 0 auto;
-    height: 180px;
+    flex: 1 1 100%;
+    width: 100%;
+    max-height: 180px;
+    margin-bottom: 1rem;
+    align-self: stretch;
+  }
+  
+  .pub-banner img {
+    max-height: 180px;
   }
 }
 </style>
@@ -405,7 +476,7 @@ author_profile: true
 <div class="pub-legend">
   <div class="pub-legend-item">
     <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
-    Robot Learning from Human Feedback
+    Interactive & Value-Aligned Robot Learning
   </div>
     
   <div class="pub-legend-item">
@@ -443,6 +514,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
         </div>
+        <span class="pub-type conference">Conference</span>
         <span class="pub-venue">NeurIPS 2025</span>
         <span class="pub-oral">Oral · Top 0.36%</span>
       </div>
@@ -466,6 +538,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
         </div>
+        <span class="pub-type conference">Conference</span>
         <span class="pub-venue">IROS 2025</span>
       </div>
       <h3 class="pub-title">PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers</h3>
@@ -490,6 +563,7 @@ author_profile: true
           <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
           <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
         </div>
+        <span class="pub-type conference">Conference</span>
         <span class="pub-venue">IROS 2025</span>
       </div>
       <h3 class="pub-title">Modeling and Evaluating Trust Dynamics in Multi-Human Multi-Robot Task Allocation</h3>
@@ -511,6 +585,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
         </div>
+        <span class="pub-type conference">Conference</span>
         <span class="pub-venue">ICRA 2025</span>
       </div>
       <h3 class="pub-title">Personalization in Human-Robot Interaction through Preference-based Action Representation Learning</h3>
@@ -534,6 +609,7 @@ author_profile: true
           <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
           <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
         </div>
+        <span class="pub-type conference">Conference</span>
         <span class="pub-venue">ICRA 2025</span>
       </div>
       <h3 class="pub-title">Adaptive Task Allocation in Multi-Human Multi-Robot Teams under Team Heterogeneity and Dynamic Information Uncertainty</h3>
@@ -556,6 +632,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
         </div>
+        <span class="pub-type journal">Journal</span>
         <span class="pub-venue">IEEE RA-L</span>
       </div>
       <h3 class="pub-title">PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</h3>
@@ -578,6 +655,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
         </div>
+        <span class="pub-type journal">Journal</span>
         <span class="pub-venue">IEEE T-HMS</span>
       </div>
       <h3 class="pub-title">Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</h3>
@@ -600,6 +678,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-collab"><use href="#icon-collab"/></svg>
         </div>
+        <span class="pub-type journal">Journal</span>
         <span class="pub-venue">IEEE T-ASLP</span>
       </div>
       <h3 class="pub-title">Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</h3>
@@ -622,6 +701,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
         </div>
+        <span class="pub-type journal">Journal</span>
         <span class="pub-venue">IEEE T-AFFC</span>
       </div>
       <h3 class="pub-title">MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks</h3>
@@ -643,30 +723,9 @@ author_profile: true
   <div class="year-header">
     <span class="year-badge">2024</span>
     <div class="year-line"></div>
-    <span class="year-count"><span class="year-visible">4</span> papers</span>
+    <span class="year-count"><span class="year-visible">3</span> papers</span>
   </div>
   <div class="pub-list">
-
-  <article class="pub-card" data-year="2024" data-type="preprint" data-themes="team">
-    <div class="pub-banner">
-      <img src="/images/publications/REBEL.png" alt="REBEL" />
-    </div>
-    <div class="pub-body">
-      <div class="pub-header">
-        <div class="pub-icons">
-          <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
-        </div>
-        <span class="pub-preprint">Preprint · Under Review</span>
-      </div>
-      <h3 class="pub-title">REBEL: Rule-based and Experience-enhanced Learning with LLMs for Initial Task Allocation in Multi-Human Multi-Robot Teams</h3>
-      <p class="pub-authors">Arjun Gupte†, <strong>Ruiqi Wang†§</strong>, L. N. Vishnunandan Venkatesh, Taehyeon Kim, Dezhong Zhao, and Byung-Cheol Min.</p>
-      <div class="pub-links">
-        <a href="https://sites.google.com/view/ita-rebel/home" target="_blank">Website</a>
-        <a href="https://arxiv.org/abs/2409.16266" target="_blank">ArXiv</a>
-        <a href="https://www.youtube.com/watch?v=HeGPVLd1Bps" target="_blank">Video</a>
-      </div>
-    </div>
-  </article>
 
   <article class="pub-card" data-year="2024" data-type="journal" data-themes="team">
     <div class="pub-banner">
@@ -677,6 +736,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
         </div>
+        <span class="pub-type journal">Journal</span>
         <span class="pub-venue">IEEE RA-L</span>
       </div>
       <h3 class="pub-title">Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</h3>
@@ -699,6 +759,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
         </div>
+        <span class="pub-type journal">Journal</span>
         <span class="pub-venue">IEEE T-CDS</span>
       </div>
       <h3 class="pub-title">Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition</h3>
@@ -720,6 +781,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
         </div>
+        <span class="pub-type conference">Conference</span>
         <span class="pub-venue">ICRA 2024</span>
       </div>
       <h3 class="pub-title">Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning</h3>
@@ -753,6 +815,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
         </div>
+        <span class="pub-type conference">Conference</span>
         <span class="pub-venue">IROS 2023</span>
       </div>
       <h3 class="pub-title">Initial Task Allocation for Multi-Human Multi-Robot Teams with Attention-based Deep Reinforcement Learning</h3>
@@ -775,6 +838,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
         </div>
+        <span class="pub-type conference">Conference</span>
         <span class="pub-venue">IROS 2023</span>
       </div>
       <h3 class="pub-title">NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning</h3>
@@ -809,6 +873,7 @@ author_profile: true
         <div class="pub-icons">
           <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
         </div>
+        <span class="pub-type conference">Conference</span>
         <span class="pub-venue">IROS 2022</span>
       </div>
       <h3 class="pub-title">Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation</h3>
@@ -825,7 +890,45 @@ author_profile: true
   </div>
 </div>
 
-{::nomarkdown}
+
+<div class="year-section" data-year="preprint">
+  <div class="year-header">
+    <span class="year-badge">Pre-prints</span>
+    <div class="year-line"></div>
+    <span class="year-count"><span class="year-visible">1</span> paper</span>
+  </div>
+  
+  <div class="pub-list">
+
+  <article class="pub-card" data-year="preprint" data-type="preprint" data-themes="team">
+    <div class="pub-banner">
+      <img src="/images/publications/REBEL.png" alt="REBEL" />
+    </div>
+    <div class="pub-body">
+      <div class="pub-header">
+        <div class="pub-icons">
+          <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+        </div>
+        <span class="pub-type preprint">Under Review</span>
+      </div>
+      <h3 class="pub-title">REBEL: Rule-based and Experience-enhanced Learning with LLMs for Initial Task Allocation in Multi-Human Multi-Robot Teams</h3>
+      <p class="pub-authors">Arjun Gupte†, <strong>Ruiqi Wang†§</strong>, L. N. Vishnunandan Venkatesh, Taehyeon Kim, Dezhong Zhao, and Byung-Cheol Min.</p>
+      <div class="pub-links">
+        <a href="https://sites.google.com/view/ita-rebel/home" target="_blank">Website</a>
+        <a href="https://arxiv.org/abs/2409.16266" target="_blank">ArXiv</a>
+        <a href="https://www.youtube.com/watch?v=HeGPVLd1Bps" target="_blank">Video</a>
+      </div>
+    </div>
+  </article>
+
+  </div>
+</div>
+
+<div class="lightbox-overlay" id="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img src="" alt="Enlarged view" id="lightbox-img" />
+</div>
+
 <script>
 (function() {
   const filters = { year: 'all', type: 'all', theme: 'all' };
@@ -871,28 +974,34 @@ author_profile: true
       section.classList.toggle('hidden', visibleInSection === 0);
     });
   }
+})();
 
-  // ===== Lightbox: click thumbnail to view full image =====
-  var lb = document.createElement('div');
-  lb.style.cssText = 'display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:99999;align-items:center;justify-content:center;cursor:zoom-out;padding:2rem;box-sizing:border-box;';
-  var lbImg = document.createElement('img');
-  lbImg.style.cssText = 'max-width:92%;max-height:92%;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,0.5);';
-  lb.appendChild(lbImg);
-  document.body.appendChild(lb);
+(function() {
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const closeBtn = lightbox.querySelector('.lightbox-close');
 
-  function closeLb() { lb.style.display = 'none'; lbImg.src = ''; }
-
-  document.querySelectorAll('.pub-banner img').forEach(function(img) {
+  document.querySelectorAll('.pub-banner img').forEach(img => {
     img.addEventListener('click', function() {
-      lbImg.src = this.src;
-      lb.style.display = 'flex';
+      lightboxImg.src = this.src;
+      lightboxImg.alt = this.alt || 'Enlarged view';
+      lightbox.classList.add('show');
+      document.body.style.overflow = 'hidden';
     });
   });
 
-  lb.addEventListener('click', closeLb);
+  function closeLightbox() {
+    lightbox.classList.remove('show');
+    document.body.style.overflow = '';
+    lightboxImg.src = '';
+  }
+
+  lightbox.addEventListener('click', function(e) {
+    if (e.target !== lightboxImg) closeLightbox();
+  });
+  closeBtn.addEventListener('click', closeLightbox);
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') closeLb();
+    if (e.key === 'Escape' && lightbox.classList.contains('show')) closeLightbox();
   });
 })();
 </script>
-{:/nomarkdown}
