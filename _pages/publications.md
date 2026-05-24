@@ -43,7 +43,9 @@ author_profile: true
   margin-bottom: 0.6rem;
 }
 
-.filter-group:last-child { margin-bottom: 0; }
+.filter-group:last-child {
+  margin-bottom: 0;
+}
 
 .filter-label {
   font-size: 0.75rem;
@@ -66,19 +68,38 @@ author_profile: true
   transition: all 0.15s ease;
 }
 
-.filter-btn:hover { background: #e5e7eb; }
-.filter-btn.active { background: #1f2937; color: #fff; }
+.filter-btn:hover {
+  background: #e5e7eb;
+}
 
+.filter-btn.active {
+  background: #1f2937;
+  color: #fff;
+}
+
+/* Theme buttons with colors when active */
 .filter-btn[data-theme="team"].active { background: #2563eb; }
 .filter-btn[data-theme="state"].active { background: #7c3aed; }
 .filter-btn[data-theme="learning"].active { background: #dc2626; }
 .filter-btn[data-theme="collab"].active { background: #059669; }
 
-.filter-btn svg { width: 14px; height: 14px; margin-right: 3px; vertical-align: -2px; }
+.filter-btn svg {
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+  vertical-align: -2px;
+}
 
 /* Results count */
-.results-count { font-size: 0.85rem; color: #6b7280; margin-bottom: 1.25rem; }
-.results-count strong { color: #1f2937; }
+.results-count {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 1.25rem;
+}
+
+.results-count strong {
+  color: #1f2937;
+}
 
 /* ========== Icon colors ========== */
 .pub-icon {
@@ -106,16 +127,48 @@ author_profile: true
   border: 1px solid #e5e5e5;
 }
 
-.pub-legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: #555; }
-.pub-note { font-size: 0.85rem; color: #555; margin-bottom: 2rem; }
+.pub-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.pub-note {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
 
 /* ========== Year section ========== */
-.year-section { margin-bottom: 2rem; }
-.year-section.hidden { display: none; }
+.year-section {
+  margin-bottom: 2.5rem;
+}
 
-.year-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
-.year-badge { font-size: 1.5rem; font-weight: 700; color: #1f2937; }
-.year-line { flex: 1; height: 2px; background: linear-gradient(90deg, #e5e7eb, transparent); }
+.year-section.hidden {
+  display: none;
+}
+
+.year-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.year-badge {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.year-line {
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(90deg, #e5e7eb, transparent);
+}
+
 .year-count {
   font-size: 0.85rem;
   color: #6b7280;
@@ -128,146 +181,181 @@ author_profile: true
 .pub-list {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 1.25rem;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* ========== Publication row (compact, horizontal) ========== */
+/* ========== Publication card (horizontal compact) ========== */
 .pub-card {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
-  padding: 1rem 0.5rem;
-  border-bottom: 1px solid #f0f0f0;
-  transition: background-color 0.15s ease;
+  gap: 1.5rem;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  transition: all 0.2s ease;
 }
 
-.pub-card:last-child { border-bottom: none; }
-.pub-card.hidden { display: none; }
-.pub-card:hover { background: #fafbfc; }
+.pub-card.hidden {
+  display: none;
+}
+
+.pub-card:hover {
+  border-color: #ccc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
 
 /* Thumbnail (left) */
-.pub-thumb { flex: 0 0 240px; }
-
-.pub-thumb img {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-  display: block;
-  cursor: zoom-in;
-  border: 1px solid #eee;
-  transition: transform 0.2s, box-shadow 0.2s;
+.pub-banner {
+  flex: 0 0 220px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f9fafb;
 }
 
-.pub-thumb img:hover {
+.pub-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.pub-card:hover .pub-banner img {
   transform: scale(1.02);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
 }
 
 /* Body (right) */
-.pub-body { flex: 1; min-width: 0; }
+.pub-body {
+  flex: 1;
+  min-width: 0;
+}
 
+/* Header */
 .pub-header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.45rem;
-  margin-bottom: 0.4rem;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
-.pub-icons { display: flex; gap: 0.3rem; align-items: center; }
+.pub-icons {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+}
 
 .pub-venue {
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: #b45309;
   background: #fef3c7;
-  padding: 0.15rem 0.55rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 4px;
 }
 
 .pub-oral {
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   font-weight: 700;
   color: #991b1b;
   background: #fee2e2;
-  padding: 0.15rem 0.55rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 4px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
 }
 
 .pub-preprint {
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: #6b7280;
   background: #f3f4f6;
-  padding: 0.15rem 0.55rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 4px;
 }
 
+/* Title */
 .pub-title {
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.4;
-  margin: 0 0 0.3rem;
+  margin-bottom: 0.4rem;
   color: #1a1a1a;
 }
 
-.pub-authors { font-size: 0.86rem; color: #555; margin: 0 0 0.25rem; line-height: 1.5; }
-.pub-authors strong { color: #1a1a1a; font-weight: 600; }
+/* Authors */
+.pub-authors {
+  font-size: 0.88rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
 
-.pub-venue-detail { font-size: 0.82rem; color: #666; font-style: italic; margin: 0 0 0.5rem; }
+.pub-authors strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}
 
-/* Links — inline slash-separated text */
-.pub-links { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; }
+/* Venue detail */
+.pub-venue-detail {
+  font-size: 0.83rem;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 0.6rem;
+}
+
+/* Links */
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .pub-links a {
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   color: #2563eb;
   text-decoration: none;
-  border: none !important;
-  background: none !important;
-  padding: 0 !important;
-  border-radius: 0 !important;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  transition: all 0.15s ease;
 }
+
 .pub-links a:hover {
-  text-decoration: underline;
-  background: none !important;
-  color: #2563eb !important;
-}
-.pub-links a:not(:last-child)::after { content: "/"; color: #cbd5e1; margin-left: 0.4rem; }
-
-/* ========== Lightbox ========== */
-.lightbox {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.85);
-  z-index: 9999;
-  align-items: center;
-  justify-content: center;
-  cursor: zoom-out;
-  padding: 2rem;
-}
-
-.lightbox.open { display: flex; }
-
-.lightbox img {
-  max-width: 92%;
-  max-height: 92%;
-  border-radius: 8px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  background: #2563eb;
+  color: white;
 }
 
 /* ========== Responsive ========== */
 @media (max-width: 600px) {
-  .filter-section { padding: 0.85rem; }
-  .filter-label { min-width: 100%; margin-bottom: 0.2rem; }
-  .pub-legend { padding: 1rem; gap: 0.75rem; }
-  .pub-card { flex-direction: column; gap: 0.75rem; padding: 1rem 0; }
-  .pub-thumb { flex: 0 0 auto; max-width: 280px; }
+  .filter-section {
+    padding: 0.85rem;
+  }
+
+  .filter-label {
+    min-width: 100%;
+    margin-bottom: 0.2rem;
+  }
+
+  .pub-legend {
+    padding: 1rem;
+    gap: 0.75rem;
+  }
+
+  .pub-card {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .pub-banner {
+    flex: 0 0 auto;
+  }
 }
 </style>
 
@@ -280,14 +368,14 @@ author_profile: true
     <button class="filter-btn" data-filter="year" data-value="2023">2023</button>
     <button class="filter-btn" data-filter="year" data-value="2022">2022</button>
   </div>
-
+  
   <div class="filter-group">
     <span class="filter-label">Venue</span>
     <button class="filter-btn active" data-filter="type" data-value="all">All</button>
     <button class="filter-btn" data-filter="type" data-value="journal">Journal</button>
     <button class="filter-btn" data-filter="type" data-value="conference">Conference</button>
   </div>
-
+  
   <div class="filter-group">
     <span class="filter-label">Theme</span>
     <button class="filter-btn active" data-filter="theme" data-value="all">All</button>
@@ -315,6 +403,7 @@ author_profile: true
     <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
     Robot Learning from Human Feedback
   </div>
+    
   <div class="pub-legend-item">
     <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
     Human State-Aware Interaction
@@ -338,14 +427,18 @@ author_profile: true
     <div class="year-line"></div>
     <span class="year-count"><span class="year-visible">9</span> papers</span>
   </div>
-
+  
   <div class="pub-list">
 
   <article class="pub-card" data-year="2025" data-type="conference" data-themes="learning">
-    <div class="pub-thumb"><img src="/images/publications/PRIMT.gif" alt="PRIMT" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/PRIMT.gif" alt="PRIMT" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+        </div>
         <span class="pub-venue">NeurIPS 2025</span>
         <span class="pub-oral">Oral · Top 0.36%</span>
       </div>
@@ -361,10 +454,14 @@ author_profile: true
   </article>
 
   <article class="pub-card" data-year="2025" data-type="conference" data-themes="learning">
-    <div class="pub-thumb"><img src="/images/publications/PrefMMT.png" alt="PrefMMT" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/PrefMMT.png" alt="PrefMMT" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+        </div>
         <span class="pub-venue">IROS 2025</span>
       </div>
       <h3 class="pub-title">PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers</h3>
@@ -380,7 +477,9 @@ author_profile: true
   </article>
 
   <article class="pub-card" data-year="2025" data-type="conference" data-themes="team state">
-    <div class="pub-thumb"><img src="/images/publications/trust.png" alt="Trust Dynamics" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/trust.png" alt="Trust Dynamics" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
         <div class="pub-icons">
@@ -400,10 +499,14 @@ author_profile: true
   </article>
 
   <article class="pub-card" data-year="2025" data-type="conference" data-themes="learning">
-    <div class="pub-thumb"><img src="/images/publications/pbarl.gif" alt="PBARL" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/pbarl.gif" alt="PBARL" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+        </div>
         <span class="pub-venue">ICRA 2025</span>
       </div>
       <h3 class="pub-title">Personalization in Human-Robot Interaction through Preference-based Action Representation Learning</h3>
@@ -418,7 +521,9 @@ author_profile: true
   </article>
 
   <article class="pub-card" data-year="2025" data-type="conference" data-themes="team state">
-    <div class="pub-thumb"><img src="/images/publications/ATA.gif" alt="ATA-HRL" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/ATA.gif" alt="ATA-HRL" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
         <div class="pub-icons">
@@ -439,10 +544,14 @@ author_profile: true
   </article>
 
   <article class="pub-card" data-year="2025" data-type="journal" data-themes="learning">
-    <div class="pub-thumb"><img src="/images/publications/CLM.gif" alt="PrefCLM" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/CLM.gif" alt="PrefCLM" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+        </div>
         <span class="pub-venue">IEEE RA-L</span>
       </div>
       <h3 class="pub-title">PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models</h3>
@@ -457,10 +566,14 @@ author_profile: true
   </article>
 
   <article class="pub-card" data-year="2025" data-type="journal" data-themes="state">
-    <div class="pub-thumb"><img src="/images/publications/AW.gif" alt="Cognitive Load Allocation" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/AW.gif" alt="Cognitive Load Allocation" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-state"><use href="#icon-state"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+        </div>
         <span class="pub-venue">IEEE T-HMS</span>
       </div>
       <h3 class="pub-title">Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams</h3>
@@ -475,10 +588,14 @@ author_profile: true
   </article>
 
   <article class="pub-card" data-year="2025" data-type="journal" data-themes="collab">
-    <div class="pub-thumb"><img src="/images/publications/audformer.png" alt="Audformer" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/audformer.png" alt="Audformer" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-collab"><use href="#icon-collab"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-collab"><use href="#icon-collab"/></svg>
+        </div>
         <span class="pub-venue">IEEE T-ASLP</span>
       </div>
       <h3 class="pub-title">Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network</h3>
@@ -491,12 +608,16 @@ author_profile: true
       </div>
     </div>
   </article>
-
+  
   <article class="pub-card" data-year="2025" data-type="journal" data-themes="state">
-    <div class="pub-thumb"><img src="/images/publications/mocas.gif" alt="MOCAS" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/mocas.gif" alt="MOCAS" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-state"><use href="#icon-state"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+        </div>
         <span class="pub-venue">IEEE T-AFFC</span>
       </div>
       <h3 class="pub-title">MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks</h3>
@@ -523,15 +644,18 @@ author_profile: true
   <div class="pub-list">
 
   <article class="pub-card" data-year="2024" data-type="preprint" data-themes="team">
-    <div class="pub-thumb"><img src="/images/publications/REBEL.png" alt="REBEL" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/REBEL.png" alt="REBEL" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-team"><use href="#icon-team"/></svg></div>
-        <span class="pub-preprint">Preprint</span>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+        </div>
+        <span class="pub-preprint">Preprint · Under Review</span>
       </div>
       <h3 class="pub-title">REBEL: Rule-based and Experience-enhanced Learning with LLMs for Initial Task Allocation in Multi-Human Multi-Robot Teams</h3>
       <p class="pub-authors">Arjun Gupte†, <strong>Ruiqi Wang†§</strong>, L. N. Vishnunandan Venkatesh, Taehyeon Kim, Dezhong Zhao, and Byung-Cheol Min.</p>
-      <p class="pub-venue-detail">Under review.</p>
       <div class="pub-links">
         <a href="https://sites.google.com/view/ita-rebel/home" target="_blank">Website</a>
         <a href="https://arxiv.org/abs/2409.16266" target="_blank">ArXiv</a>
@@ -541,10 +665,14 @@ author_profile: true
   </article>
 
   <article class="pub-card" data-year="2024" data-type="journal" data-themes="team">
-    <div class="pub-thumb"><img src="/images/publications/aehrl2.gif" alt="ITA-AEHRL" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/aehrl2.gif" alt="ITA-AEHRL" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-team"><use href="#icon-team"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+        </div>
         <span class="pub-venue">IEEE RA-L</span>
       </div>
       <h3 class="pub-title">Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach</h3>
@@ -559,10 +687,14 @@ author_profile: true
   </article>
 
   <article class="pub-card" data-year="2024" data-type="journal" data-themes="state">
-    <div class="pub-thumb"><img src="/images/publications/hus.jpg" alt="Husformer" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/hus.jpg" alt="Husformer" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-state"><use href="#icon-state"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-state"><use href="#icon-state"/></svg>
+        </div>
         <span class="pub-venue">IEEE T-CDS</span>
       </div>
       <h3 class="pub-title">Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition</h3>
@@ -576,10 +708,14 @@ author_profile: true
   </article>
 
   <article class="pub-card" data-year="2024" data-type="conference" data-themes="team">
-    <div class="pub-thumb"><img src="/images/publications/SAMARL.png" alt="SAMARL" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/SAMARL.png" alt="SAMARL" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-team"><use href="#icon-team"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+        </div>
         <span class="pub-venue">ICRA 2024</span>
       </div>
       <h3 class="pub-title">Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning</h3>
@@ -601,14 +737,18 @@ author_profile: true
     <div class="year-line"></div>
     <span class="year-count"><span class="year-visible">2</span> papers</span>
   </div>
-
+  
   <div class="pub-list">
 
   <article class="pub-card" data-year="2023" data-type="conference" data-themes="team">
-    <div class="pub-thumb"><img src="/images/ITA.PNG" alt="ITA-AtRL" /></div>
+    <div class="pub-banner">
+      <img src="/images/ITA.PNG" alt="ITA-AtRL" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-team"><use href="#icon-team"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-team"><use href="#icon-team"/></svg>
+        </div>
         <span class="pub-venue">IROS 2023</span>
       </div>
       <h3 class="pub-title">Initial Task Allocation for Multi-Human Multi-Robot Teams with Attention-based Deep Reinforcement Learning</h3>
@@ -623,10 +763,14 @@ author_profile: true
   </article>
 
   <article class="pub-card" data-year="2023" data-type="conference" data-themes="learning">
-    <div class="pub-thumb"><img src="/images/publications/Navi.gif" alt="NaviSTAR" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/Navi.gif" alt="NaviSTAR" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+        </div>
         <span class="pub-venue">IROS 2023</span>
       </div>
       <h3 class="pub-title">NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning</h3>
@@ -649,14 +793,18 @@ author_profile: true
     <div class="year-line"></div>
     <span class="year-count"><span class="year-visible">1</span> paper</span>
   </div>
-
+  
   <div class="pub-list">
 
   <article class="pub-card" data-year="2022" data-type="conference" data-themes="learning">
-    <div class="pub-thumb"><img src="/images/publications/FAPL.png" alt="SAN-FAPL" /></div>
+    <div class="pub-banner">
+      <img src="/images/publications/FAPL.png" alt="SAN-FAPL" />
+    </div>
     <div class="pub-body">
       <div class="pub-header">
-        <div class="pub-icons"><svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg></div>
+        <div class="pub-icons">
+          <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+        </div>
         <span class="pub-venue">IROS 2022</span>
       </div>
       <h3 class="pub-title">Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation</h3>
@@ -673,8 +821,9 @@ author_profile: true
   </div>
 </div>
 
+{::nomarkdown}
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
   const filters = { year: 'all', type: 'all', theme: 'all' };
   const filterBtns = document.querySelectorAll('.filter-btn');
   const pubCards = document.querySelectorAll('.pub-card');
@@ -686,8 +835,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const filterType = this.dataset.filter;
       const filterValue = this.dataset.value;
       filters[filterType] = filterValue;
-
-      document.querySelectorAll('[data-filter="' + filterType + '"]').forEach(b => b.classList.remove('active'));
+      
+      document.querySelectorAll(`[data-filter="${filterType}"]`).forEach(b => b.classList.remove('active'));
       this.classList.add('active');
       applyFilters();
     });
@@ -718,33 +867,6 @@ document.addEventListener('DOMContentLoaded', function() {
       section.classList.toggle('hidden', visibleInSection === 0);
     });
   }
-
-  // ===== Lightbox: click thumbnail to zoom =====
-  const lightbox = document.createElement('div');
-  lightbox.id = 'pub-lightbox';
-  lightbox.style.cssText = 'display:none;position:fixed;inset:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:99999;align-items:center;justify-content:center;cursor:zoom-out;padding:2rem;box-sizing:border-box;';
-  const lightboxImg = document.createElement('img');
-  lightboxImg.style.cssText = 'max-width:92%;max-height:92%;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,0.5);';
-  lightbox.appendChild(lightboxImg);
-  document.body.appendChild(lightbox);
-
-  function openLightbox(src) {
-    lightboxImg.src = src;
-    lightbox.style.display = 'flex';
-  }
-  function closeLightbox() {
-    lightbox.style.display = 'none';
-    lightboxImg.src = '';
-  }
-
-  document.querySelectorAll('.pub-thumb img').forEach(img => {
-    img.style.cursor = 'zoom-in';
-    img.addEventListener('click', function() { openLightbox(this.src); });
-  });
-
-  lightbox.addEventListener('click', closeLightbox);
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') closeLightbox();
-  });
-});
+})();
 </script>
+{:/nomarkdown}
