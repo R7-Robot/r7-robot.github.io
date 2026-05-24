@@ -459,7 +459,7 @@ author_profile: true
   </div>
 </div>
 
-<p class="pub-note">†: Equal contribution · §: Work I led</p>
+<p class="pub-note">†: Equal contribution · §: Work I mentored</p>
 
 
 <div class="pub-list">
