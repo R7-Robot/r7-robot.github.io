@@ -478,7 +478,7 @@ author_profile: true
 <div class="pub-legend">
   <div class="pub-legend-item">
     <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
-    Interactive & Value-Aligned Robot Learning
+    Robot Learning from Human Feedback
   </div>
     
   <div class="pub-legend-item">
