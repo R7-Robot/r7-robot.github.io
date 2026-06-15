@@ -470,7 +470,7 @@ I'm a Ph.D. candidate at Purdue University, where I work in the <a href="http://
 
 My research goal is to build **human-centered robotic intelligence**: robots that understand, respond to, and align with the people they serve or work with.
 
-Toward this, I develop efficient and scalable methods for **robot learning from human feedback** that elicit informative feedback at minimal human cost, distill it into rewards that faithfully capture human intent, and generalize the learned behavior across tasks, users, and environments.
+Toward this, I develop efficient and scalable methods for **robot learning from human feedback** that elicit informative feedback at minimal human cost, distill it into rewards that faithfully capture human intent, and generalize the aligned behavior across tasks, users, and environments.
 
 My research also studies how robots can perceive and adapt to broader human signals in real time, including physiological state, cognitive workload, trust, and interaction dynamics, to sustain fluent, safe, and effective collaboration.
 
