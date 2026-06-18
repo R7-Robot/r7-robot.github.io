@@ -529,6 +529,18 @@ I pursue this goal along three directions:
 
 <div class="news-section">
 
+<div class="news-year">2026</div>
+<ul class="news-list">
+  <li class="news-item">
+    <span class="news-date">Jun 17</span>
+    <span class="news-content">Two papers accepted at <a href="#">IROS 2026</a>!</span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">May 29</span>
+    <span class="news-content">Successfully defended my Ph.D. dissertation! 🎉</span>
+  </li>
+</ul>
+
 <div class="news-year">2025</div>
 <ul class="news-list">
   <li class="news-item">
