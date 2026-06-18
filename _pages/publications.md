@@ -404,6 +404,7 @@ author_profile: true
   <div class="filter-group">
     <span class="filter-label">Year</span>
     <button class="filter-btn active" data-filter="year" data-value="all">All</button>
+    <button class="filter-btn" data-filter="year" data-value="2026">2026</button>
     <button class="filter-btn" data-filter="year" data-value="2025">2025</button>
     <button class="filter-btn" data-filter="year" data-value="2024">2024</button>
     <button class="filter-btn" data-filter="year" data-value="2023">2023</button>
@@ -436,7 +437,7 @@ author_profile: true
 </div>
 
 <div class="results-count">
-  Showing <strong><span id="visible-count">16</span></strong> of <strong>16</strong> publications
+  Showing <strong><span id="visible-count">18</span></strong> of <strong>18</strong> publications
 </div>
 
 <div class="pub-legend">
@@ -463,6 +464,49 @@ author_profile: true
 
 
 <div class="pub-list">
+
+  <article class="pub-card" data-year="2026" data-type="conference" data-themes="learning">
+    <div class="pub-banner">
+      <img src="/images/publications/PrefMoE.png" alt="PrefMoE" />
+    </div>
+    <div class="pub-body">
+      <div class="pub-header">
+        <div class="pub-icons">
+          <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+        </div>
+        <span class="pub-type conference">Conference</span>
+        <span class="pub-venue">IROS 2026</span>
+      </div>
+      <h3 class="pub-title">PrefMoE: Robust Preference Modeling with Mixture-of-Experts Reward Learning</h3>
+      <p class="pub-authors">Ziqin Yuan†, <strong>Ruiqi Wang†§</strong>, Dezhong Zhao, Baijian Yang, and Byung-Cheol Min.</p>
+      <p class="pub-venue-detail">2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026), Pittsburgh, PA, USA, September 27 - October 1, 2026.</p>
+      <div class="pub-links">
+        <a href="https://sites.google.com/view/moepref" target="_blank">Website</a>
+        <a href="https://arxiv.org/abs/2605.00384" target="_blank">ArXiv</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub-card" data-year="2026" data-type="conference" data-themes="learning">
+    <div class="pub-banner">
+      <img src="/images/publications/SafetyGate.png" alt="Pre-Execution Safety Gate" />
+    </div>
+    <div class="pub-body">
+      <div class="pub-header">
+        <div class="pub-icons">
+          <svg class="pub-icon icon-learning"><use href="#icon-learning"/></svg>
+        </div>
+        <span class="pub-type conference">Conference</span>
+        <span class="pub-venue">IROS 2026</span>
+      </div>
+      <h3 class="pub-title">Pre-Execution Safety Gate for LLM-Based Robot Systems</h3>
+      <p class="pub-authors">Ike Obi, Vishnunandan Venkatesh, Weizheng Wang, <strong>Ruiqi Wang</strong>, Dayoon Suh, Temitope Ibrahim Amosa, Wonse Jo, and Byung-Cheol Min.</p>
+      <p class="pub-venue-detail">2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026), Pittsburgh, PA, USA, September 27 - October 1, 2026.</p>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2604.05427" target="_blank">ArXiv</a>
+      </div>
+    </div>
+  </article>
 
   <article class="pub-card" data-year="2025" data-type="conference" data-themes="learning">
     <div class="pub-banner">
