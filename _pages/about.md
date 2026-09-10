@@ -465,7 +465,14 @@ redirect_from:
 ## Hello! 
 
 <p class="hero-intro">
-I'm a Ph.D. candidate at Purdue University, where I work in the <a href="http://www.smart-laboratory.org/">SMART Lab</a> with Professor <a href="http://www.smart-laboratory.org/group/bcm.html">B.C. Min</a>.
+I am a Postdoctoral Research Fellow at the University of Southern California,
+  working with Professor <a href="https://ebiyik.github.io/">Erdem Bıyık</a>
+  in the <a href="https://liralab.usc.edu/">Lira Lab</a>.
+  I received my Ph.D. from Purdue University,
+  where I worked with Professor
+  <a href="http://www.smart-laboratory.org/group/bcm.html">Byung-Cheol Min</a>
+  in the SMART Lab.
+  
 </p>
 
 My research goal is to build **human-centered robotic intelligence**: robots that understand, respond to, and align with the people they serve or work with.
