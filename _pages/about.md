@@ -539,6 +539,14 @@ I pursue this goal along three directions:
 <div class="news-year">2026</div>
 <ul class="news-list">
   <li class="news-item">
+    <span class="news-date">Sep 27</span>
+    <span class="news-content">PrefO2O won the <span class="news-badge">Best Paper Award</span> at the HEAI of <a href="#">IROS 2026</a>! Preprint coming soon.</span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">Sep 18</span>
+    <span class="news-content">Serving as Associate Editor for Robot Learning at <a href="#">ICRA 2027</a>!</span>
+  </li>
+  <li class="news-item">
     <span class="news-date">Jun 17</span>
     <span class="news-content">Two papers accepted at <a href="#">IROS 2026</a>!</span>
   </li>
