@@ -475,11 +475,11 @@ I am a Postdoctoral Research Fellow at the University of Southern California,
   
 </p>
 
-My research goal is to build **human-centered robotic intelligence**: robots that understand, respond to, and align with the people they serve or work with.
+My research focuses on **robot learning from humans to close the last mile of robot intelligence**. Foundation models are giving robots increasingly general capabilities, yet every deployment in the human world ends with a last mile that pretraining cannot cover: a new task the robot has never seen, or a new user with their own preferences. Both are forms of human intent, hard to specify yet easy for people to judge, and closing this gap requires learning from the people who hold it.
 
-Toward this, I develop efficient and scalable methods for **robot learning from human feedback** that elicit informative feedback at minimal human cost, distill it into rewards that faithfully capture human intent, and generalize the aligned behavior across tasks, users, and environments.
+Toward this, I develop methods that make every bit of human feedback go further: **amplifying** scarce feedback with foundation models, **capturing** human intent in reward structures that are reusable across tasks and users, and enabling robots to **infer** intent in context from rich multimodal feedback without retraining, so that each new task or person takes fewer steps than the last.
 
-My research also studies how robots can perceive and adapt to broader human signals in real time, including physiological state, cognitive workload, trust, and interaction dynamics, to sustain fluent, safe, and effective collaboration.
+
 
 
 {% comment %}
@@ -489,21 +489,21 @@ I pursue this goal along three directions:
 <div class="research-dimensions">
 
   <div class="dimension red">
-    <span class="dimension-lead red"><svg><use href="#icon-elicit"/></svg>Eliciting informative feedback</span>
-    <span class="dimension-q">How can robots obtain informative feedback with minimal human effort?</span>
-    <p class="dimension-a">My research uses foundation models as feedback priors to reduce human burden, and develops active, context-aware elicitation that decides when, what, and how to ask.</p> 
+    <span class="dimension-lead red"><svg><use href="#icon-elicit"/></svg>Amplifying human feedback</span>
+    <span class="dimension-q">How can a little human feedback go a long way?</span>
+    <p class="dimension-a">My research uses foundation models to amplify scarce human feedback into rich, reliable supervision, and decides when and what to ask so that every query counts.</p> 
   </div>
 
   <div class="dimension purple">
-    <span class="dimension-lead purple"><svg><use href="#icon-reward"/></svg>Learning intent-aligned rewards</span>
-    <span class="dimension-q">How can robots convert imperfect, multimodal feedback into rewards that faithfully capture human intent?</span>
-    <p class="dimension-a">My research develops robust reward learning methods that distill subtle, noisy, and multimodal feedback into structured representations of human intent.</p>
+    <span class="dimension-lead purple"><svg><use href="#icon-reward"/></svg>Capturing reusable intent</span>
+    <span class="dimension-q">How can robots capture human intent in a form that transfers?</span>
+    <p class="dimension-a">My research learns reward structures that capture human intent and are reusable across tasks and users, so that each new task or person needs only a few additional queries.</p>
   </div>
 
   <div class="dimension blue">
-    <span class="dimension-lead blue"><svg><use href="#icon-align"/></svg>Sustaining generalizable alignment</span>
-    <span class="dimension-q">How can robots remain aligned as tasks, users, and environments change?</span>
-    <p class="dimension-a">My research develops transferable mechanisms that carry learned intent across tasks, users, and environments without drifting from human intent.</p>
+    <span class="dimension-lead blue"><svg><use href="#icon-align"/></svg>Inferring intent in context</span>
+    <span class="dimension-q">How can robots understand what people want at deployment, without retraining?</span>
+    <p class="dimension-a">My research learns unified intent representations from multimodal feedback, such as comparisons, language, and implicit human signals, so that robots can infer intent in context on the fly.</p>
   </div>
 
 </div>
@@ -526,10 +526,10 @@ I pursue this goal along three directions:
 <div class="research-areas">
   <span class="area-tag">Learning from Human Feedback</span>
   <span class="area-tag">Preference-based Reinforcement Learning</span>
-  <span class="area-tag">Human-Robot Interaction</span>
-  <span class="area-tag">Multimodal Learning</span>
+  <span class="area-tag">Reward Learning</span>
+  <span class="area-tag">Personalization</span>
   <span class="area-tag">Foundation Models for Robotics</span>
-  <span class="area-tag">Multi-Human Multi-Robot Teaming</span>
+  <span class="area-tag">Multimodal Learning</span>
 </div>
 
 ## News
@@ -645,6 +645,3 @@ I pursue this goal along three directions:
 </div>
 
 </div>
-
-
-
