@@ -470,7 +470,7 @@ I am a Postdoctoral Research Fellow at the University of Southern California,
   in the <a href="https://liralab.usc.edu/">Lira Lab</a>.
   I received my Ph.D. from Purdue University,
   where I worked with Professor
-  <a href="http://www.smart-laboratory.org/group/bcm.html">Byung-Cheol Min</a>
+  <a href="http://www.smart-laboratory.org/group/bcm.html">B.C. Min</a>
   in the SMART Lab.
   
 </p>
