@@ -1,0 +1,37 @@
+# Newest first. "text" may contain HTML links.
+- date: "Sep 2026"
+  text: 'PrefO2O won the <span class="nb">Best Paper Award</span> at the HEAI Workshop, IROS 2026. Preprint coming soon.'
+- date: "Sep 2026"
+  text: "Serving as Associate Editor for Robot Learning at ICRA 2027."
+- date: "Jun 2026"
+  text: "Two papers accepted at IROS 2026."
+- date: "May 2026"
+  text: "Defended my Ph.D. dissertation at Purdue University."
+- date: "Sep 2025"
+  text: '<a href="https://primt25.github.io/">PRIMT</a> accepted as an <span class="nb">Oral</span> (top 0.36%) at NeurIPS 2025.'
+- date: "Jun 2025"
+  text: "Two papers accepted at IROS 2025."
+- date: "Feb 2025"
+  text: '<a href="https://sites.google.com/view/audformer">Multimodal audio-based disease prediction</a> accepted at IEEE/ACM T-ASLP.'
+- date: "Jan 2025"
+  text: "Three papers (including one RA-L transfer) accepted at ICRA 2025."
+- date: "Jan 2025"
+  text: '<a href="https://prefclm.github.io/">PrefCLM</a> accepted at IEEE Robotics and Automation Letters.'
+- date: "Dec 2024"
+  text: "Arjun (mentored undergrad) won First Place at the Purdue Fall Undergraduate Research Expo."
+- date: "Dec 2024"
+  text: "Passed my Ph.D. dissertation proposal defense."
+- date: "Nov 2024"
+  text: '<a href="https://sites.google.com/view/affective-workload-allocation/home">Cognitive load-based affective workload allocation</a> accepted at IEEE T-HMS.'
+- date: "Jul 2024"
+  text: '<a href="https://ieeexplore.ieee.org/document/10557131">MOCAS dataset</a> accepted at IEEE Transactions on Affective Computing.'
+- date: "Feb 2024"
+  text: '<a href="https://sites.google.com/view/ita-aehrl">Attention-enhanced hierarchical RL for task allocation</a> accepted at IEEE RA-L.'
+- date: "Jan 2024"
+  text: '<a href="https://sites.google.com/view/samarl">SAMARL</a> accepted at ICRA 2024.'
+- date: "Jan 2024"
+  text: '<a href="https://ieeexplore.ieee.org/document/10413204">Husformer</a> accepted at IEEE T-CDS.'
+- date: "Jun 2023"
+  text: 'Two papers accepted at IROS 2023: <a href="https://sites.google.com/view/ITA-AtRL">ITA-AtRL</a> and <a href="https://sites.google.com/view/san-navistar">NaviSTAR</a>.'
+- date: "Jun 2022"
+  text: '<a href="https://sites.google.com/view/san-fapl">Feedback-efficient active preference learning</a> accepted at IROS 2022.'

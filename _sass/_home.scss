@@ -1,0 +1,273 @@
+/* ==========================================================================
+   Homepage and publication list (simple, Isabella-style)
+   ========================================================================== */
+
+$hx-text: #1f2937;
+$hx-body: #374151;
+$hx-muted: #6b7280;
+$hx-faint: #9ca3af;
+$hx-line: #e5e7eb;
+$hx-link: #2563eb;
+$hx-accent: #b42318;
+
+/* ---------- Section headings ---------- */
+.hx-section {
+  margin-top: 2.4rem;
+}
+
+.hx-h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: $hx-text;
+  margin: 0 0 0.9rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid $hx-line;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+
+  .hx-more {
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+}
+
+.hx-note {
+  font-size: 0.85rem;
+  color: $hx-muted;
+  margin: 0 0 1rem;
+}
+
+.page__content a.hx-plain,
+.hx-more a {
+  color: $hx-link;
+  text-decoration: none;
+}
+
+/* ---------- Intro ---------- */
+.hx-pron {
+  color: $hx-muted;
+  font-size: 0.9rem;
+  margin: -0.6rem 0 1.4rem;
+}
+
+.hx-intro p {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: $hx-body;
+  margin-bottom: 0.9rem;
+}
+
+/* ---------- News (small scrollable box) ---------- */
+.hx-news {
+  max-height: 12.5rem;
+  overflow-y: auto;
+  border: 1px solid $hx-line;
+  border-radius: 8px;
+  padding: 0.35rem 0.9rem;
+  scrollbar-width: thin;
+  scrollbar-color: #d1d5db transparent;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    gap: 0.9rem;
+    padding: 0.42rem 0;
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: $hx-body;
+    border-bottom: 1px solid #f3f4f6;
+
+    &:last-child { border-bottom: none; }
+  }
+
+  .hx-date {
+    flex: 0 0 4.6rem;
+    color: $hx-faint;
+    font-weight: 600;
+    font-size: 0.82rem;
+    padding-top: 0.05rem;
+  }
+
+  a {
+    color: $hx-link;
+    text-decoration: none;
+  }
+
+  .nb {
+    color: $hx-accent;
+    font-weight: 600;
+  }
+}
+
+/* ---------- Publication entry ---------- */
+.px {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #f3f4f6;
+
+  &:last-child { border-bottom: none; }
+}
+
+.px-thumb {
+  flex: 0 0 190px;
+
+  img {
+    display: block;
+    width: 190px;
+    height: 120px;
+    object-fit: contain;
+    background: #f8f9fb;
+    border: 1px solid $hx-line;
+    border-radius: 6px;
+  }
+}
+
+.px-body {
+  flex: 1;
+  min-width: 0;
+
+  p { margin: 0; }
+}
+
+.px-title {
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 0.3rem;
+
+  a {
+    color: $hx-text;
+    text-decoration: none;
+
+    &:hover { color: $hx-link; }
+  }
+}
+
+.px-authors {
+  font-size: 0.86rem;
+  color: $hx-muted;
+  line-height: 1.5;
+
+  strong { color: $hx-text; }
+}
+
+.px-venue {
+  font-size: 0.86rem;
+  color: $hx-body;
+  font-style: italic;
+  margin-top: 0.15rem !important;
+}
+
+.px-badge {
+  font-style: normal;
+  font-weight: 700;
+  color: $hx-accent;
+  margin-left: 0.35rem;
+}
+
+.px-summary {
+  font-size: 0.88rem;
+  color: $hx-body;
+  line-height: 1.55;
+  margin-top: 0.4rem !important;
+}
+
+.px-links {
+  margin-top: 0.4rem !important;
+  font-size: 0.84rem;
+
+  a {
+    color: $hx-link;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover { text-decoration: underline; }
+  }
+
+  a + a::before {
+    content: "·";
+    color: $hx-faint;
+    margin: 0 0.45rem;
+  }
+}
+
+/* ---------- Publications page ---------- */
+.hx-lead {
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: $hx-body;
+  margin: 0 0 0.8rem;
+}
+
+.hx-toggle {
+  display: inline-flex;
+  border: 1px solid $hx-line;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0.4rem;
+
+  button {
+    border: none;
+    background: #fff;
+    color: $hx-muted;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.4rem 0.95rem;
+    cursor: pointer;
+
+    &.is-active {
+      background: $hx-text;
+      color: #fff;
+    }
+  }
+}
+
+.hx-year {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: $hx-muted;
+  margin: 1.6rem 0 0.2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid $hx-line;
+}
+
+.hx-publist.only-selected {
+  .px[data-selected="false"] { display: none; }
+  .hx-group.no-selected { display: none; }
+}
+
+/* ---------- Service ---------- */
+.hx-service p {
+  font-size: 0.92rem;
+  color: $hx-body;
+  line-height: 1.6;
+  margin: 0 0 0.3rem;
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 640px) {
+  .px {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  .px-thumb,
+  .px-thumb img {
+    width: 100%;
+    flex-basis: auto;
+  }
+
+  .px-thumb img { height: auto; max-height: 220px; }
+
+  .hx-news li { flex-direction: column; gap: 0.1rem; }
+  .hx-news .hx-date { flex-basis: auto; }
+}

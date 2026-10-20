@@ -6,11 +6,11 @@ main:
   #- title: "Research Projects"
     #url: /ResearchProjects/  
     
-  - title: "Robot Prototypings"
-    url: /Prototypings/
-    
-  - title: "Service"
-    url: /Service/    
+  #- title: "Robot Prototypings"
+  #  url: /Prototypings/
+
+  #- title: "Service"
+  #  url: /Service/
     
   #- title: "Life Beyond Robotics"
   #  url: /Life/

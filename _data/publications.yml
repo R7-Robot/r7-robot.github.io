@@ -1,0 +1,258 @@
+# Publications shown on the homepage (Selected) and the Publications page.
+#
+# Fields
+#   title, authors, venue (short, e.g. "IROS 2026"), year, type (conference | journal | workshop | preprint)
+#   image     : thumbnail path
+#   url       : where the title links (project page if any, otherwise the paper)
+#   badge     : optional highlight, e.g. "Oral" or "Best Paper Award"
+#   selected  : rank on the homepage (1 = first). Omit for non-selected papers.
+#   summary   : one sentence, shown for selected papers
+#   hidden    : true keeps the entry off the site (e.g., during double-blind review)
+#   links     : list of {name, url}
+#
+# Authors: use † for equal contribution and § for mentored work. "Ruiqi Wang" is bolded automatically.
+
+- title: "PrefGeo: Generalizing Preference Learning Across Contexts via Geometric Reward Factorization"
+  authors: "Ruiqi Wang, Ziqin Yuan, Dezhong Zhao, Jinjin Cai, Hugo Albert Bonet, Gahyun Yoo, Ryan Li, Trent Kobielusz, and Erdem Bıyık"
+  venue: "Under review"
+  year: 2026
+  type: preprint
+  image: /images/publications/PrefGeo.png
+  url: https://prefgeo.github.io/
+  selected: 1
+  summary: "Factorizes preferences into reusable reward directions shared across tasks and users, so that each new context needs only a few queries."
+  hidden: true   # keep off the site until ICLR decisions (mid-Dec 2026)
+  links:
+    - {name: Website, url: "https://prefgeo.github.io/"}
+
+- title: "PrefO2O: Zero-Shot Preference-Based Reinforcement Learning via Offline-to-Online Latent Preference Transfer"
+  authors: "Ruiqi Wang, Dezhong Zhao, Xuesu Xiao, Erdem Bıyık, Byung-Cheol Min, and Guohua Chen"
+  venue: "HEAI Workshop, IROS 2026"
+  year: 2026
+  type: workshop
+  image: /images/publications/PrefO2O.gif
+  badge: "Best Paper Award"
+  selected: 2
+  summary: "Learns a task-invariant preference space from a few labels on source tasks and transfers it to unseen tasks and robots, enabling preference-based RL with zero online labels."
+  links: []
+
+- title: "PrefMoE: Robust Preference Modeling with Mixture-of-Experts Reward Learning"
+  authors: "Ziqin Yuan†, Ruiqi Wang†§, Dezhong Zhao, Baijian Yang, and Byung-Cheol Min"
+  venue: "IROS 2026"
+  year: 2026
+  type: conference
+  image: /images/publications/PrefMoE.png
+  url: https://sites.google.com/view/moepref
+  selected: 7
+  summary: "Models diverse and noisy human preferences with a mixture-of-experts reward model for more robust reward learning."
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2605.00384"}
+    - {name: Website, url: "https://sites.google.com/view/moepref"}
+
+- title: "Pre-Execution Safety Gate for LLM-Based Robot Systems"
+  authors: "Ike Obi, L. N. Vishnunandan Venkatesh, Weizheng Wang, Ruiqi Wang, Dayoon Suh, Temitope Ibrahim Amosa, Wonse Jo, and Byung-Cheol Min"
+  venue: "IROS 2026"
+  year: 2026
+  type: conference
+  image: /images/publications/SafetyGate.png
+  url: https://arxiv.org/abs/2604.05427
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2604.05427"}
+
+- title: "PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models"
+  authors: "Ruiqi Wang†, Dezhong Zhao†, Ziqin Yuan†, Tianyu Shao, Guohua Chen, Dominic Kao, Sungeun Hong, and Byung-Cheol Min"
+  venue: "NeurIPS 2025"
+  year: 2025
+  type: conference
+  image: /images/publications/PRIMT.gif
+  url: https://primt25.github.io/
+  badge: "Oral · Top 0.36%"
+  selected: 3
+  summary: "Uses foundation models to synthesize multimodal feedback and trajectories, cutting the human annotation needed for preference-based RL by over 90%."
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2509.15607"}
+    - {name: Website, url: "https://primt25.github.io/"}
+
+- title: "PrefMMT: Modeling Human Preferences in Preference-based Reinforcement Learning with Multimodal Transformers"
+  authors: "Dezhong Zhao†, Ruiqi Wang†§, Dayoon Suh, Taehyeon Kim, Ziqin Yuan, Byung-Cheol Min, and Guohua Chen"
+  venue: "IROS 2025"
+  year: 2025
+  type: conference
+  image: /images/publications/PrefMMT.png
+  url: https://sites.google.com/view/prefmmt/home
+  selected: 6
+  summary: "Models human preferences with multimodal transformers over states and actions, learning rewards that match the ground-truth reward with only 100 queries."
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2409.13683"}
+    - {name: Website, url: "https://sites.google.com/view/prefmmt/home"}
+    - {name: Code, url: "https://github.com/SMARTlab-Purdue/PrefMMT"}
+    - {name: Video, url: "https://www.youtube.com/watch?v=_g1Nl4POPxo"}
+
+- title: "Modeling and Evaluating Trust Dynamics in Multi-Human Multi-Robot Task Allocation"
+  authors: "Ike Obi, Ruiqi Wang, Wonse Jo, and Byung-Cheol Min"
+  venue: "IROS 2025"
+  year: 2025
+  type: conference
+  image: /images/publications/trust.png
+  url: https://arxiv.org/abs/2409.16009
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2409.16009"}
+    - {name: Video, url: "https://www.youtube.com/watch?v=75gRdjIpHD4"}
+
+- title: "Personalization in Human-Robot Interaction through Preference-based Action Representation Learning"
+  authors: "Ruiqi Wang†, Dezhong Zhao†, Dayoon Suh, Ziqin Yuan, Guohua Chen, and Byung-Cheol Min"
+  venue: "ICRA 2025"
+  year: 2025
+  type: conference
+  image: /images/publications/pbarl.gif
+  url: https://sites.google.com/view/pbarl/home
+  selected: 4
+  summary: "Personalizes a pretrained robot policy to each user by learning a preference-aligned action representation, without retraining the task policy."
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2409.13822"}
+    - {name: Website, url: "https://sites.google.com/view/pbarl/home"}
+    - {name: Video, url: "https://youtu.be/LWmmS0uGsCw"}
+
+- title: "Adaptive Task Allocation in Multi-Human Multi-Robot Teams under Team Heterogeneity and Dynamic Information Uncertainty"
+  authors: "Ziqin Yuan†, Ruiqi Wang†§, Taehyeon Kim, Dezhong Zhao, Ike Obi, and Byung-Cheol Min"
+  venue: "ICRA 2025"
+  year: 2025
+  type: conference
+  image: /images/publications/ATA.gif
+  url: https://sites.google.com/view/ata-hrl/home
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2409.13824"}
+    - {name: Website, url: "https://sites.google.com/view/ata-hrl/home"}
+    - {name: Video, url: "https://www.youtube.com/watch?v=T5-DcMCpA5Q"}
+
+- title: "PrefCLM: Enhancing Preference-based Reinforcement Learning with Crowdsourced Large Language Models"
+  authors: "Ruiqi Wang, Dezhong Zhao, Ziqin Yuan, Ike Obi, and Byung-Cheol Min"
+  venue: "IEEE RA-L 2025"
+  year: 2025
+  type: journal
+  image: /images/publications/CLM.gif
+  url: https://prefclm.github.io/
+  selected: 5
+  summary: "Crowdsources multiple LLMs as evaluative teachers, providing scalable preference feedback that reduces reliance on human labels."
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2407.08213"}
+    - {name: Website, url: "https://prefclm.github.io/"}
+    - {name: Video, url: "https://www.youtube.com/watch?v=0vyekC2fqrY"}
+
+- title: "Cognitive Load-based Affective Workload Allocation for Multi-Human Multi-Robot Teams"
+  authors: "Wonse Jo, Ruiqi Wang, Baijian Yang, Dan Foti, Mo Rastgaar, and Byung-Cheol Min"
+  venue: "IEEE T-HMS 2025"
+  year: 2025
+  type: journal
+  image: /images/publications/AW.gif
+  url: https://sites.google.com/view/affective-workload-allocation/home
+  links:
+    - {name: Paper, url: "https://ieeexplore.ieee.org/document/10816723"}
+    - {name: Website, url: "https://sites.google.com/view/affective-workload-allocation/home"}
+    - {name: Video, url: "https://www.youtube.com/watch?v=qrmAQqfdLZk"}
+
+- title: "Multimodal Audio-based Disease Prediction with Transformer-based Hierarchical Fusion Network"
+  authors: "Jinjin Cai†, Ruiqi Wang†, Dezhong Zhao, Ziqin Yuan, Victoria McKenna, Aaron Friedman, Rachel Foot, Susan Storey, Ryan Boente, Sudip Vhaduri, and Byung-Cheol Min"
+  venue: "IEEE/ACM T-ASLP 2025"
+  year: 2025
+  type: journal
+  image: /images/publications/audformer.png
+  url: https://sites.google.com/view/audformer
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2410.09289"}
+    - {name: Website, url: "https://sites.google.com/view/audformer"}
+    - {name: Code, url: "https://github.com/R7-Robot/Mul-Aud"}
+
+- title: "MOCAS: A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks"
+  authors: "Wonse Jo†, Ruiqi Wang†, Go-Eum Cha, Su Sun, Revanth Senthilkumaran§, Daniel Foti, and Byung-Cheol Min"
+  venue: "IEEE T-AFFC 2024"
+  year: 2024
+  type: journal
+  image: /images/publications/mocas.gif
+  url: https://arxiv.org/pdf/2210.03065
+  links:
+    - {name: Paper, url: "https://arxiv.org/pdf/2210.03065"}
+    - {name: Dataset, url: "https://zenodo.org/records/10396672"}
+    - {name: Video, url: "https://www.youtube.com/watch?v=BxVVj7R9b70"}
+
+- title: "Husformer: A Multi-Modal Transformer for Multi-Modal Human State Recognition"
+  authors: "Ruiqi Wang†, Wonse Jo†, Dezhong Zhao, Weizheng Wang, Baijian Yang, Guohua Chen, and Byung-Cheol Min"
+  venue: "IEEE T-CDS 2024"
+  year: 2024
+  type: journal
+  image: /images/publications/hus.jpg
+  url: https://ieeexplore.ieee.org/document/10413204
+  links:
+    - {name: Paper, url: "https://ieeexplore.ieee.org/document/10413204"}
+    - {name: Code, url: "https://github.com/SMARTlab-Purdue/Husformer"}
+
+- title: "Initial Task Allocation in Multi-Human Multi-Robot Teams: An Attention-enhanced Hierarchical Reinforcement Learning Approach"
+  authors: "Ruiqi Wang, Dezhong Zhao, Arjun Gupte, and Byung-Cheol Min"
+  venue: "IEEE RA-L 2024"
+  year: 2024
+  type: journal
+  image: /images/publications/aehrl2.gif
+  url: https://sites.google.com/view/ita-aehrl
+  links:
+    - {name: Paper, url: "https://ieeexplore.ieee.org/abstract/document/10436714"}
+    - {name: Website, url: "https://sites.google.com/view/ita-aehrl"}
+    - {name: Video, url: "https://www.youtube.com/watch?v=wMXLYCuktRk"}
+
+- title: "Multi-Robot Cooperative Socially-Aware Navigation using Multi-Agent Reinforcement Learning"
+  authors: "Weizheng Wang, Le Mao, Ruiqi Wang, and Byung-Cheol Min"
+  venue: "ICRA 2024"
+  year: 2024
+  type: conference
+  image: /images/publications/SAMARL.png
+  url: https://sites.google.com/view/samarl
+  links:
+    - {name: Website, url: "https://sites.google.com/view/samarl"}
+
+- title: "REBEL: Rule-based and Experience-enhanced Learning with LLMs for Initial Task Allocation in Multi-Human Multi-Robot Teams"
+  authors: "Arjun Gupte†, Ruiqi Wang†§, L. N. Vishnunandan Venkatesh, Taehyeon Kim, Dezhong Zhao, and Byung-Cheol Min"
+  venue: "arXiv 2024"
+  year: 2024
+  type: preprint
+  image: /images/publications/REBEL.png
+  url: https://sites.google.com/view/ita-rebel/home
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2409.16266"}
+    - {name: Website, url: "https://sites.google.com/view/ita-rebel/home"}
+    - {name: Video, url: "https://www.youtube.com/watch?v=HeGPVLd1Bps"}
+
+- title: "Initial Task Allocation for Multi-Human Multi-Robot Teams with Attention-based Deep Reinforcement Learning"
+  authors: "Ruiqi Wang, Dezhong Zhao, and Byung-Cheol Min"
+  venue: "IROS 2023"
+  year: 2023
+  type: conference
+  image: /images/ITA.PNG
+  url: https://sites.google.com/view/ITA-AtRL
+  links:
+    - {name: Paper, url: "https://arxiv.org/pdf/2303.02486"}
+    - {name: Website, url: "https://sites.google.com/view/ITA-AtRL"}
+    - {name: Video, url: "https://www.youtube.com/watch?v=P_3nURWuSnk"}
+
+- title: "NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning"
+  authors: "Weizheng Wang, Ruiqi Wang, Le Mao, and Byung-Cheol Min"
+  venue: "IROS 2023"
+  year: 2023
+  type: conference
+  image: /images/publications/Navi.gif
+  url: https://arxiv.org/pdf/2304.05979
+  links:
+    - {name: Paper, url: "https://arxiv.org/pdf/2304.05979"}
+    - {name: Code, url: "https://github.com/SMARTlab-Purdue/SAN-NaviSTAR"}
+
+- title: "Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation"
+  authors: "Ruiqi Wang, Weizheng Wang, and Byung-Cheol Min"
+  venue: "IROS 2022"
+  year: 2022
+  type: conference
+  image: /images/publications/FAPL.png
+  url: https://sites.google.com/view/san-fapl
+  selected: 8
+  summary: "Actively selects the most informative preference queries, learning socially aware navigation rewards from far fewer human labels."
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2201.00469"}
+    - {name: Website, url: "https://sites.google.com/view/san-fapl"}
+    - {name: Video, url: "https://www.youtube.com/watch?v=ZVb5ZEzDKhM"}
