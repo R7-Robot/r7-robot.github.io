@@ -20,7 +20,7 @@
   image: /images/publications/PrefGeo.png
   url: https://prefgeo.github.io/
   selected: 1
-  summary: "Factorizes preferences into reusable reward directions shared across tasks and users, so that each new context needs only a few queries."
+  summary: "Reuse preference structure to accelerate each new adaptation: factorizing preferences into shared reward directions enables learning new task requirements and individual preferences from a small number of queries."
   hidden: true   # keep off the site until ICLR decisions (mid-Dec 2026)
   links:
     - {name: Website, url: "https://prefgeo.github.io/"}
@@ -33,7 +33,7 @@
   image: /images/publications/PrefO2O.gif
   badge: "Best Paper Award"
   selected: 2
-  summary: "Learns a task-invariant preference space from a few labels on source tasks and transfers it to unseen tasks and robots, enabling preference-based RL with zero online labels."
+  summary: "Learn preferences once, transfer them across tasks and robots: extracting task-invariant preference structure enables zero-shot preference-based RL on unseen tasks and embodiments."
   links: []
 
 - title: "PrefMoE: Robust Preference Modeling with Mixture-of-Experts Reward Learning"
@@ -44,7 +44,7 @@
   image: /images/publications/PrefMoE.png
   url: https://sites.google.com/view/moepref
   selected: 7
-  summary: "Models diverse and noisy human preferences with a mixture-of-experts reward model for more robust reward learning."
+  summary: "Learn from a crowd without collapsing its preferences into one: a mixture-of-experts reward model captures diverse and conflicting preferences in crowdsourced feedback."
   links:
     - {name: Paper, url: "https://arxiv.org/abs/2605.00384"}
     - {name: Website, url: "https://sites.google.com/view/moepref"}
@@ -68,7 +68,7 @@
   url: https://primt25.github.io/
   badge: "Oral · Top 0.36%"
   selected: 3
-  summary: "Uses foundation models to synthesize multimodal feedback and trajectories, cutting the human annotation needed for preference-based RL by over 90%."
+  summary: "Turn sparse human preferences into richer supervision: foundation models evaluate robot behavior multimodally and use preference-conditioned foresight and hindsight counterfactuals to explain which behaviors matter and why."
   links:
     - {name: Paper, url: "https://arxiv.org/abs/2509.15607"}
     - {name: Website, url: "https://primt25.github.io/"}
@@ -81,7 +81,7 @@
   image: /images/publications/PrefMMT.png
   url: https://sites.google.com/view/prefmmt/home
   selected: 6
-  summary: "Models human preferences with multimodal transformers over states and actions, learning rewards that match the ground-truth reward with only 100 queries."
+  summary: "Locate the behavioral details behind trajectory-level preferences: modeling temporal dependencies and state–action interactions enables fine-grained credit assignment."
   links:
     - {name: Paper, url: "https://arxiv.org/abs/2409.13683"}
     - {name: Website, url: "https://sites.google.com/view/prefmmt/home"}
@@ -107,7 +107,7 @@
   image: /images/publications/pbarl.gif
   url: https://sites.google.com/view/pbarl/home
   selected: 4
-  summary: "Personalizes a pretrained robot policy to each user by learning a preference-aligned action representation, without retraining the task policy."
+  summary: "Personalize robot behavior by steering a pretrained policy at test time: a learned latent action space enables efficient adaptation to individual preferences while maintaining task performance."
   links:
     - {name: Paper, url: "https://arxiv.org/abs/2409.13822"}
     - {name: Website, url: "https://sites.google.com/view/pbarl/home"}
@@ -133,7 +133,7 @@
   image: /images/publications/CLM.gif
   url: https://prefclm.github.io/
   selected: 5
-  summary: "Crowdsources multiple LLMs as evaluative teachers, providing scalable preference feedback that reduces reliance on human labels."
+  summary: "Scale preference feedback with a crowd of LLMs, and personalize it with human guidance: multiple LLM evaluators supply judgments that human input refines toward individual preferences."
   links:
     - {name: Paper, url: "https://arxiv.org/abs/2407.08213"}
     - {name: Website, url: "https://prefclm.github.io/"}
@@ -251,7 +251,7 @@
   image: /images/publications/FAPL.png
   url: https://sites.google.com/view/san-fapl
   selected: 8
-  summary: "Actively selects the most informative preference queries, learning socially aware navigation rewards from far fewer human labels."
+  summary: "Use demonstrations to make preference queries more productive: expert demonstrations guide exploration, improving feedback efficiency in socially aware navigation."
   links:
     - {name: Paper, url: "https://arxiv.org/abs/2201.00469"}
     - {name: Website, url: "https://sites.google.com/view/san-fapl"}

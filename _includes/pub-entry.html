@@ -1,5 +1,5 @@
 {%- comment -%}
-  One publication entry. Usage: {% include pub-entry.html pub=p %}
+  One publication entry. Usage: {% include pub-entry.html pub=p summary=true %}  (summary shown only when summary=true)
   Data lives in _data/publications.yml.
 {%- endcomment -%}
 {%- assign p = include.pub -%}
@@ -16,7 +16,7 @@
     </h3>
     <p class="px-authors">{{ authors }}</p>
     <p class="px-venue">{{ p.venue }}{% if p.badge %} <span class="px-badge">{{ p.badge }}</span>{% endif %}</p>
-    {%- if p.summary %}
+    {%- if include.summary and p.summary %}
     <p class="px-summary">{{ p.summary }}</p>
     {%- endif %}
     {%- if p.links and p.links.size > 0 %}

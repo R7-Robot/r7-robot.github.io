@@ -36,7 +36,7 @@ redirect_from:
   {%- assign selected = site.data.publications | where_exp: "p", "p.selected" | where_exp: "p", "p.hidden != true" | sort: "selected" %}
   <div class="hx-publist">
     {%- for p in selected %}
-    {% include pub-entry.html pub=p %}
+    {% include pub-entry.html pub=p summary=true %}
     {%- endfor %}
   </div>
 </section>
