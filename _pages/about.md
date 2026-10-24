@@ -10,11 +10,21 @@ redirect_from:
 
 <p class="hx-pron">/ Ray-chee Wong /</p>
 
-<div class="hx-intro">
+<div class="hx-intro" markdown="0">
 
 <p>I am a Postdoctoral Research Fellow at the University of Southern California, working with Professor <a href="https://ebiyik.github.io/">Erdem Bıyık</a> in the <a href="https://liralab.usc.edu/">LiRA Lab</a>. I received my Ph.D. from Purdue University, where I worked with Professor <a href="http://www.smart-laboratory.org/group/bcm.html">B.C. Min</a> in the SMART Lab.</p>
 
-<p>My research focuses on <strong>robot learning from humans to close the last mile of robot intelligence</strong>: bridging the gap between general capabilities acquired through large-scale pretraining and the task generalization and personalization needed for real-world deployment. I develop methods that enable robots to learn efficiently from natural human feedback, including preferences, language, and implicit signals, so they can handle novel task scenarios and adapt to individual users with minimal interaction.</p>
+<p>My research focuses on <strong>robot learning from humans to close the last mile of robot intelligence</strong>. Large-scale pretraining gives robots broad capabilities, yet real-world deployment brings unfamiliar tasks, unforeseen situations, and users with their own expectations. Human feedback communicates what success means in each setting, including goals, preferences, and constraints that pretraining alone cannot fully specify. I build methods that let robots bridge this gap through the feedback people naturally provide: preferences, language, and implicit signals.</p>
+
+<p>My work mainly asks three questions:</p>
+
+<ul class="hx-questions">
+<li><strong>How can robots learn more from less human feedback?</strong> I use foundation models as synthetic teachers to amplify sparse human feedback into rich supervision, enabling robots to learn beyond the examples people explicitly evaluate.</li>
+<li><strong>How can robots reuse what they learn from people?</strong> I study how to capture human intent in reusable representations that separate transferable structure from context-specific details. This allows robots to carry prior learning across tasks, users, and embodiments, reducing the need to learn from scratch.</li>
+<li><strong>How can robots adapt to people in context?</strong> I am developing general human-conditioned reward models that infer what a person wants from multimodal feedback at deployment. This makes human feedback a direct input to adaptation, enabling robots to adjust their behavior in context without retraining.</li>
+</ul>
+
+<p>Together, these directions aim to make robots easier to teach, better at building on experience, and more responsive to the people they work with.</p>
 
 </div>
 
