@@ -21,7 +21,7 @@ redirect_from:
 <ul class="hx-questions">
 <li><strong>How can robots learn more from less human feedback?</strong> I use foundation models as synthetic teachers to amplify sparse human feedback into rich supervision, enabling robots to learn beyond the examples people explicitly evaluate.</li>
 <li><strong>How can robots reuse what they learn from people?</strong> I study how to capture human intent in reusable representations that separate transferable structure from context-specific details. This allows robots to carry prior learning across tasks, users, and embodiments, reducing the need to learn from scratch.</li>
-<li><strong>How can robots adapt to people in context?</strong> I am developing general human-conditioned reward models that infer what a person wants from multimodal feedback at deployment. This makes human feedback a direct input to adaptation, enabling robots to adjust their behavior in context without retraining.</li>
+<li><strong>How can robots adapt to people in context?</strong> I develop general human-conditioned reward models that infer what a person wants from multimodal feedback at deployment. This makes human feedback a direct input to adaptation, enabling robots to adjust their behavior in context without retraining.</li>
 </ul>
 
 <p>Together, these directions aim to make robots easier to teach, better at building on experience, and more responsive to the people they work with.</p>
