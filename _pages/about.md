@@ -14,7 +14,7 @@ redirect_from:
 
 <p>I am a Postdoctoral Research Fellow at the University of Southern California, working with Professor <a href="https://ebiyik.github.io/">Erdem Bıyık</a> in the <a href="https://liralab.usc.edu/">LiRA Lab</a>. I received my Ph.D. from Purdue University, where I worked with Professor <a href="http://www.smart-laboratory.org/group/bcm.html">B.C. Min</a> in the SMART Lab.</p>
 
-<p>My research focuses on <strong>robot learning from humans to close the last mile of robot intelligence</strong>. Large-scale pretraining gives robots broad capabilities, yet real-world deployment brings unfamiliar tasks, unforeseen situations, and users with their own expectations. Human feedback communicates what success means in each setting, including goals, preferences, and constraints that pretraining alone cannot fully specify. I build methods that let robots bridge this gap through the feedback people naturally provide: preferences, language, and implicit signals.</p>
+<p>My research focuses on <strong>robot learning from humans to close the last mile of embodied AI</strong>. Large-scale pretraining gives robots broad capabilities, yet real-world deployment brings unfamiliar tasks, unforeseen situations, and users with their own expectations. Human feedback communicates what success means in each setting, including goals, preferences, and constraints that pretraining alone cannot fully specify. I build methods that let robots bridge this gap through the feedback people naturally provide: preferences, language, and implicit signals.</p>
 
 <p>My work mainly asks three questions:</p>
 
