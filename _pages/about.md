@@ -16,15 +16,17 @@ redirect_from:
 
 <p>My research focuses on <strong>robot learning from humans to close the last mile of embodied AI</strong>. Robotic foundation models pretrained at scale bring broad capabilities, yet real-world deployment presents unfamiliar tasks, unforeseen situations, and users with their own expectations. Human feedback communicates what success means in each setting, including goals, preferences, and constraints that pretraining alone cannot fully specify. I build methods that let robots bridge this gap through the feedback people naturally provide: preferences, language, and implicit signals.</p>
 
-<p>My work mainly asks three questions:</p>
+<details class="hx-details">
+<summary>My work mainly asks three questions</summary>
 
 <ul class="hx-questions">
 <li><strong>How can robots learn more from less human feedback?</strong> I use foundation models as synthetic teachers to amplify sparse human feedback into rich supervision, enabling robots to learn beyond the examples people explicitly evaluate.</li>
-<li><strong>How can robots reuse what they learn from people?</strong> I study how to capture human intent in reusable representations that separate transferable structure from context-specific details. This allows robots to carry prior learning across tasks, users, and embodiments, reducing the need to learn from scratch.</li>
-<li><strong>How can robots adapt to people in context?</strong> I develop general human-conditioned reward models that infer what a person wants from multimodal feedback at deployment. This makes human feedback a direct input to adaptation, enabling robots to adjust their behavior in context without retraining.</li>
+<li><strong>How can robots capture what people actually want?</strong> Human feedback is coarse, noisy, and often comes from many people who disagree. I develop reward learning methods that attribute holistic judgments to the specific behaviors that matter and model diverse, even conflicting, preferences across a crowd, yielding rewards that faithfully reflect human intent.</li>
+<li><strong>How can robots generalize and adapt beyond what they were taught?</strong> I study how to distill human intent into reusable structure that transfers across tasks, users, and embodiments, and how robots can adapt to new people at deployment, whether by steering a pretrained policy or by inferring intent in context from multimodal feedback, without retraining.</li>
 </ul>
 
-<p>Together, these directions aim to make robots easier to teach, better at building on experience, and more responsive to the people they work with.</p>
+<p>Together, these directions aim to make robots easier to teach, more faithful to human intent, and quicker to adapt to new tasks and the people they work with.</p>
+</details>
 
 </div>
 

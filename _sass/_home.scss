@@ -73,6 +73,45 @@ $hx-accent: #b42318;
   strong { color: $hx-text; }
 }
 
+.hx-details {
+  margin: 0.2rem 0 0.4rem;
+
+  summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    cursor: pointer;
+    list-style: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: $hx-link;
+    padding: 0.35rem 0.8rem;
+    border: 1px solid $hx-line;
+    border-radius: 999px;
+    user-select: none;
+
+    &::-webkit-details-marker { display: none; }
+
+    &::after {
+      content: "";
+      width: 0.42rem;
+      height: 0.42rem;
+      border-right: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
+      transform: rotate(45deg) translateY(-2px);
+      transition: transform 0.2s ease;
+    }
+
+    &:hover { background: #f5f8ff; }
+  }
+
+  &[open] summary {
+    margin-bottom: 0.9rem;
+
+    &::after { transform: rotate(-135deg) translateY(-1px); }
+  }
+}
+
 /* ---------- News (small scrollable box) ---------- */
 .hx-news {
   max-height: 12.5rem;
