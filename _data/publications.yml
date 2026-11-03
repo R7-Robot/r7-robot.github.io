@@ -31,10 +31,12 @@
   year: 2026
   type: workshop
   image: /images/publications/PrefO2O.gif
+  url: https://arxiv.org/abs/2610.31812
   badge: "Best Paper Award"
   selected: 2
   summary: "Learn preferences once, transfer them across tasks and robots: extracting task-invariant preference structure enables zero-shot preference-based RL on unseen tasks and embodiments."
-  links: []
+  links:
+    - {name: Paper, url: "https://arxiv.org/abs/2610.31812"}
 
 - title: "PrefMoE: Robust Preference Modeling with Mixture-of-Experts Reward Learning"
   authors: "Ziqin Yuan†, Ruiqi Wang†§, Dezhong Zhao, Baijian Yang, and Byung-Cheol Min"
