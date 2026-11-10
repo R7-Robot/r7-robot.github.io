@@ -56,5 +56,6 @@ redirect_from:
 <section class="hx-section hx-service" markdown="0">
   <h2 class="hx-h2">Service</h2>
   <p><strong>Associate Editor</strong>, ICRA 2027 (Robot Learning)</p>
+  <p><strong>Outstanding Reviewer</strong>, CoRL 2026</p>
   <p><strong>Reviewer</strong>: NeurIPS, ICLR, CoRL, ICRA, IROS, HRI · IEEE T-CYB, RA-L, T-HMS, ACM THRI</p>
 </section>
